@@ -9,7 +9,7 @@ export default defineConfig({
   image: {
     service: passthroughImageService()
   },
-  site: 'https://obj1-unahur.github.io',
+  site: 'https://unahur-obj2.github.io',
   compressHTML: false,
   integrations: [mdx(), icon(), tailwind({
     applyBaseStyles: false
