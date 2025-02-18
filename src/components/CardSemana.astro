@@ -12,11 +12,11 @@ const { title, descripcion } = frontmatter // 'frontmatter' devuelve un JSON con
 				class="mb-4 block font-sans font-semibold leading-snug tracking-normal antialiased dark:text-white">
 				{title}
 			</h4>
-			<p class="line-clamp-4 text-black">
+			<p class="line-clamp-4 text-black dark:text-white">
 				{descripcion}
 			</p>
 		</div>
-		<div class="flex-start p-2 pt-0">
+		<div class="flex-start p-2 pt-0 text-center">
 			{
 				frontmatter.videos ? (
 					<a
