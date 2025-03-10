@@ -4,45 +4,41 @@ title: Semana 1
 
 inicio: 2025-02-03
 
-descripcion: ¡Hola! ¡Te damos la bienvenida a la primer semana de cursada de Programación con Objetos 2!
+descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollok a Java.
+
+atencion: Es muy importante que te suscribas al canal de Discord de la materia, las instrucciones están en la sección **[Inicio](/)** de esta página..
+
 
 horarios:
-  - Comision: Comisión 1 T.Noche
-    Dia: Martes 13 de Agosto
-    Modalidad: PRESENCIAL
+  - Comision: Todas las Comisiones del T.Noche
+    Dia: Viernes 28 de Marzo
+    Modalidad: VIRUAL
     Hora: 18.00hs
-    Aula: Auditorio
-    Edificio: (Edificio Trabajo Argentino)
+    URL: https://us06web.zoom.us/j/81450588625
 
-  - Comision: Comisión 2 T.Mañana
-    Dia: Miércoles 14 de Agosto
-    Modalidad: PRESENCIAL
-    Hora: 08.00hs
-    Aula: Aula MA-113
-    Edificio: (Edificio Malvinas Argentinas, 1er piso)
 
-  - Comision: Comisiones 1 y 2
-    Dia: Sábado 17 de Agosto
-    Hora: 10.00hs
-    Mensaje: NO HAY CLASES POR FERIADO
-
-videos:
-  - nombre: Qué es un objeto, qué es un mensaje
-    urlYoutube: https://www.youtube.com/watch?v=zZe0AaSKdyo
 
 ejercicios:
-  - name: Presentación Personal
-    classroom: https://classroom.github.com/a/nIxo5hCt
-    repoUrl: 'obj1-unahur-2024s2/presentacion_Personal' # Acá va la URL del repo sin el "https://github.com/"
-    ejemploUrl: https://github.com/obj1-unahur-2023s1/presentacion-personal-BrankoMuruaga.git
+  - name: Ciudad Futurista en Java
+    repoUrl: 'unahur-obj2/ciudad_futurista_java' 
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Ejercicio para practicar con github. Les dejamos un ejermplo, aunque esperamos que nos sorprendan con algo bien personal y creativo!
+      - name: Solución realizada en Java.
+  - name: Ciudad Futurista en Wollo
+    repoUrl: 'unahur-obj2/ciudad_futurista_wollok' 
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Solución realizada en Wollok.
 ---
 
 - ¡Hola!
-- ¡Te damos la bienvenida a la primer semana de cursada de Programación con Objetos 1!
-- Todos los días lunes se publicará en este espacio las actividades de la semana, días y horarios de cursada, videos de apoyo a la teoría, videos de clases virtuales, los ejercicios a realizar y los temas que vamos a estar viendo. También servirá de cartelera de avisos con las novedades importantes.
-- En esta semana comenzaremos a conocer los objetos y mensajes en el paradigma de objetos. A continuación encontrarás videos que nos introducen en el tema.
-- Es muy importante que te suscribas al canal de Discord de la materia, las instrucciones están en la sección **[Inicio](/)** de esta página.
-- Además te contamos que la primer clase de la Comisión 1 (Turno Noche) será el día martes 13 de Agosto en el Auditorio del Edificio Trabajo Argentino; acá te dejamos el plano para que puedas ubicarte mejor: <a href="https://unahur.edu.ar/wp-content/uploads/2024/01/PLANO-2024-1.pdf" target="_blank">Ver Plano</a>
+- **Repaso** En esta semana repasaremos todo lo que aprendimos y para esto vamos a resolver este ejercicio que tomamos en una fecha de Final de Objetos I. Pero lo vamos a resolver en la tecnología que vamos a usar en Obejtos II, sí, **_Java_**!!!. Los ejes principales de este repaso son:
+- - **Polimorfismo**
+- - **Herencia**
+- - **Colecciones**
+- Por el momento no vamos a hacer enfásis en cuestiones del lenguaje solo vamos a intentar pasar todo el código de la solución en Wollok a Java de la manera más simple posible. Y de paso vamos a ir hablando de algunos patrónes de diseño que usamos en esta solución y de conceptos nuevos que pueden aparecer, como por ejemplo Interfaces
+-
+- **Patrones de Diseño** vamos a hacer una aproximación de que es un patrón de Diseño. Veremos los patrones que usamos en este ejercicio.
+- - Strategy
+- - Template Mehtod
+- Leé y profundiza para la próxima semana sobre estos 2 patrones del libro "Patrones de Diseño" . 
