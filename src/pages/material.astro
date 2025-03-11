@@ -8,6 +8,7 @@ import DefaultLayout from '@/layouts/DefaultLayout.astro'
 import { Icon } from 'astro-icon/components'
 import Git from '../content/Git.json'
 import patrones from '../content/Patrones.json'
+import uml from '../content/Uml.json'
 
 const elementosComunes = await Astro.glob('../content/commandos-git.md')
 const { comandosBasicGit } = elementosComunes[0].frontmatter
@@ -28,6 +29,10 @@ const { comportamiento } = comportamientoFile[0].frontmatter
 			<AsideMenu
 				title="Patrones de Diseño"
 				data={patrones}
+			/>
+			<AsideMenu
+				title="UML"
+				data={uml}
 			/>
 			<AsideMenu
 				title="Git"
@@ -102,7 +107,7 @@ const { comportamiento } = comportamientoFile[0].frontmatter
 							href="/pdf/PatronesDeDiseño.pdf"
 							target="_blank"
 							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Lnk al Libro<Icon name="ion:arrow-up-right-box-outline" /></a
+							>Link al Libro<Icon name="ion:arrow-up-right-box-outline" /></a
 						>
 						<p>
 							Nota: La mencion de páginas hacer referencia a la pág. del libro
@@ -111,94 +116,123 @@ const { comportamiento } = comportamientoFile[0].frontmatter
 					</article>
 
 					<SeccionListaCopyCode
-						id="Libro"
+						id="comportamiento"
 						title={patrones[0].title}
 						lista={comportamiento}
 					/>
 				</CardSecciones>
-				<CardSecciones title="Git">
+
+				<CardSecciones title="ULM">
 					<p>
-						En esta materia utilizamos <a
-							href="https://git-scm.com/"
-							target="_blank"
-							>Git</a
-						> como herramienta para el control de versiones del código que vas a
-						ir produciendo. El manejo que necesitás es básico, y está explicado en
-						la guía rápida que te ofrecemos más abajo. El resto de los recursos pueden
-						serte útiles si querés profundizar en el conocimiento de la herramienta.
+						UML(Unified Modeling Language) es un lenguaje o herramienta de
+						comunicación para las personas que permite representar un modelo
+						(una idea) del sistema real. Recordemos que un modelo es una
+						abstracción que lo expresamos a través de los distintos diagramas:
+						el modelo no es el sistema, sino lo que me interesa representar del
+						sistema
 					</p>
-					<p>
-						Acá van a poder ver los comandos mas comunes que estaremos
-						utilizando en Git:
-					</p>
-					<SeccionListaCopyCode
-						id="ComandosBasicos"
-						title="Comandos basicos de Git"
-						lista={comandosBasicGit}
-					/>
-					<center
-						><b>Aclaración</b>: El "--global" SOLO se utiliza en PC PERSONALES,
-						NO en la Universidad.</center
-					>
+
 					<Separador />
+
 					<article id="links">
 						<p
-							id="uno"
+							id={'guia'}
 							class="flex items-center">
-							Guía rápida de cómo usar Git (Lo mínimo que tenés que saber para
-							poder trabajar).
+							Guía para los que necesiten comunicar el diseño basada en ULM
 						</p>
 						<a
-							id="linkUno"
-							href="https://github.com/obj1-unahur-2018s2/docs/wiki/Guia-r%C3%A1pida-de-GIT"
+							id={'guia'}
+							href="https://docs.google.com/document/d/15wH7JYUIx3k-uZyPdiDobIYJsCRTJgld6ug2roz3vK8/edit?tab=t.0"
 							target="_blank"
 							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-						<p
-							id="dos"
-							class="flex items-center">
-							Otro apunte sobre Git (Un poco más extenso que el anterior,
-							explica con más detalle algunos comandos).
-						</p>
-						<a
-							id="linkDos"
-							href="https://docs.google.com/document/d/1ozqfYCwt-37stynmgAd5wJlNOFKWYQeIZoeqXpAEs0I/edit"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-						<p
-							id="tres"
-							class="flex items-center">
-							Tutorial interactivo de Git (Mucho más completo que los
-							anteriores. Funciona sin conexión a internet, hay que instalarlo e
-							incluye una primera parte que explica cómo bajarse Git. Por
-							defecto viene en inglés pero se puede poner en español).
-						</p>
-						<a
-							id="linkTres"
-							href="https://github.com/jlord/git-it-electron"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-						<p
-							id="tres"
-							class="flex items-center">
-							Machete de comandos de Git (Resumen de los comandos más utilizados
-							de GIT.).
-						</p>
-						<a
-							id="linkTres"
-							href="/pdf/ComandosBasicosDeGit.pdf"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
+							>Ver la Guía<Icon name="ion:arrow-up-right-box-outline" /></a
 						>
 					</article>
 				</CardSecciones>
 			</section>
+
+			<CardSecciones title="Git">
+				<p>
+					En esta materia utilizamos <a
+						href="https://git-scm.com/"
+						target="_blank"
+						>Git</a
+					> como herramienta para el control de versiones del código que vas a ir
+					produciendo. El manejo que necesitás es básico, y está explicado en la
+					guía rápida que te ofrecemos más abajo. El resto de los recursos pueden
+					serte útiles si querés profundizar en el conocimiento de la herramienta.
+				</p>
+				<p>
+					Acá van a poder ver los comandos mas comunes que estaremos utilizando
+					en Git:
+				</p>
+				<SeccionListaCopyCode
+					id="ComandosBasicos"
+					title="Comandos basicos de Git"
+					lista={comandosBasicGit}
+				/>
+				<center
+					><b>Aclaración</b>: El "--global" SOLO se utiliza en PC PERSONALES, NO
+					en la Universidad.</center
+				>
+				<Separador />
+				<article id="links">
+					<p
+						id="uno"
+						class="flex items-center">
+						Guía rápida de cómo usar Git (Lo mínimo que tenés que saber para
+						poder trabajar).
+					</p>
+					<a
+						id="linkUno"
+						href="https://github.com/obj1-unahur-2018s2/docs/wiki/Guia-r%C3%A1pida-de-GIT"
+						target="_blank"
+						class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
+						>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
+					>
+					<p
+						id="dos"
+						class="flex items-center">
+						Otro apunte sobre Git (Un poco más extenso que el anterior, explica
+						con más detalle algunos comandos).
+					</p>
+					<a
+						id="linkDos"
+						href="https://docs.google.com/document/d/1ozqfYCwt-37stynmgAd5wJlNOFKWYQeIZoeqXpAEs0I/edit"
+						target="_blank"
+						class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
+						>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
+					>
+					<p
+						id="tres"
+						class="flex items-center">
+						Tutorial interactivo de Git (Mucho más completo que los anteriores.
+						Funciona sin conexión a internet, hay que instalarlo e incluye una
+						primera parte que explica cómo bajarse Git. Por defecto viene en
+						inglés pero se puede poner en español).
+					</p>
+					<a
+						id="linkTres"
+						href="https://github.com/jlord/git-it-electron"
+						target="_blank"
+						class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
+						>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
+					>
+					<p
+						id="tres"
+						class="flex items-center">
+						Machete de comandos de Git (Resumen de los comandos más utilizados
+						de GIT.).
+					</p>
+					<a
+						id="linkTres"
+						href="/pdf/ComandosBasicosDeGit.pdf"
+						target="_blank"
+						class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
+						>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
+					>
+				</article>
+			</CardSecciones>
 		</section>
 	</div>
 </DefaultLayout>
