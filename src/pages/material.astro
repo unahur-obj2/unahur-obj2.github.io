@@ -7,11 +7,15 @@ import TablaDeActividades from '@/components/TablaDeActividades.astro'
 import DefaultLayout from '@/layouts/DefaultLayout.astro'
 import { Icon } from 'astro-icon/components'
 import Git from '../content/Git.json'
+import patrones from '../content/Patrones.json'
 
-const elementosComunes = await Astro.glob(
-	'../content/sintaxis_basica_wollok.md'
-)
+const elementosComunes = await Astro.glob('../content/commandos-git.md')
 const { comandosBasicGit } = elementosComunes[0].frontmatter
+
+const comportamientoFile = await Astro.glob(
+	'../content/patronesComportamiento.md'
+)
+const { comportamiento } = comportamientoFile[0].frontmatter
 ---
 
 <DefaultLayout
@@ -22,6 +26,10 @@ const { comandosBasicGit } = elementosComunes[0].frontmatter
 		<aside
 			class="sticky left-0 top-0 h-screen w-max min-w-52 rounded-lg bg-gradient-to-t from-slate-200 to-[--background] dark:from-zinc-800 dark:to-[--background]">
 			<AsideMenu
+				title="Patrones de Diseño"
+				data={patrones}
+			/>
+			<AsideMenu
 				title="Git"
 				data={Git}
 			/>
@@ -29,88 +37,168 @@ const { comandosBasicGit } = elementosComunes[0].frontmatter
 		<section class="m-auto md:mx-4">
 			<h3 class="mb-10 text-center text-3xl sm:text-5xl">Material</h3>
 
-			<CardSecciones title="Git">
-				<p>
-					En esta materia utilizamos <a
-						href="https://git-scm.com/"
-						target="_blank"
-						>Git</a
-					> como herramienta para el control de versiones del código que vas a ir
-					produciendo. El manejo que necesitás es básico, y está explicado en la
-					guía rápida que te ofrecemos más abajo. El resto de los recursos pueden
-					serte útiles si querés profundizar en el conocimiento de la herramienta.
-				</p>
-				<p>
-					Acá van a poder ver los comandos mas comunes que estaremos utilizando
-					en Git:
-				</p>
-				<SeccionListaCopyCode
-					id="ComandosBasicos"
-					title="Comandos basicos de Git"
-					lista={comandosBasicGit}
-				/>
-				<center
-					><b>Aclaración</b>: El "--global" SOLO se utiliza en PC PERSONALES, NO
-					en la Universidad.</center
-				>
-				<Separador />
-				<article id="links">
-					<p
-						id="uno"
-						class="flex items-center">
-						Guía rápida de cómo usar Git (Lo mínimo que tenés que saber para
-						poder trabajar).
+			<section class="m-auto md:mx-4">
+				<CardSecciones title="Patrones de Diseño">
+					<p>
+						Un patrón de diseño es una solución general y reutilizable para un
+						problema común en el diseño de software. No es un código específico
+						que puedas copiar y pegar, sino una plantilla o guía que describe
+						cómo resolver un problema de diseño de software de manera eficiente
+						y mantenible. Los patrones de diseño son el resultado de la
+						experiencia colectiva de desarrolladores que han enfrentado y
+						resuelto problemas similares a lo largo del tiempo.
 					</p>
-					<a
-						id="linkUno"
-						href="https://github.com/obj1-unahur-2018s2/docs/wiki/Guia-r%C3%A1pida-de-GIT"
-						target="_blank"
-						class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-						>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
-					>
-					<p
-						id="dos"
-						class="flex items-center">
-						Otro apunte sobre Git (Un poco más extenso que el anterior, explica
-						con más detalle algunos comandos).
+
+					<p>Características de los patrones de diseño:</p>
+					<ul>
+						<li>
+							<strong>- Reutilizable</strong>: Pueden aplicarse en diferentes
+							contextos y proyectos
+						</li>
+						<li>
+							<strong>- Probado</strong>: Han sido validados y refinados a
+							través de su uso en múltiples situaciones.
+						</li>
+						<li>
+							<strong>- Abstracción</strong>: No son soluciones concretas, sino
+							descripciones de cómo resolver un problema.
+						</li>
+						<li>
+							<strong>- Lenguaje común</strong>: Proporcionan un vocabulario
+							compartido entre desarrolladores para discutir soluciones de
+							diseño.
+						</li>
+					</ul>
+
+					<p>
+						Los patrones de diseño se clasifican en tres categorías principales:
 					</p>
-					<a
-						id="linkDos"
-						href="https://docs.google.com/document/d/1ozqfYCwt-37stynmgAd5wJlNOFKWYQeIZoeqXpAEs0I/edit"
-						target="_blank"
-						class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-						>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
-					>
-					<p
-						id="tres"
-						class="flex items-center">
-						Tutorial interactivo de Git (Mucho más completo que los anteriores.
-						Funciona sin conexión a internet, hay que instalarlo e incluye una
-						primera parte que explica cómo bajarse Git. Por defecto viene en
-						inglés pero se puede poner en español).
+					<ul>
+						<li>
+							<strong>- Creacionales</strong>: Se centran en cómo se crean los
+							objetos. Ayudan a hacer que el sistema sea independiente de cómo
+							se crean, componen y representan los objetos.
+						</li>
+						<li>
+							<strong>- Estructurales</strong>: Se centran en cómo se componen
+							las clases y objetos para formar estructuras más grandes.
+						</li>
+						<li>
+							<strong>- De comportamiento</strong>: Se centran en la interacción
+							y distribución de responsabilidades entre objetos.
+						</li>
+					</ul>.
+
+					<Separador />
+					<article id="links">
+						<p
+							id="uno"
+							class="flex items-center">
+							Libro Patrones De Diseño- Elementos de software orientado a
+							objetos Reutilizable. (En Español)
+						</p>
+						<a
+							id="linkUno"
+							href="/pdf/PatronesDeDiseño.pdf"
+							target="_blank"
+							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
+							>Lnk al Libro<Icon name="ion:arrow-up-right-box-outline" /></a
+						>
+						<p>
+							Nota: La mencion de páginas hacer referencia a la pág. del libro
+							no a la pág. del PDF.
+						</p>
+					</article>
+
+					<SeccionListaCopyCode
+						id="Libro"
+						title={patrones[0].title}
+						lista={comportamiento}
+					/>
+				</CardSecciones>
+				<CardSecciones title="Git">
+					<p>
+						En esta materia utilizamos <a
+							href="https://git-scm.com/"
+							target="_blank"
+							>Git</a
+						> como herramienta para el control de versiones del código que vas a
+						ir produciendo. El manejo que necesitás es básico, y está explicado en
+						la guía rápida que te ofrecemos más abajo. El resto de los recursos pueden
+						serte útiles si querés profundizar en el conocimiento de la herramienta.
 					</p>
-					<a
-						id="linkTres"
-						href="https://github.com/jlord/git-it-electron"
-						target="_blank"
-						class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-						>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
-					>
-					<p
-						id="tres"
-						class="flex items-center">
-						Machete de comandos de Git (Resumen de los comandos más utilizados
-						de GIT.).
+					<p>
+						Acá van a poder ver los comandos mas comunes que estaremos
+						utilizando en Git:
 					</p>
-					<a
-						id="linkTres"
-						href="/pdf/ComandosBasicosDeGit.pdf"
-						target="_blank"
-						class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-						>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
+					<SeccionListaCopyCode
+						id="ComandosBasicos"
+						title="Comandos basicos de Git"
+						lista={comandosBasicGit}
+					/>
+					<center
+						><b>Aclaración</b>: El "--global" SOLO se utiliza en PC PERSONALES,
+						NO en la Universidad.</center
 					>
-				</article>
-			</CardSecciones>
+					<Separador />
+					<article id="links">
+						<p
+							id="uno"
+							class="flex items-center">
+							Guía rápida de cómo usar Git (Lo mínimo que tenés que saber para
+							poder trabajar).
+						</p>
+						<a
+							id="linkUno"
+							href="https://github.com/obj1-unahur-2018s2/docs/wiki/Guia-r%C3%A1pida-de-GIT"
+							target="_blank"
+							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
+							>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
+						>
+						<p
+							id="dos"
+							class="flex items-center">
+							Otro apunte sobre Git (Un poco más extenso que el anterior,
+							explica con más detalle algunos comandos).
+						</p>
+						<a
+							id="linkDos"
+							href="https://docs.google.com/document/d/1ozqfYCwt-37stynmgAd5wJlNOFKWYQeIZoeqXpAEs0I/edit"
+							target="_blank"
+							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
+							>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
+						>
+						<p
+							id="tres"
+							class="flex items-center">
+							Tutorial interactivo de Git (Mucho más completo que los
+							anteriores. Funciona sin conexión a internet, hay que instalarlo e
+							incluye una primera parte que explica cómo bajarse Git. Por
+							defecto viene en inglés pero se puede poner en español).
+						</p>
+						<a
+							id="linkTres"
+							href="https://github.com/jlord/git-it-electron"
+							target="_blank"
+							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
+							>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
+						>
+						<p
+							id="tres"
+							class="flex items-center">
+							Machete de comandos de Git (Resumen de los comandos más utilizados
+							de GIT.).
+						</p>
+						<a
+							id="linkTres"
+							href="/pdf/ComandosBasicosDeGit.pdf"
+							target="_blank"
+							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
+							>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
+						>
+					</article>
+				</CardSecciones>
+			</section>
 		</section>
 	</div>
 </DefaultLayout>
