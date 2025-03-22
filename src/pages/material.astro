@@ -10,6 +10,7 @@ import Git from '../content/Git.json'
 import patrones from '../content/Patrones.json'
 import excepciones from '../content/Excepciones.json'
 import uml from '../content/Uml.json'
+import software from '../content/Programas.json'
 
 const elementosComunes = await Astro.glob('../content/commandos-git.md')
 const { comandosBasicGit } = elementosComunes[0].frontmatter
@@ -21,8 +22,11 @@ const estructuralesFile = await Astro.glob(
 	'../content/patronesEstructurales.md'
 )
 
+const programasFile = await Astro.glob('../content/programas.md')
+
 const { comportamiento } = comportamientoFile[0].frontmatter
 const { estructurales } = estructuralesFile[0].frontmatter
+const { programas } = programasFile[0].frontmatter
 ---
 
 <DefaultLayout
@@ -47,6 +51,10 @@ const { estructurales } = estructuralesFile[0].frontmatter
 			<AsideMenu
 				title="Git"
 				data={Git}
+			/>
+			<AsideMenu
+				title="Programas necesarios para la cursada"
+				data={software}
 			/>
 		</aside>
 		<section class="m-auto md:mx-4">
@@ -275,6 +283,12 @@ const { estructurales } = estructuralesFile[0].frontmatter
 						>
 					</article>
 				</CardSecciones>
+
+				<SeccionListaCopyCode
+					id="enlace"
+					title="Programas para la cursada"
+					lista={programas}
+				/>
 			</section>
 		</section>
 	</div>
