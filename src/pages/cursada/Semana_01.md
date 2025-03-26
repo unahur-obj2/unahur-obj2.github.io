@@ -8,24 +8,21 @@ descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollo
 
 importante: Es muy importante que te suscribas al canal de Discord de la materia, las instrucciones están en la sección de Inicio de esta página.
 
-
 horarios:
   - Comision: Todas las Comisiones del T.Noche
     Dia: Viernes 28 de Marzo
     Modalidad: VIRUAL
     Hora: 18.00hs
-    URL: https://us06web.zoom.us/j/81450588625
-
-
+    URL: https://us06web.zoom.us/j/87958925031
 
 ejercicios:
   - name: Ciudad Futurista en Java
-    repoUrl: 'unahur-obj2/ciudad_futurista_java' 
+    repoUrl: 'unahur-obj2/ciudad_futurista_java'
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Solución realizada en Java.
   - name: Ciudad Futurista en Wollok
-    repoUrl: 'unahur-obj2/ciudad_futurista_wollok' 
+    repoUrl: 'unahur-obj2/ciudad_futurista_wollok'
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Solución realizada en Wollok.
@@ -35,12 +32,12 @@ ejercicios:
 - - **Polimorfismo**
 - - **Herencia**
 - - **Colecciones**
-- 
+-
 - Por el momento no vamos a hacer enfásis en cuestiones del lenguaje solo vamos a intentar pasar todo el código de la solución en Wollok a Java de la manera más simple posible. Y de paso vamos a ir hablando de algunos patrónes de diseño que usamos en esta solución y de conceptos nuevos que pueden aparecer, como por ejemplo Interfaces
-- 
-- 
+-
+-
 - **Patrones de Diseño** vamos a hacer una aproximación de que es un patrón de Diseño. Veremos los patrones que usamos en este ejercicio.
 - - Strategy
 - - Template Mehtod
-- 
+-
 - Leé y profundiza para la próxima semana sobre estos 2 patrones del libro "Patrones de Diseño". El pdf del libro lo vas a encontrar en la sección de Material.
