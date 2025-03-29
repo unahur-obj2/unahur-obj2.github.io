@@ -1,5 +1,4 @@
 ---
-
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 1
 
@@ -10,32 +9,30 @@ descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollo
 importante: Es muy importante que te suscribas al canal de Discord de la materia, las instrucciones están en la sección de Inicio de esta página.
 
 horarios:
-
-- Comision: Todas las Comisiones del T.Noche
-  Dia: Viernes 28 de Marzo
-  Modalidad: VIRUAL
-  Hora: 18.00hs
-  URL: https://us06web.zoom.us/j/87958925031
-
-ejercicios:
-
-- name: Ciudad Futurista en Java
-  repoUrl: 'unahur-obj2/ciudad_futurista_java'
-  defaultBranch: 'main' # Acá va la rama default del repo
-  comentarios:
-  - name: Solución realizada en Java.
-- name: Ciudad Futurista en Wollok
-  repoUrl: 'unahur-obj2/ciudad_futurista_wollok'
-  defaultBranch: 'main' # Acá va la rama default del repo
-  comentarios:
-  - name: Solución realizada en Wollok.
+  - Comision: Todas las Comisiones del T.Noche
+    Dia: Viernes 28 de Marzo
+    Modalidad: VIRUAL
+    Hora: 18.00hs
+    URL: https://us06web.zoom.us/j/87958925031
 
 videos:
+  - nombre: De Wollok a Java Parte I
+    urlYoutube: https://www.youtube.com/watch?v=psvrzHLzJZo
+  - nombre: De Wollok a Java Parte II - (Strategy + Template Method)
+    urlYoutube: https://www.youtube.com/watch?v=U2-FtCwKWkk
 
-- nombre: De Wollok a Java Parte I
-  urlYoutube: https://www.youtube.com/watch?v=psvrzHLzJZo
-- nombre: De Wollok a Java Parte II - (Strategy + Template Method)
-  urlYoutube: https://www.youtube.com/watch?v=U2-FtCwKWkk
+ejercicios:
+  - name: Ciudad Futurista en Java
+    repoUrl: 'unahur-obj2/ciudad_futurista_java'
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Solución realizada en Java.
+  - name: Ciudad Futurista en Wollok
+    repoUrl: 'unahur-obj2/ciudad_futurista_wollok'
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Solución realizada en Wollok.
+---
 
 - **Repaso**: En esta semana repasaremos todo lo que aprendimos y para esto vamos a resolver este ejercicio que tomamos en una fecha de Final de Objetos I. Pero lo vamos a resolver en la tecnología que vamos a usar en Obejtos II, sí, **_Java_**!!!. Los ejes principales de este repaso son:
 - - **Polimorfismo**
