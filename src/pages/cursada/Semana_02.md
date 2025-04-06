@@ -15,6 +15,10 @@ horarios:
     Hora: 18.10hs
     URL: https://us06web.zoom.us/j/87958925031
 
+videos:
+  - nombre: Diseño - UML - Patrones
+    urlYoutube: https://www.youtube.com/watch?v=lVAD46HsXRE
+
 ejercicios:
   - name: Simulación de Vehículos
     classroom: https://classroom.github.com/a/wb8WA4dW
