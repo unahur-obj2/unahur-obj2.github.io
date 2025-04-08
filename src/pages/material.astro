@@ -8,7 +8,7 @@ import DefaultLayout from '@/layouts/DefaultLayout.astro'
 import { Icon } from 'astro-icon/components'
 import Git from '../content/Git.json'
 import patrones from '../content/Patrones.json'
-import excepciones from '../content/Excepciones.json'
+import varios from '../content/varios.json'
 import uml from '../content/Uml.json'
 import software from '../content/Programas.json'
 
@@ -45,8 +45,8 @@ const { programas } = programasFile[0].frontmatter
 				data={uml}
 			/>
 			<AsideMenu
-				title="Excepciones"
-				data={excepciones}
+				title="Varios"
+				data={varios}
 			/>
 			<AsideMenu
 				title="Git"
@@ -115,22 +115,18 @@ const { programas } = programasFile[0].frontmatter
 					<Separador />
 					<article id="links">
 						<p
-							id="uno"
+							id="cero"
 							class="flex items-center">
 							Libro Patrones De Diseño- Elementos de software orientado a
-							objetos Reutilizable. (En Español)
+							objetos Reutilizable. (En Español - link)
 						</p>
 						<a
-							id="linkUno"
-							href="/pdf/PatronesDeDiseño.pdf"
+							id="linCero"
+							href="https://info-biblioteca.mincyt.gob.ve/wp-content/uploads/2024/11/Patrones-de-Diseno-Erich-Gamma.pdf"
 							target="_blank"
 							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Link al Libro<Icon name="ion:arrow-up-right-box-outline" /></a
+							>Link al PDF<Icon name="ion:arrow-up-right-box-outline" /></a
 						>
-						<p>
-							Nota: La mencion de páginas hacer referencia a la pág. del libro
-							no a la pág. del PDF.
-						</p>
 					</article>
 
 					<SeccionListaCopyCode
@@ -163,7 +159,7 @@ const { programas } = programasFile[0].frontmatter
 							Guía para los que necesiten comunicar el diseño basada en UML
 						</p>
 						<a
-							id={'guia'}
+							id={'linkguia'}
 							href="https://docs.google.com/document/d/15wH7JYUIx3k-uZyPdiDobIYJsCRTJgld6ug2roz3vK8/edit?tab=t.0"
 							target="_blank"
 							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
@@ -177,7 +173,7 @@ const { programas } = programasFile[0].frontmatter
 							Presentación donde hablamos de Diseño
 						</p>
 						<a
-							id={'diseio'}
+							id={'linkdisenio'}
 							href="https://drive.google.com/file/d/1HTC2EqhwxCikQyPbo8bCG2QPAFiupl1L/view?usp=sharing"
 							target="_blank"
 							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
@@ -186,7 +182,9 @@ const { programas } = programasFile[0].frontmatter
 					</article>
 				</CardSecciones>
 
-				<CardSecciones title="Manejo de Excepciones">
+				<CardSecciones
+					id={'excepciones'}
+					title="Manejo de Excepciones">
 					<p>
 						El concepto de <strong>excepciones</strong> en programación se refiere
 						a eventos inesperados o errores que ocurren durante la ejecución de un
@@ -201,16 +199,47 @@ const { programas } = programasFile[0].frontmatter
 
 					<article id="links">
 						<p
-							id={'excepciones'}
+							id={'parrafoexcepciones'}
 							class="flex items-center">
 							Intro a manejo de errores con excepciones en Java
 						</p>
 						<a
-							id={'excepciones'}
+							id={'linkexcepciones'}
 							href="https://docs.google.com/document/d/1Yy4YA3E_Gsuh7kcxbdRSpMsQat5PArnOEZWdnggzq7g/edit?usp=sharing"
 							target="_blank"
 							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
 							>Ir al Apunte<Icon name="ion:arrow-up-right-box-outline" /></a
+						>
+					</article>
+				</CardSecciones>
+
+				<CardSecciones
+					id={'tdd'}
+					title="Test Driven Development">
+					<p>
+						Es una técnica de programación, por la cual el código se escribe
+						para satisfacer pruebas que ponen en evidencia la necesidad de dicho
+						código. Es por ello que se llama “desarrollo conducido por las
+						pruebas”
+					</p>
+					<ul>
+						<li>- Sólo se escribe nuevo código cuando una prueba ha fallado</li>
+						<li>- Se elimina la duplicación.</li>
+					</ul>
+					<Separador />
+
+					<article id="links">
+						<p
+							id={'parrafotdd'}
+							class="flex items-center">
+							Intro a Test Driven Development
+						</p>
+						<a
+							id={'linktdd'}
+							href="https://docs.google.com/presentation/d/18FvlQtfocLPGtptR7qMjYK_oDuHW3ykR/edit?usp=sharing&ouid=115500952139364204244&rtpof=true&sd=true"
+							target="_blank"
+							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
+							>Ver PPT<Icon name="ion:arrow-up-right-box-outline" /></a
 						>
 					</article>
 				</CardSecciones>
