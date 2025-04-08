@@ -18,6 +18,8 @@ horarios:
 videos:
   - nombre: Diseño - UML - Patrones
     urlYoutube: https://www.youtube.com/watch?v=lVAD46HsXRE
+  - nombre: Clase de consultas 08-04-2025. Transición a Java
+    urlYoutube: https://www.youtube.com/watch?v=FiK_uvS5IvA
 
 ejercicios:
   - name: Simulación de Vehículos
