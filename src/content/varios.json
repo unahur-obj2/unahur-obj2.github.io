@@ -6,5 +6,9 @@
 	{
 		"url": "#tdd",
 		"title": "TDD"
+	},
+	{
+		"url": "#maven",
+		"title": "Maven"
 	}
 ]
