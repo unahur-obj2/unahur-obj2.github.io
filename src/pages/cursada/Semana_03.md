@@ -13,6 +13,12 @@ horarios:
     Hora: 18.05hs
     URL: https://us06web.zoom.us/j/87958925031
 
+videos:
+  - nombre: Introduccion a Maven
+    urlYoutube: https://www.youtube.com/watch?v=GGTx0e3DrhY
+  - nombre: Introduccion TDD por un Amigo de la Casa
+    urlYoutube: https://www.youtube.com/watch?v=8MGtLPFtbQ8&t=7s&ab_channel=ElSurtambi%C3%A9nprograma
+
 ejercicios:
   - name: Caja Fuerte
     classroom: https://classroom.github.com/a/ybgZGFhw
