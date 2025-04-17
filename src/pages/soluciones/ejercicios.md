@@ -10,4 +10,8 @@
 - title: Caja fuerte
   url: https://github.com/obj1-unahur-2025s1/caja-fuerte-resuelto
   description: Ejercicio resuelto en clase con TDD.
+
+- title: Simulación de Vehículos
+  url: https://github.com/unahur-obj2-2025c1/Simulacion-de-Vehiculos
+  description: Dejamos una posible solución del ejercicio.
 ---
