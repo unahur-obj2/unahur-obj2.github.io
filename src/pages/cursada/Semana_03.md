@@ -16,8 +16,12 @@ horarios:
 videos:
   - nombre: Introduccion a Maven
     urlYoutube: https://www.youtube.com/watch?v=GGTx0e3DrhY
+  - nombre: Resolucion del ejercicio "Caja fuerte" con TDD
+    urlYoutube: https://www.youtube.com/watch?v=VW8sbdC9ZOk
   - nombre: Introduccion TDD por un Amigo de la Casa
     urlYoutube: https://www.youtube.com/watch?v=8MGtLPFtbQ8&t=7s&ab_channel=ElSurtambi%C3%A9nprograma
+  - nombre: Clase de consultas 2 - Simulación de Vehículos
+    urlYoutube: https://www.youtube.com/watch?v=juo2dgTPI_0
 
 ejercicios:
   - name: Caja Fuerte

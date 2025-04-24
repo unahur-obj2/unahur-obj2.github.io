@@ -6,4 +6,12 @@
 - title: Transición a Java
   url: https://github.com/unahur-obj2/solucion-transicion-java
   description: Dejamos una posible solución del ejercicio. Dentro del código van a encontrar métodos comentados, que son otra manera de poder llegar al mismo resultado..
+
+- title: Caja fuerte
+  url: https://github.com/obj1-unahur-2025s1/caja-fuerte-resuelto
+  description: Ejercicio resuelto en clase con TDD.
+
+- title: Simulación de Vehículos
+  url: https://github.com/unahur-obj2-2025c1/Simulacion-de-Vehiculos
+  description: Dejamos una posible solución del ejercicio.
 ---
