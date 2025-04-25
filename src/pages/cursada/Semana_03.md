@@ -9,7 +9,7 @@ descripcion: Esta semana utilizaremos la metodología de diseño y desarrollo qu
 horarios:
   - Comision: Todas las Comisiones del T.Noche
     Dia: Viernes 11 de Abril
-    Modalidad: VIRUAL
+    Modalidad: VIRTUAL
     Hora: 18.05hs
     URL: https://us06web.zoom.us/j/87958925031
 

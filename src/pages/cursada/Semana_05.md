@@ -9,13 +9,13 @@ descripcion: En esta semana vamos a conocer el patrón composite
 horarios:
   - Comision: Todas las Comisiones del T.Noche
     Dia: Viernes 25 de Abril
-    Modalidad: VIRUAL
+    Modalidad: VIRTUAL
     Hora: 18.10hs
     URL: https://us06web.zoom.us/j/87958925031
 
   - Comision: Clase de consulta
     Dia: Sabado 26 de Abril
-    Modalidad: VIRUAL
+    Modalidad: VIRTUAL
     Hora: 14.30hs
     URL: https://meet.google.com/qma-yxma-hyn
 
@@ -35,6 +35,13 @@ ejercicios:
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Practicamos en clase el composite con un ejercicio que simula un file system
+
+  - name: Filtro paises
+    classroom: https://classroom.github.com/a/PBM6xKh3
+    repoUrl: 'unahur-obj2-2025c1/filtros-paises' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Usaremos este ejercicio en la clase de consultas del dia sabado 26/04
 ---
 
 - En esta semana vamos a conocer el patrón composite. Este patrón nos propone componer objetos en estructuras de árbol para representar jerarquías de parte-todo. Permite que los clientes traten de manera uniforme a los objetos individuales y a los compuestos

@@ -11,7 +11,7 @@ importante: Es muy importante que te suscribas al canal de Discord de la materia
 horarios:
   - Comision: Todas las Comisiones del T.Noche
     Dia: Viernes 28 de Marzo
-    Modalidad: VIRUAL
+    Modalidad: VIRTUAL
     Hora: 18.00hs
     URL: https://us06web.zoom.us/j/87958925031
 

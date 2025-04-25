@@ -11,7 +11,7 @@ importante: Esta semana hay un trabajo práctico que consideramos que es muy imp
 horarios:
   - Comision: Todas las Comisiones del T.Noche
     Dia: Viernes 4 de Abril
-    Modalidad: VIRUAL
+    Modalidad: VIRTUAL
     Hora: 18.10hs
     URL: https://us06web.zoom.us/j/87958925031
 
