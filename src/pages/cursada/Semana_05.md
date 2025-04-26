@@ -28,7 +28,7 @@ ejercicios:
     classroom: https://classroom.github.com/a/RIz7mNN0
     repoUrl: 'unahur-obj2-2025c1/tareas_proyecto' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
-    fechaDeEntrega: Viernes 09/05 12:00 AM
+    fechaDeEntrega: Viernes 09/05 12:00 PM
     comentarios:
       - name: Practica Composite, Strategy y Template Method
     obligatorio: true
