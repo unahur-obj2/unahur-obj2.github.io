@@ -22,6 +22,8 @@ horarios:
 videos:
   - nombre: Patrón composite
     urlYoutube: https://www.youtube.com/watch?v=WOaVCo7sDBg
+  - nombre: Clase de consultas - Filtro de paises
+    urlYoutube: https://www.youtube.com/watch?v=sEjoXZwj2gU
 
 ejercicios:
   - name: Tareas del un Proyecto
