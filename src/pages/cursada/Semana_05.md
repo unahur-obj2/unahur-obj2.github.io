@@ -19,6 +19,10 @@ horarios:
     Hora: 14.30hs
     URL: https://meet.google.com/qma-yxma-hyn
 
+videos:
+  - nombre: Patrón composite
+    urlYoutube: https://www.youtube.com/watch?v=WOaVCo7sDBg
+
 ejercicios:
   - name: Tareas del un Proyecto
     classroom: https://classroom.github.com/a/RIz7mNN0
