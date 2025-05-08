@@ -2,44 +2,77 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 7
 
-inicio: 2025-05-07
+inicio: 2025-08-25
 
-descripcion: En esta semana vamos a conocer el patrón decorator
+descripcion: Esta semana aprenderemos a resolver problemas más complejos con colecciones y conoceremos otro tipo de colección que son los diccionarios. También veremos como usar rangos para resolver algunas situaciones donde se requiere obtener parte de los elementos de una colección.
 
-importante: La semana próxima tendremos la primer evaluación parcial de la materia, el día viernes 16/5.
+atencion: Les informamos que se traslada el parcial de la Comisión 2 (Turno Mañana) al día sábado 5/10/24 de 10:00 a 12:00hs, debido al paro y movilización anunciado para el día miércoles 2/10. La modalidad será virtual, si algún o alguna estudiante no dispone del recurso PC/internet para poder realizar el exámen, deberá ponerse en contacto vía Discord con alguno de los profesores (antes del 30/9) para reservar aula en la Unahur. Las comisiones 1A y 1B (turno noche) no tendrán actividad el día 5/10.
 
 horarios:
-  - Comision: Todas las Comisiones del T.Noche
-    Dia: Viernes 9 de Mayo
+  - Comision: Comisión 1A T.Noche
+    Dia: Martes 24 de Septiembre
     Modalidad: VIRTUAL
-    Hora: 18.10hs
-    URL: https://meet.google.com/zvj-qcev-ekr
+    Hora: 18.00hs
+    URL: https://meet.google.com/nbd-fvja-vhj
 
-  - Comision: Clase de consulta
-    Dia: Sabado 10 de Mayo
+  - Comision: Comisión 1B T.Noche
+    Dia: Martes 24 de Septiembre
+    Modalidad: PRESENCIAL
+    Hora: 18.15hs
+    Aula: Aula MA-113
+    Edificio: (Edificio Malvinas Argentinas, 1er piso)
+
+  - Comision: Comisión 2 T.Mañana
+    Dia: Miércoles 25 de Septiembre
+    Modalidad: PRESENCIAL
+    Hora: 08.00hs
+    Aula: Aula MA-113
+    Edificio: (Edificio Malvinas Argentinas, 1er piso)
+
+  - Comision: Comisiones 1A, 1B y 2
+    Dia: Sábado 28 de Septiembre
     Modalidad: VIRTUAL
-    Hora: 14.30hs
-    URL: https://meet.google.com/hyb-rdsd-nef
+    Hora: 10.00hs
+    URL: https://us06web.zoom.us/j/81450588625
+
+  - Comision: Tutoría para todas las Comisiones 1A, 1B y 2
+    Dia: Sábado 28 de Septiembre
+    Modalidad: VIRTUAL
+    Hora: 15.00hs
+    URL: https://meet.google.com/bob-cguz-qmq
+
+videos:
+  - nombre: Clase martes 24/9/24 - Comisión 1A (Colecciones)
+    urlYoutube: https://www.youtube.com/watch?v=0onamPbjvA8
+  - nombre: Clase sábado 28/9/24 - Práctica del parcial
+    urlYoutube: https://www.youtube.com/watch?v=Cx2ny87709A
 
 ejercicios:
-  - name: Cazadores de Recomepensas
-    classroom: https://classroom.github.com/a/_apuCZet
-    repoUrl: 'unahur-obj2-2025c1/cazadores-recompensa' # Acá va la URL del repo sin el "https://github.com/"
+  - name: Camión de Transporte
+    classroom: https://classroom.github.com/a/zSvg1Hqa
+    repoUrl: 'obj1-unahur-2024s2/obj1-unahur-2024s2-camiondetransporte-camionDeTransporte' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Ejercicio para reforzar los conocimientos sobre el patrón decorator
+      - name: Para practicar en casa y en clase.
 
-  - name: Préstamo Libros
-    classroom: https://classroom.github.com/a/ddDbNlLX
-    repoUrl: 'unahur-obj2-2025c1/prestamo-libros' # Acá va la URL del repo sin el "https://github.com/"
+  - name: El Alambique Viajero
+    classroom: https://classroom.github.com/a/RTISJJ2A
+    repoUrl: 'obj1-unahur-2024s2/obj1-unahur-2024s2-elalambiqueviajero-elAlambiqueViajero' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Usaremos este ejercicio en la clase de consultas del dia sabado 10/05
-    consultas: true
+      - name: Otro ejercicio más para practicar en casa y/o en clase.
+
+  - name: Academina de Magia
+    classroom: https://classroom.github.com/a/D1VMYjOw
+    repoUrl: 'obj1-unahur-2024s2/obj1-unahur-2024s2-academiamagia-academiamagia' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Ejercicio de práctica para el Parcial.
 ---
 
-- Esta semana vamos a ver el patrón Decorator. Este patrón sirve para sumar nuevas funcionalidades a un objeto sin tener que modificar su código. En lugar de usar herencia, lo que hace es “envolver” al objeto original con otros objetos que le agregan comportamientos extra, de forma flexible y dinámica.
+- Esta semana aprenderemos a resolver problemas más complejos con colecciones y conoceremos otro tipo de colección que son los diccionarios. También veremos como usar rangos para resolver algunas situaciones donde se requiere obtener parte de los elementos de una colección.
 
-- <div ><img src="https://www.cs.unc.edu/~stotts/GOF/hires/Pictures/decor064.gif"></img></div>
+- Volvemos a recomendar la utilización del apunte que mencionamos la semana pasada sobre closures y colecciones que está disponible en la sección Material de esta página en este link:
+  <a href="https://objetos1wollokunq.gitlab.io/material/guia-colecciones-basicas.pdf" target="_blank">Closures y Colecciones</a>
 
-- Les recomendamos fuertemente leer la teoría del libro, es muy importante para entender en que situaciones es aplicable el patrón y la mejor forma de implementarlo <a href="/material#estructurales" target="_blank">**Utilidad**▼ Material> Patrones de Diseño</a>
+- Les dejamos 2 ejercicios para practicar lo que venimos aprendiendo, que suman el manejo de colecciones.
