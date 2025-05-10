@@ -23,4 +23,7 @@
 
 - title: Decorator-simple
   url: https://github.com/unahur-obj2-2025c1/decorator-simple
+
+- title: Tareas del proyecto
+  url: https://github.com/unahur-obj2/tareas_proyecto
 ---
