@@ -19,7 +19,7 @@ horarios:
     Dia: Sabado 10 de Mayo
     Modalidad: VIRTUAL
     Hora: 14.30hs
-    URL: https://meet.google.com/hyb-rdsd-nef
+    URL: https://meet.google.com/zes-uozi-wec
 
 videos:
   - nombre: Obj2 - Decorator
