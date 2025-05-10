@@ -21,6 +21,12 @@ horarios:
     Hora: 14.30hs
     URL: https://meet.google.com/hyb-rdsd-nef
 
+videos:
+  - nombre: Obj2 - Decorator
+    urlYoutube: https://www.youtube.com/watch?v=jPQ4J7GubiM
+  # - nombre: Clase de consultas - Filtro de paises
+  #   urlYoutube: https://www.youtube.com/watch?v=sEjoXZwj2gU
+
 ejercicios:
   - name: Cazadores de Recomepensas
     classroom: https://classroom.github.com/a/_apuCZet
