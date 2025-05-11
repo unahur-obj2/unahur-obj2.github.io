@@ -26,4 +26,7 @@
 
 - title: Tareas del proyecto
   url: https://github.com/unahur-obj2/tareas_proyecto
+
+- title: Préstamo Libros
+  url: https://github.com/unahur-obj2-2025c1/resolucion-prestamo-libros
 ---
