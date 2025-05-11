@@ -24,8 +24,8 @@ horarios:
 videos:
   - nombre: Obj2 - Decorator
     urlYoutube: https://www.youtube.com/watch?v=jPQ4J7GubiM
-  # - nombre: Clase de consultas - Filtro de paises
-  #   urlYoutube: https://www.youtube.com/watch?v=sEjoXZwj2gU
+  - nombre: Clase de consultas - Préstamo Libros
+    urlYoutube: https://www.youtube.com/watch?v=adT4SSLHS7s
 
 ejercicios:
   - name: Cazadores de Recomepensas
