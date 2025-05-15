@@ -29,4 +29,7 @@
 
 - title: Préstamo Libros
   url: https://github.com/unahur-obj2-2025c1/resolucion-prestamo-libros
+
+- title: Cazadores de Recompenza
+  url: https://github.com/unahur-obj2/cazadores_recompensa
 ---
