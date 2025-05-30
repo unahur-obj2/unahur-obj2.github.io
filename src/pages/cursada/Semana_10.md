@@ -23,7 +23,7 @@ ejercicios:
     obligatorio: true
 ---
 
-Esta semana vamos el patrón Command y e intentaremos comenzar con el patrón Observer haciendo un ejemplo que los combiene.
+Esta semana vamos el patrón Command e intentaremos comenzar con el patrón Observer haciendo un ejemplo que los combiene.
 
 Les dejamos un ejercicio del patron command para que practiquen luego de la clase. La idea es que intenten resolverlo individualmente, luego les mostraremos la solución esperada.
 
