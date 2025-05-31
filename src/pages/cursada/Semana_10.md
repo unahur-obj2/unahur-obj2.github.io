@@ -32,6 +32,13 @@ ejercicios:
     comentarios:
       - name: Ejercicio para reforzar los conocimientos sobre el patrón command
     obligatorio: true
+  - name: Robot-Command
+    classroom: https://classroom.github.com/a/HuMKKfIJ
+    repoUrl: 'unahur-obj2-2025c1/robot-command' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Usaremos este ejercicio en la clase de consultas del dia sabado 10/05
+    consultas: true
 ---
 
 Esta semana vamos el patrón Command e intentaremos comenzar con el patrón Observer haciendo un ejemplo que los combiene.
