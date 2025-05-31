@@ -12,6 +12,17 @@ horarios:
     Modalidad: VIRTUAL
     Hora: 18.10hs
     URL: https://meet.google.com/zvj-qcev-ekr
+  - Comision: Clase de consulta
+    Dia: Sabado 31 de Mayo
+    Modalidad: VIRTUAL
+    Hora: 15.00hs
+    URL: https://meet.google.com/kge-xjtx-nwo
+
+videos:
+  - nombre: Objetos 2 - Command
+    urlYoutube: https://www.youtube.com/watch?v=o3axWTW-ZDw
+  - nombre: Objetos 2 - Observer (introducción)
+    urlYoutube: https://www.youtube.com/watch?v=2PN_BZAb3ks
 
 ejercicios:
   - name: Microprocesador
