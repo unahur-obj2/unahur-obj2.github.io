@@ -35,4 +35,7 @@
 
 - title: robot-command
   url: https://github.com/unahur-obj2/rotob_domestico
+
+- title: Solución Primer parcial
+  url: https://github.com/unahur-obj2/simulador_precio_automotor
 ---
