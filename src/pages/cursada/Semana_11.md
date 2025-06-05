@@ -2,75 +2,33 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 11
 
-inicio: 2025-08-25
+inicio: 2025-06-05
 
-descripcion: Esta semana vamos a empezar a ver el tema Herencia, que nos va a permitir la definición de nuevas clases basadas en clases existentes, estableciendo jerarquías de Superclase y Subclase. Vamos a poder agregar nuevas variables y métodos, y también redefinir métodos..
+descripcion: Manejo de Errores y Expeciones - Observer comunidando solo el estado de cambio.
 
-atencion: Esta semana no habrá clases el día martes 22/10 debido al paro docente y no docente anunciado para los días 21 y 22 de octubre. Los días miércoles 23 y sábado 26 habrá clase Virtual ambos días. Les dejamos videos de cursadas anteriores donde se explica y ejemplifica los conceptos de esta semana.
+atencion: El viernes 13 de Junio el parcial es PRESENCIAL.  Tenemos asignadas las aulas MA-109; MA-113 Y MA-103. Esta última (la MA-103) es para todos aquellos que lleven su computadora personal. Por último más abajo les pedidmos que completen un formulario muy báisco para saber si van a venir al parcial con sus notebook o no.
 
 horarios:
-  - Comision: Comisión 1A T.Noche
-    Dia: Martes 22 de Octubre
-    Hora: 18.00hs
-    Mensaje: NO HAY CLASES POR PARO
-
-  - Comision: Comisión 1B T.Noche
-    Dia: Martes 22 de Octubre
-    Hora: 18.00hs
-    Mensaje: NO HAY CLASES POR PARO
-
-  - Comision: Comisión 2 T.Mañana
-    Dia: Miércoles 23 de Octubre
+  - Comision: Todas las Comisiones del T.Noche
+    Dia: Viernes 06 de Junio
     Modalidad: VIRTUAL
-    Hora: 08.00hs
-    URL: https://us06web.zoom.us/j/81450588625
-
-  - Comision: Comisiones 1A, 1B y 2
-    Dia: Sábado 26 de Octubre
-    Modalidad: VIRTUAL
-    Hora: 10.00hs
-    URL: https://us06web.zoom.us/j/81450588625
-
-videos:
-  - nombre: Grabacion de la clase sábado 26/10 (Ejercicio con Herencia).
-    urlYoutube: https://www.youtube.com/watch?v=4PvSce7UNew
-  - nombre: Grabacion de la clase miércoles 23/10 (Explicacion Herencia).
-    urlYoutube: https://www.youtube.com/watch?v=9YgX65dVhCE
-  - nombre: Herencia con Wollok Game.
-    urlYoutube: https://www.youtube.com/watch?v=ZRIBsSFNwqs
-  - nombre: Herencia Parte 1 - una clase puede heredar de otra. (Videos complementarios).
-    urlYoutube: https://www.youtube.com/watch?v=SA7s_yIk-fc
-  - nombre: Herencia Parte 2 - super. Videos complementarios.
-    urlYoutube: https://www.youtube.com/watch?v=xCwNJ8N0bGs
-  - nombre: Herencia Parte 3 - jerarquía de herencia. (Videos complementarios).
-    urlYoutube: https://www.youtube.com/watch?v=akiTj8ZZhPU
-  - nombre: Nueva Instancia dentro de una expresión. (Videos complementarios).
-    urlYoutube: https://www.youtube.com/watch?v=01ewdTUk658
+    Hora: 18.10hs
+    URL: https://meet.google.com/zvj-qcev-ekr
 
 ejercicios:
-  - name: Golosinas - Clases y Herencia
-    classroom: https://classroom.github.com/a/4633ciLp
-    repoUrl: 'obj1-unahur-2024s2/obj1-unahur-2024s2-herenciagolosinas-herenciaGolosinas' # Acá va la URL del repo sin el "https://github.com/"
+  - name: Subastas
+    classroom: https://classroom.github.com/a/eODR7uH5
+    repoUrl: 'unahur-obj2-2025c1/Subastas' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: El ejercicio de los videos de herencia, para que lo puedan practicar. Están implementadas las clases de cada golosina, está para arrancar con el enunciado.
-
-  - name: Plagas - Herencia
-    classroom: https://classroom.github.com/a/obB8ZXN-
-    repoUrl: 'obj1-unahur-2024s2/obj1-unahur-2024s2-herenciaplagas-herenciaPlagas' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: TP individual para practicar en clase y en casa.
+      - name: Trabajamos con Observer, Excpeciones y de yapa el Strategy.
+    obligatorio: true
 ---
 
-- Esta semana vamos a empezar a ver el tema Herencia, que nos va a permitir la definición de nuevas clases basadas en clases existentes, estableciendo jerarquías de Superclase y Subclase. Vamos a poder agregar nuevas variables y métodos, y también redefinir métodos.
+- Esta semana vamos a profundizar sobre el Manejo de Excepciones y Errores. Hay que entender la jerarquía de clases para saber diferenciar muy bien los errores de la excepciones y a su vez, cuando una excepción es chequedas y cuando es no chequeadas.
 
-- También veremos el concepto de lookup method como mecanismo por el cual se determina, para el envío de un mensaje, qué método se debe ejecutar.
+- También veremos como mejorar el patrón observer para comunicar solamente el estado de lo que queremos que los observadores se notifiquen. Y como puede interactuar con otros patrones.
 
-- Los conceptos están explicados y ejemplificados en los videos que están subidos en esta semana y también se subirá el video de la clase virtual del miércoles turno mañana para que Turno noche lo mire antes de la clase del sábado 26.
+- Dejamos un ejercicio para que puedan prácticar para el parcial. Tengan en cuenta que el parcial puede convinar muchas cosas que fuimos viendo durante la cursada. Es importante que intenten resolver este ejercicio solos para saber donde estan parados.
 
-- Respecto al TP Game Integrador, el juego que deberá desarrollar cada equipo es de libre elección, y les dejamos estos requerimientos (más adelante se podrá indicar más detalles):
-  1. Debe ser un juego desarrollado en Wollok Game que se pueda jugar en cualquier computadora que tenga instalado el entorno de Wollok.
-  2. Debe tener al menos 2 niveles de dificultad y las instrucciones de juego en algún lugar que sea visible (en el mismo juego) y el jugador pueda ver y memorizar antes de comenzar a jugar.
-  3. Deben participar todos/as los/as integrantes del grupo en el desarrollo del juego, ya que en la defensa se les pedirá a cada uno/a que explique como fue implementada cada parte del juego.
-  4. Deben utilizar todos los conceptos vistos en la materia> objetos, clases, herencia, polimorfismo, colecciones, closures, etc.
+- Por último les pedidmos que completen este formulario para saber si van a venir al parcial con sus notebook o no. <a href="https://docs.google.com/forms/d/e/1FAIpQLSeoOKaOPYrgVYwgp8POyCgHO7B45aUiXcivCM4mV7BZTwnsDA/viewform" target="\_blank"> Completame!!!</a> solo vas a tardar 15 segundos como máximo.
