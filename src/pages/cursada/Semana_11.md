@@ -25,10 +25,10 @@ ejercicios:
     obligatorio: true
 ---
 
-- Esta semana vamos a profundizar sobre el Manejo de Excepciones y Errores. Hay que entender la jerarquía de clases para saber diferenciar muy bien los errores de la excepciones y a su vez, cuando una excepción es chequedas y cuando es no chequeadas.
+- Esta semana vamos a profundizar sobre el Manejo de Excepciones y Errores. Hay que entender la jerarquía de clases para saber diferenciar muy bien los errores de la excepciones y a su vez, cuando una excepción es chequedas y cuando no es chequeadas.
 
-- También veremos como mejorar el patrón observer para comunicar solamente el estado de lo que queremos que los observadores se notifiquen. Y como puede interactuar con otros patrones.
+- También veremos como mejorar el patrón observer para comunicar solamente el estado de lo que queremos que los observadores se notifiquen. Y cómo puede interactuar con otros patrones.
 
-- Dejamos un ejercicio para que puedan prácticar para el parcial. Tengan en cuenta que el parcial puede convinar muchas cosas que fuimos viendo durante la cursada. Es importante que intenten resolver este ejercicio solos para saber donde estan parados.
+- Dejamos un ejercicio para que puedan practicar para el parcial. Tengan en cuenta que el parcial puede combinar muchas cosas que fuimos viendo durante la cursada. Es importante que intenten resolver este ejercicio solos para saber donde están parados.
 
-- Por último les pedidmos que completen este formulario para saber si van a venir al parcial con sus notebook o no. <a href="https://docs.google.com/forms/d/e/1FAIpQLSeoOKaOPYrgVYwgp8POyCgHO7B45aUiXcivCM4mV7BZTwnsDA/viewform" target="\_blank"> Completame!!!</a> solo vas a tardar 15 segundos como máximo.
+- Por último les pedimos que completen este formulario para saber si van a venir al parcial con sus notebook o no. <a href="https://docs.google.com/forms/d/e/1FAIpQLSeoOKaOPYrgVYwgp8POyCgHO7B45aUiXcivCM4mV7BZTwnsDA/viewform" target="\_blank"> Completame!!!</a> solo vas a tardar 15 segundos como máximo.
