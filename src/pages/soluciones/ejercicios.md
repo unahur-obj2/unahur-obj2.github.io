@@ -38,4 +38,7 @@
 
 - title: Solución Primer parcial
   url: https://github.com/unahur-obj2/simulador_precio_automotor
+
+- title: Microcontrolador
+  url: https://github.com/unahur-obj2/microcontrolador
 ---
