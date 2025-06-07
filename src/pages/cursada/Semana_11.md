@@ -14,6 +14,18 @@ horarios:
     Modalidad: VIRTUAL
     Hora: 18.10hs
     URL: https://meet.google.com/zvj-qcev-ekr
+  - Comision: Clase de consulta
+    Dia: Miercoles 11 de Junio
+    Modalidad: VIRTUAL
+    Hora: 18.00hs
+    URL: https://meet.google.com/kge-xjtx-nwo
+videos:
+  - nombre: Objetos 2 - Excepciones y Errores - Darío - Parte 1
+    urlYoutube: https://www.youtube.com/watch?v=I-Ru_fMD1hI
+  - nombre: Objetos 2 - Excepciones y Errores - Darío - Parte 2
+    urlYoutube: https://www.youtube.com/watch?v=Kjlz86GsYlk
+  - nombre: Objetos 2 - Excepciones y Errores - Gerardo - Parte 3
+    urlYoutube: https://www.youtube.com/watch?v=T8OZdRtjnUk
 
 ejercicios:
   - name: Subastas
