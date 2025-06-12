@@ -10,7 +10,7 @@ atencion: Los estudiantes que asistan con su propia computadora deberán dirigir
 
 horarios:
   - Comision: Comisión 1A T.Noche
-    Dia: Martes 29 de Octubre
+    Dia: Viernes 13 de Junio
     Modalidad: PRESENCIAL
     Hora: 18.00hs
     Aula: Leer cartel ATENCION
