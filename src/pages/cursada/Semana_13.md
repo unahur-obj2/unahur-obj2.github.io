@@ -2,11 +2,11 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 13
 
-inicio: 2025-06-25
+inicio: 2025-06-26
 
 descripcion: Esta semana es para practicar para el recuperatorio que será el 04/07.
 
-atencion: El viernes 04 de Julio el parcial es RECUPERATORIO.  Tenemos asignadas las aulas MA-111 Y MA-112. Los que quieran pueden traer sus computadoras personales para el recuperatorio.
+atencion: El viernes 04 de Julio es la fecha del RECUPERATORIO.  Tenemos asignadas las aulas MA-111 Y MA-112. Los que quieran pueden traer sus computadoras personales.
 
 horarios:
   - Comision: Todas las Comisiones del T.Noche
