@@ -18,7 +18,7 @@ horarios:
 ejercicios:
   - name: Práctica Recuperatorio Nestflix
     classroom: https://classroom.github.com/a/P0m8LJuZ
-    repoUrl: unahur-obj2-2025c1/nesflix' # Acá va la URL del repo sin el "https://github.com/"
+    repoUrl: unahur-obj2-2025c1/nesflix # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Para practicar en clase y en casa.
