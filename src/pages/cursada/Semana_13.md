@@ -22,6 +22,13 @@ ejercicios:
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Para practicar en clase y en casa.
+
+  - name: Práctica Recuperatorio Taller
+    classroom: https://classroom.github.com/a/9fAE3Ilu
+    repoUrl: unahur-obj2-2025c1/taller # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Más Dificil. Para practicar en clase y en casa.
 ---
 
 - Esta semana es para practicar fuerte para el recuperatorio, que será el día 04/07 de forma presencial. Tenemos asignadas las aulas MA-111 Y MA-112 para ese día.
