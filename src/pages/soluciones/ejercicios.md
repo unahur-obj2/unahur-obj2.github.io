@@ -47,4 +47,8 @@
 
 - title: Solucion Segundo parcial (Central-Alertas)
   url: https://github.com/unahur-obj2/central-alertas
+
+- title: Taller mecanico
+  url: https://github.com/unahur-obj2/taller
+
 ---
