@@ -16,4 +16,13 @@ horarios:
     Hora: 18.00hs
     Aula: Leer cartel ATENCION
     Edificio: (Edificio Malvinas Argentinas, 1er piso)
+
+ejercicios:
+  - name: Recupera2
+    classroom: https://classroom.github.com/a/vPhKb02o
+    repoUrl: 'unahur-obj2-2025c1/recupera2' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Recuperatorio Parcial 1 y Parcial 2
+    obligatorio: true
 ---
