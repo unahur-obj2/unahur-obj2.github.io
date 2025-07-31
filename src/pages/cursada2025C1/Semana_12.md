@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 12
 
-inicio: 2025-12-03
+inicio: 2025-06-11
 
 descripcion: Esta semana tenemos el parcial de manera presencial el dia viernes 13 de Junio.
 importante: El parcial será a carpeta abierta, lo que significa que podrán llevar ejercicios resueltos por ustedes mismos para consultar durante el examen.

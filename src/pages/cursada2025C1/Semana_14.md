@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 14
 
-inicio: 2025-12-03
+inicio: 2025-07-01
 
 descripcion: Semana de recuperatorio.
 

@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 15
 
-inicio: 2025-12-03
+inicio: 2025-08-25
 
 descripcion: Esta semana es para la presentación y defensa de los TP Game Grupales.
 

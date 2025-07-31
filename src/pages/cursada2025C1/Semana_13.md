@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 13
 
-inicio: 2025-12-03
+inicio: 2025-06-26
 
 descripcion: Esta semana es para practicar para el recuperatorio que será el 04/07.
 

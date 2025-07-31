@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 10
 
-inicio: 2025-12-03
+inicio: 2025-05-30
 
 descripcion: En esta semana vamos a conocer los patrones Command y Observer
 
