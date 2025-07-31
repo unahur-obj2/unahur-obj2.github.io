@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 1
 
-inicio: 2025-03-03
+inicio: 2025-06-03
 
 descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollok a Java.
 
