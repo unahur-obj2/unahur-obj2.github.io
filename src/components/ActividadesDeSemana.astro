@@ -30,7 +30,7 @@ const { ejercicios } = Astro.props
 									comentarios?.map((c) => c.name).join(', ') || comentarios
 								}
 								urlGitHub={classroom}
-								repoUrl={repoUrl}
+								repoUrl={repoUrl ? `https://github.com/${repoUrl}` : undefined}
 								ejemploUrl={ejemploUrl}
 								fechaDeEntrega={fechaDeEntrega}
 								obligatorio={obligatorio}
