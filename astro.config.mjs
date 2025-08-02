@@ -13,5 +13,14 @@ export default defineConfig({
   compressHTML: false,
   integrations: [mdx(), icon(), tailwind({
     applyBaseStyles: false
-  }), compress()]
+  }), compress()],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern-compiler' 
+        }
+      }
+    }
+  }
 });

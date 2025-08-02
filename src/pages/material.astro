@@ -3,26 +3,25 @@ import AsideMenu from '@/components/AsideMenu.astro'
 import CardSecciones from '@/components/CardSecciones.astro'
 import SeccionListaCopyCode from '@/components/SeccionListaCopyCode.astro'
 import Separador from '@/components/Separador.astro'
-import TablaDeActividades from '@/components/TablaDeActividades.astro'
 import DefaultLayout from '@/layouts/DefaultLayout.astro'
 import { Icon } from 'astro-icon/components'
-import Git from '../content/Git.json'
-import patrones from '../content/Patrones.json'
-import varios from '../content/varios.json'
-import uml from '../content/Uml.json'
-import software from '../content/Programas.json'
+import Git from '../content/data/Git.json'
+import patrones from '../content/data/Patrones.json'
+import varios from '../content/data/varios.json'
+import uml from '../content/data/Uml.json'
+import software from '../content/data/Programas.json'
 
-const elementosComunes = await Astro.glob('../content/commandos-git.md')
+const elementosComunes = await Astro.glob('../content/docs/commandos-git.md')
 const { comandosBasicGit } = elementosComunes[0].frontmatter
 
 const comportamientoFile = await Astro.glob(
-	'../content/patronesComportamiento.md'
+	'../content/docs/patronesComportamiento.md'
 )
 const estructuralesFile = await Astro.glob(
-	'../content/patronesEstructurales.md'
+	'../content/docs/patronesEstructurales.md'
 )
 
-const programasFile = await Astro.glob('../content/programas.md')
+const programasFile = await Astro.glob('../content/docs/programas.md')
 
 const { comportamiento } = comportamientoFile[0].frontmatter
 const { estructurales } = estructuralesFile[0].frontmatter

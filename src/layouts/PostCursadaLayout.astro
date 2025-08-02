@@ -1,7 +1,11 @@
 ---
 import { Breadcrumbs } from 'accessible-astro-components'
 import { BreadcrumbsItem } from 'accessible-astro-components'
-import { PATH, PATH_CURSADA } from '@/paths.js'
+import {
+	PATH,
+	PATH_CURSADA_VIERNES,
+	PATH_CURSADA2025c1_MIERCOLES,
+} from '@/paths.js'
 import LayoutSemanas from './LayoutSemanas.astro'
 import VideosDeSemana from '@components/VideosDeSemana.astro'
 import ActividadesDeSemana from '@components/ActividadesDeSemana.astro'
@@ -12,6 +16,15 @@ const { frontmatter } = Astro.props
 
 const { title, videos, horarios, ejercicios, atencion, importante } =
 	frontmatter
+
+const currentUrl = Astro.url.pathname
+let PATH_CURSADA = PATH_CURSADA_VIERNES
+
+if (currentUrl.includes('/comision-2-4-miercoles/')) {
+	PATH_CURSADA = PATH_CURSADA2025c1_MIERCOLES
+} else if (currentUrl.includes('/cursada2025C1/')) {
+	PATH_CURSADA = '/cursada2025C1'
+}
 ---
 
 <LayoutSemanas title={title}>
