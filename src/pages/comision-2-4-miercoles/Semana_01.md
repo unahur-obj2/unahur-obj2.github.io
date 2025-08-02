@@ -6,7 +6,7 @@ inicio: 2025-06-03
 
 descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollok a Java.
 
-importante: Es muy importante que te suscribas al canal de Discord de la materia, las instrucciones están en la sección de Inicio de esta página.
+importante: Miercoles
 
 horarios:
   - Comision: Todas las Comisiones del T.Noche

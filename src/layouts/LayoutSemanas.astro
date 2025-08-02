@@ -2,7 +2,22 @@
 import AsideMenu from '@components/AsideMenu.astro'
 import DefaultLayout from './DefaultLayout.astro'
 
-let semanas = await Astro.glob('../pages/cursada/*.md')
+const currentUrl = Astro.url.pathname
+let semanas = []
+
+if (currentUrl.includes('/comision-1-3-viernes/')) {
+	semanas = await Astro.glob('../pages/comision-1-3-viernes/*.md')
+} else if (currentUrl.includes('/comision-2-4-miercoles/')) {
+	semanas = await Astro.glob('../pages/comision-2-4-miercoles/*.md')
+} else if (currentUrl.includes('/cursada2025C1/')) {
+	semanas = await Astro.glob('../pages/cursada2025C1/*.md')
+} else {
+	try {
+		semanas = await Astro.glob('../pages/comision-1-3-viernes/*.md')
+	} catch (e) {
+		semanas = []
+	}
+}
 
 // Solo mostramos las clases de las semanas cuya fecha de inicio sea inferior a la fecha actual
 // por un tema de compatibilidad, también mostramos las clases que no especifican fecha de inicio
