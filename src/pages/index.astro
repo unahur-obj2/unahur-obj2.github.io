@@ -1,101 +1,328 @@
 ---
 import DefaultLayout from '@layouts/DefaultLayout.astro'
-import Hero from '@components/Hero.astro'
-import CardSecciones from '@/components/CardSecciones.astro'
 ---
 
 <DefaultLayout
-	title="Objetos II"
+	title="Objetos II - UNAHUR"
 	description="Universidad Nacional de Hurlingham, materia Programación con Objetos II"
 	author="Objetos II">
-	<Hero />
-	<section class="my-64">
-		<div class="container">
-			<CardSecciones>
-				<h2 class="mb-15 text-center text-4xl sm:text-6xl">¡Bienvenido/a!</h2>
-				<p class="text-center">
-					Si llegaste hasta este sitio es muy probable que estes inscripto en
-					Programación con Objetos II, de la Licenciatura en Informática de la
-					Universidad Nacional de Hurlingham. Aquí encontrarás casi todo lo
-					necesario para tu cursada. Decimos casi porque hay mucho material que
-					“vive” en otras páginas, pero este sitio funcionará como punto de
-					partida para llegar allí.
-				</p>
-				<p class="text-center">
-					Arrancamos el cuatrimestre con una modalidad de cursada mixta, donde
-					tendremos clases presenciales y virtuales. Hay que estar atento/a al <a
-						href="https://docs.google.com/spreadsheets/d/1FbHWa9-9szX-61pZ1sRdyVlnNba1xaWHBYhC4Gx8KC0/edit?gid=0#gid=0"
-						target="_blank"
-						>cronograma</a
-					> de la cursada por si en algún momento se hace algún cambio.
-				</p>
-				<p class="text-center">
-					Si ya viniste varias veces, probablemente quieras ver el <a
-						href="/material">material</a
-					> que tenemos disponible.
-				</p>
-				<p>
-					También vas a tener que instalarte Git, JDK, Eclipse IDE y Maven, si
-					no lo hiciste aún. En la sección <a href="/videos">Videos</a> encontrarás
-					los tutoriales para hacerlo.
-				</p>
-			</CardSecciones>
+	<!-- Hero Section -->
+	<section
+		class="relative overflow-hidden bg-gradient-to-br from-unahur-primary to-unahur-secondary py-20 text-white">
+		<!-- Decorative Elements -->
+		<div class="absolute inset-0 opacity-10">
+			<div
+				class="absolute left-10 top-20 h-32 w-32 animate-pulse rounded-full bg-white">
+			</div>
+			<div
+				class="absolute bottom-20 right-10 h-24 w-24 animate-bounce rounded-full bg-unahur-accent">
+			</div>
+			<div class="absolute left-1/4 top-1/2 h-16 w-16 rounded-full bg-white">
+			</div>
+		</div>
 
-			<CardSecciones title="Canales de comunicación">
-				<p>
-					Vamos a utilizar esta página para subir material, fechas importantes y
-					todo lo relacionado a la cursada. Tal vez sea una buena idea agregarla
-					a los favoritos de tu navegador.
+		<div class="container relative z-10 mx-auto px-4">
+			<div class="mx-auto max-w-5xl text-center">
+				<!-- Icon -->
+				<div class="mb-8 flex justify-center">
+					<div class="rounded-2xl bg-white/20 p-6 backdrop-blur-sm">
+						<svg
+							class="h-16 w-16 text-white"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24">
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+							></path>
+						</svg>
+					</div>
+				</div>
+
+				<!-- Title -->
+				<h1
+					class="mb-6 bg-gradient-to-r from-white to-blue-100 bg-clip-text text-5xl font-bold text-transparent md:text-7xl">
+					Programación con Objetos II
+				</h1>
+
+				<!-- Subtitle -->
+				<p class="mb-8 text-xl leading-relaxed text-blue-100 md:text-2xl">
+					Universidad Nacional de Hurlingham
 				</p>
-				<p class="text-left">
-					Para tener una comunicación más fluida vamos a utilizar un canal de <a
-						href="https://www.discordapp.com/">Discord</a
-					>.
-				</p>
-				<ul>
-					<li class="list-disc">
-						Si aún no tenes cuenta debes registrarte ingresando <a
-							href="https://www.discordapp.com/"
-							target="_blank"
-							>aquí</a
-						>
-					</li>
-					<li class="list-disc">
-						Una vez registrado y dentro de Discord, por única vez y si no lo
-						hiciste antes, debes entrar a este link y asegurarte de Aceptar la
-						invitación al servidor de la carrera <a
-							href="https://discord.gg/tqyHtPt"
-							target="_blank"
-							>InformaticaUNAHUR</a
-						>.
-					</li>
-					<li class="list-disc">
-						Luego, siguiendo este enlace: <a
-							href="https://discord.gg/XpP6kCTkFd"
-							target="_blank"
-							>matricularse-materias-discord</a
-						> podrás matricularte en los canales de las materias que estés cursando
-						reaccionando a la letra que corresponda a cada una. Para esta materia,
-						corresponde <b>(765) Programación de Objetos II</b>. Asegurate de
-						hacerlo solo 1 vez, ya que si le das varias veces click te vas a
-						desmatricular y no vas a poder ver los canales de la materia.
-					</li>
-				</ul>
-				<p class="text-left">
-					Aunque toda la comunicación sobre la materia irá apareciendo en esta
-					página, por si llegaste hasta acá desde un enlace externo a la Unahur,
-					te dejamos el link al <a
-						href="https://campus2025.unahur.edu.ar/login/index.php"
-						>campus de la Universidad</a
-					>. Es importante que también lo revises regularmente si sos estudiante
-					de esta Universidad.
-				</p>
-			</CardSecciones>
+
+				<!-- Action Buttons -->
+				<div class="flex flex-col justify-center gap-4 sm:flex-row">
+					<a
+						href="/material"
+						class="transform rounded-lg bg-white px-8 py-3 font-semibold text-unahur-primary shadow-lg transition-all duration-300 hover:scale-105 hover:bg-blue-50">
+						📚 Material de Estudio
+					</a>
+					<a
+						href="/videos"
+						class="transform rounded-lg border-2 border-white/30 bg-white/10 px-8 py-3 font-semibold text-white shadow-lg backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:border-white/50 hover:bg-white/20">
+						🎥 Videos Tutoriales
+					</a>
+				</div>
+			</div>
 		</div>
 	</section>
-</DefaultLayout>
 
-<style>
+	<!-- Welcome Section -->
+	<section class="bg-gray-50 py-16 dark:bg-gray-900">
+		<div class="container mx-auto px-4">
+			<div class="mx-auto max-w-4xl">
+				<!-- Welcome Card -->
+				<div
+					class="mb-8 rounded-2xl border border-gray-200 bg-white p-8 shadow-xl dark:border-gray-700 dark:bg-gray-800">
+					<div class="mb-8 text-center">
+						<h2
+							class="mb-4 bg-gradient-to-r from-unahur-primary to-unahur-secondary bg-clip-text text-4xl font-bold text-transparent">
+							¡Bienvenido/a!
+						</h2>
+						<div
+							class="mx-auto h-1 w-24 rounded-full bg-gradient-to-r from-unahur-primary to-unahur-secondary">
+						</div>
+					</div>
+
+					<div
+						class="space-y-6 leading-relaxed text-gray-700 dark:text-gray-300">
+						<p class="text-lg">
+							Si llegaste hasta este sitio es muy probable que estés inscripto
+							en
+							<strong class="text-unahur-primary dark:text-unahur-accent"
+								>Programación con Objetos II</strong
+							>, de la Licenciatura en Informática de la Universidad Nacional de
+							Hurlingham. Aquí encontrarás casi todo lo necesario para tu
+							cursada.
+						</p>
+
+						<div
+							class="rounded-r-lg border-l-4 border-unahur-primary bg-blue-50 p-4 dark:bg-blue-900/20">
+							<p class="mb-3">
+								Arrancamos el cuatrimestre con una modalidad de cursada mixta,
+								donde tendremos clases presenciales y virtuales. Hay que estar
+								atento/a al
+							</p>
+							<a
+								href="https://docs.google.com/spreadsheets/d/1FbHWa9-9szX-61pZ1sRdyVlnNba1xaWHBYhC4Gx8KC0/edit?gid=0#gid=0"
+								target="_blank"
+								class="inline-flex items-center gap-2 rounded-lg bg-unahur-primary px-4 py-2 text-white transition-colors duration-300 hover:bg-unahur-secondary">
+								📅 Cronograma de la cursada
+								<svg
+									class="h-4 w-4"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24">
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+									></path>
+								</svg>
+							</a>
+						</div>
+
+						<p>
+							Si ya viniste varias veces, probablemente quieras ver el
+							<a
+								href="/material"
+								class="font-semibold text-unahur-primary hover:underline dark:text-unahur-accent"
+								>material</a
+							>
+							que tenemos disponible.
+						</p>
+
+						<div
+							class="rounded-r-lg border-l-4 border-amber-400 bg-amber-50 p-4 dark:bg-amber-900/20">
+							<p class="mb-3">
+								<strong>⚠️ Importante:</strong> También vas a tener que instalarte:
+							</p>
+							<ul class="ml-4 list-inside list-disc space-y-1">
+								<li>Git</li>
+								<li>JDK (Java Development Kit)</li>
+								<li>Eclipse IDE</li>
+								<li>Maven</li>
+							</ul>
+							<p class="mt-3">
+								En la sección <a
+									href="/videos"
+									class="font-semibold text-unahur-primary hover:underline dark:text-unahur-accent"
+									>Videos</a
+								>
+								encontrarás los tutoriales para hacerlo.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Communication Channels Section -->
+	<section class="bg-white py-16 dark:bg-gray-800">
+		<div class="container mx-auto px-4">
+			<div class="mx-auto max-w-4xl">
+				<div
+					class="rounded-2xl border border-gray-200 bg-gradient-to-br from-gray-50 to-blue-50 p-8 shadow-xl dark:border-gray-700 dark:from-gray-800 dark:to-blue-900/20">
+					<div class="mb-8 text-center">
+						<h2
+							class="mb-4 bg-gradient-to-r from-unahur-primary to-unahur-secondary bg-clip-text text-3xl font-bold text-transparent">
+							Canales de Comunicación
+						</h2>
+						<div
+							class="mx-auto h-1 w-24 rounded-full bg-gradient-to-r from-unahur-primary to-unahur-secondary">
+						</div>
+					</div>
+
+					<div class="space-y-6 text-gray-700 dark:text-gray-300">
+						<p class="text-lg leading-relaxed">
+							Vamos a utilizar esta página para subir material, fechas
+							importantes y todo lo relacionado a la cursada. Tal vez sea una
+							buena idea agregarla a los favoritos de tu navegador.
+						</p>
+
+						<div
+							class="rounded-xl border border-gray-200 bg-white p-6 shadow-md dark:border-gray-600 dark:bg-gray-700">
+							<h3
+								class="mb-4 flex items-center gap-2 text-xl font-semibold text-unahur-primary dark:text-unahur-accent">
+								<svg
+									class="h-6 w-6"
+									fill="currentColor"
+									viewBox="0 0 24 24">
+									<path
+										d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419-.019 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1568 2.4189Z"
+									></path>
+								</svg>
+								Discord - Comunicación Directa
+							</h3>
+
+							<p class="mb-4">
+								Para tener una comunicación más fluida vamos a utilizar un canal
+								de
+								<a
+									href="https://www.discordapp.com/"
+									target="_blank"
+									class="font-semibold text-unahur-primary hover:underline dark:text-unahur-accent"
+									>Discord</a
+								>.
+							</p>
+
+							<div class="space-y-4">
+								<div
+									class="flex items-start gap-3 rounded-lg bg-blue-50 p-3 dark:bg-blue-900/30">
+									<div
+										class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-unahur-primary text-sm font-bold text-white">
+										1
+									</div>
+									<div>
+										<p>
+											Si aún no tenes cuenta debes registrarte ingresando
+											<a
+												href="https://www.discordapp.com/"
+												target="_blank"
+												class="font-semibold text-unahur-primary hover:underline dark:text-unahur-accent"
+												>aquí</a
+											>
+										</p>
+									</div>
+								</div>
+
+								<div
+									class="flex items-start gap-3 rounded-lg bg-green-50 p-3 dark:bg-green-900/30">
+									<div
+										class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-unahur-primary text-sm font-bold text-white">
+										2
+									</div>
+									<div>
+										<p class="mb-2">
+											Una vez registrado y dentro de Discord, debes entrar a
+											este link y asegurarte de Aceptar la invitación al
+											servidor de la carrera:
+										</p>
+										<a
+											href="https://discord.gg/tqyHtPt"
+											target="_blank"
+											class="inline-flex items-center gap-2 rounded-lg bg-unahur-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-unahur-secondary">
+											🏫 InformaticaUNAHUR
+											<svg
+												class="h-4 w-4"
+												fill="none"
+												stroke="currentColor"
+												viewBox="0 0 24 24">
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+												></path>
+											</svg>
+										</a>
+									</div>
+								</div>
+
+								<div
+									class="flex items-start gap-3 rounded-lg bg-purple-50 p-3 dark:bg-purple-900/30">
+									<div
+										class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-unahur-primary text-sm font-bold text-white">
+										3
+									</div>
+									<div>
+										<p class="mb-2">
+											Luego, siguiendo este enlace podrás matricularte en los
+											canales:
+										</p>
+										<a
+											href="https://discord.gg/XpP6kCTkFd"
+											target="_blank"
+											class="mb-2 inline-flex items-center gap-2 rounded-lg bg-purple-600 px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-purple-700">
+											📝 Matricularse en materias
+											<svg
+												class="h-4 w-4"
+												fill="none"
+												stroke="currentColor"
+												viewBox="0 0 24 24">
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+												></path>
+											</svg>
+										</a>
+										<p class="text-sm">
+											Para esta materia, corresponde <strong
+												class="text-unahur-primary dark:text-unahur-accent"
+												>(765) Programación de Objetos II</strong
+											>. ⚠️ Asegurate de hacerlo solo 1 vez.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="rounded-r-lg border-l-4 border-amber-400 bg-amber-50 p-4 dark:bg-amber-900/20">
+							<p>
+								<strong>🎓 Campus Universitario:</strong> Aunque toda la comunicación
+								sobre la materia irá apareciendo en esta página, también es importante
+								que revises regularmente el
+								<a
+									href="https://campus2025.unahur.edu.ar/login/index.php"
+									target="_blank"
+									class="font-semibold text-unahur-primary hover:underline dark:text-unahur-accent">
+									campus de la Universidad
+								</a>.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</DefaultLayout><style>
 	a {
 		color: var(--primary-300) !important;
 	}

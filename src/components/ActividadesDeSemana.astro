@@ -1,5 +1,5 @@
 ---
-import CardEjercicio from './CardEjercicio.astro'
+import ModernCardEjercicio from './ModernCardEjercicio.astro'
 import CardSecciones from './CardSecciones.astro'
 
 const { ejercicios } = Astro.props
@@ -24,13 +24,14 @@ const { ejercicios } = Astro.props
 						consultas,
 					}) => (
 						<li class="flex w-full justify-center">
-							<CardEjercicio
+							<ModernCardEjercicio
 								title={name}
-								comentarios={comentarios}
+								comentarios={
+									comentarios?.map((c) => c.name).join(', ') || comentarios
+								}
 								urlGitHub={classroom}
-								repoUrl={repoUrl}
+								repoUrl={repoUrl ? `https://github.com/${repoUrl}` : undefined}
 								ejemploUrl={ejemploUrl}
-								defaultBranch={defaultBranch}
 								fechaDeEntrega={fechaDeEntrega}
 								obligatorio={obligatorio}
 								consultas={consultas}
@@ -51,17 +52,29 @@ const { ejercicios } = Astro.props
 	ul {
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-gap: 1rem;
+		gap: 1.5rem;
 		justify-items: center;
+		align-items: start;
+		list-style: none;
+		padding: 0;
+		margin: 0 auto;
+		max-width: 100%;
 
-		@media (min-width: 550px) {
+		@media (min-width: 768px) {
 			grid-template-columns: repeat(1, 1fr);
-			grid-gap: 1rem;
+			max-width: 800px;
 		}
 
-		@media (min-width: 950px) {
+		@media (min-width: 1200px) {
 			grid-template-columns: repeat(2, 1fr);
-			grid-gap: 1rem;
+			max-width: 1200px;
 		}
+	}
+
+	li {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
 	}
 </style>

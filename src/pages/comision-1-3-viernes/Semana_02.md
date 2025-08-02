@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 2
 
-inicio: 2025-12-03
+inicio: 2025-03-03
 
 descripcion: Trabajaremos la idea de cómo podemos comunicar un diseño utilizando el lenguje y herramienta de comunicación UML. Hay ejercicios para practicar.
 

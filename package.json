@@ -51,6 +51,8 @@
     ]
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.7",
+    "@heroicons/react": "^2.2.0",
     "marked": "^13.0.3"
   }
 }

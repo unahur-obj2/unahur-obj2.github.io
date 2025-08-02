@@ -1,19 +1,21 @@
 ---
 import CardSecciones from './CardSecciones.astro'
-import WatchVideo from './WatchVideo.astro'
+import ModernWatchVideo from './ModernWatchVideo.astro'
 
 const { videos, titulo } = Astro.props
 ---
 
-<CardSecciones
-	title={titulo}
-	id="videos">
-	{
-		videos.map((video) => (
-			<WatchVideo
-				title={video.nombre}
-				urlYoutube={video.urlYoutube}
-			/>
-		))
-	}
+<CardSecciones title={titulo || 'Videos de la semana'}>
+	<div class="md:flex md:flex-wrap">
+		{
+			videos.map((video) => (
+				<div class="md:w-1/2">
+					<ModernWatchVideo
+						title={video.nombre || video.Titulo}
+						urlYoutube={video.urlYoutube || video.URL}
+					/>
+				</div>
+			))
+		}
+	</div>
 </CardSecciones>

@@ -86,7 +86,7 @@ const { title, urlGitHub, description } = Astro.props
 	}
 
 	.preview-button:visited {
-		color: lightgray; /* Elige un color visible que se adapte a tu diseño */
+		color: lightgray;
 	}
 
 	.is-mobile {
@@ -118,22 +118,22 @@ const { title, urlGitHub, description } = Astro.props
 		justify-content: end;
 		background-color: var(--action-color);
 		border-radius: 50%;
-		width: 45px; /* Tamaño inicial del contenedor */
-		height: 45px; /* Altura inicial para mantener el ícono centrado */
+		width: 45px;
+		height: 45px;
 		overflow: hidden;
 		transition: width 0.6s ease, border-radius 0.7s ease;
 
 		&:hover,
 		&:focus-within {
-			width: 275px; /* Tamaño expandido del contenedor */
-			border-radius: 10px; /* Ajusta la curva de las esquinas al expandir */
+			width: 275px;
+			border-radius: 10px;
 		}
 
 		&:hover .text-obligatorio,
 		&:focus-within .text-obligatorio {
 			opacity: 1;
 			transform: translateX(-10%);
-			transition: transform 0.4s ease 0.2s, opacity 0.1s ease 0.3s; /* Añade un pequeño retraso para que la animación del texto inicie después de la expansión */
+			transition: transform 0.4s ease 0.2s, opacity 0.1s ease 0.3s;
 		}
 	}
 
@@ -145,12 +145,12 @@ const { title, urlGitHub, description } = Astro.props
 
 	.text-obligatorio {
 		position: absolute;
-		right: 10px; /* Ajusta para que el texto se alinee correctamente cuando aparezca */
-		white-space: nowrap; /* Evita que el texto se rompa en líneas múltiples */
+		right: 10px;
+		white-space: nowrap;
 		font-size: 1rem;
 		color: var(--dark-100);
 		font-weight: bold;
-		transform: translateX(-100%); /* Inicia fuera de la vista a la derecha */
+		transform: translateX(-100%);
 		opacity: 0;
 		z-index: 0;
 		transition: transform 0.5s ease, opacity 0.1s ease;
