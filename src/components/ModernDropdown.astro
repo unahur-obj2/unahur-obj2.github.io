@@ -1,0 +1,76 @@
+---
+// Componente moderno de dropdown usando solo Tailwind CSS
+export interface Props {
+	trigger: string
+	items: Array<{
+		label: string
+		href: string
+		icon?: string
+	}>
+}
+
+const { trigger, items } = Astro.props
+---
+
+<div class="group relative">
+	<!-- Trigger Button -->
+	<button
+		class="flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-blue-600 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-blue-400"
+		aria-haspopup="true"
+		aria-expanded="false">
+		{trigger}
+		<!-- Chevron Icon -->
+		<svg
+			class="h-4 w-4 transition-transform duration-200 group-hover:rotate-180"
+			fill="none"
+			stroke="currentColor"
+			viewBox="0 0 24 24">
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="2"
+				d="M19 9l-7 7-7-7"
+			></path>
+		</svg>
+	</button>
+
+	<!-- Dropdown Menu -->
+	<div
+		class="invisible absolute left-0 z-50 mt-2 w-56 translate-y-1 transform opacity-0 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+		<div
+			class="overflow-hidden rounded-xl bg-white shadow-lg ring-1 ring-black ring-opacity-5 dark:bg-gray-800 dark:ring-gray-700">
+			<div class="py-1">
+				{
+					items.map((item) => (
+						<a
+							href={item.href}
+							class="flex items-center gap-3 px-4 py-3 text-sm text-gray-700 transition-colors duration-150 hover:bg-blue-50 hover:text-blue-600 dark:text-gray-200 dark:hover:bg-blue-900/50 dark:hover:text-blue-400">
+							{item.icon && (
+								<span
+									class="h-5 w-5 text-gray-400 dark:text-gray-500"
+									set:html={item.icon}
+								/>
+							)}
+							{item.label}
+						</a>
+					))
+				}
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	// Mejorar la accesibilidad
+	document.addEventListener('DOMContentLoaded', () => {
+		const dropdowns = document.querySelectorAll('[aria-haspopup="true"]')
+
+		dropdowns.forEach((dropdown) => {
+			dropdown.addEventListener('click', (e) => {
+				e.preventDefault()
+				const isExpanded = dropdown.getAttribute('aria-expanded') === 'true'
+				dropdown.setAttribute('aria-expanded', (!isExpanded).toString())
+			})
+		})
+	})
+</script>

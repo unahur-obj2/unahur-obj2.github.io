@@ -1,0 +1,132 @@
+---
+export interface Props {
+	title: string
+	description: string
+	date?: string
+	href: string
+	tags?: string[]
+	isActive?: boolean
+}
+
+const {
+	title,
+	description,
+	date,
+	href,
+	tags = [],
+	isActive = false,
+} = Astro.props
+---
+
+<article
+	class={`group relative overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-200 dark:border-gray-700 h-full w-full flex flex-col ${
+		isActive ? 'ring-2 ring-blue-500 dark:ring-blue-400' : ''
+	}`}>
+	<!-- Card Header -->
+	{
+		date && (
+			<div class="absolute right-4 top-4 z-10">
+				<span class="inline-flex items-center rounded-full bg-blue-100 px-2.5 py-0.5 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-200">
+					{date}
+				</span>
+			</div>
+		)
+	}
+
+	<!-- Card Content -->
+	<div class="flex flex-1 flex-col p-6">
+		<div class="flex items-start justify-between">
+			<div class="flex-1">
+				<h3
+					class="text-xl font-semibold text-gray-900 transition-colors duration-200 group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-400">
+					<a
+						href={href}
+						class="stretched-link">
+						{title}
+					</a>
+				</h3>
+
+				<p
+					class="mt-2 line-clamp-3 flex-1 text-sm text-gray-600 dark:text-gray-300">
+					{description}
+				</p>
+			</div>
+		</div>
+
+		<!-- Tags -->
+		{
+			tags.length > 0 && (
+				<div class="mt-4 flex flex-wrap gap-2">
+					{tags.map((tag) => (
+						<span class="inline-flex items-center rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-200">
+							{tag}
+						</span>
+					))}
+				</div>
+			)
+		}
+
+		<!-- Action Buttons -->
+		<div class="mt-auto flex items-center gap-3 pt-6">
+			<button
+				class="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors duration-200 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-offset-gray-800">
+				<!-- Video Icon -->
+				<svg
+					class="h-4 w-4"
+					fill="none"
+					stroke="currentColor"
+					viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293H15M9 10v4a2 2 0 002 2h2a2 2 0 002-2v-4M9 10V8a2 2 0 012-2h2a2 2 0 012 2v2"
+					></path>
+				</svg>
+				Videos
+			</button>
+
+			<button
+				class="inline-flex items-center gap-2 rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 transition-colors duration-200 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600 dark:focus:ring-offset-gray-800">
+				<!-- Exercise Icon -->
+				<svg
+					class="h-4 w-4"
+					fill="none"
+					stroke="currentColor"
+					viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+					></path>
+				</svg>
+				Ejercicios
+			</button>
+		</div>
+	</div>
+
+	<!-- Hover overlay -->
+	<div
+		class="pointer-events-none absolute inset-0 bg-gradient-to-t from-blue-600/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+	</div>
+</article>
+
+<style>
+	.line-clamp-3 {
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.stretched-link::after {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		content: '';
+	}
+</style>

@@ -1,0 +1,103 @@
+---
+export interface Props {
+	variant?: 'primary' | 'secondary' | 'outline' | 'ghost'
+	size?: 'sm' | 'md' | 'lg'
+	href?: string
+	target?: string
+	type?: 'button' | 'submit' | 'reset'
+	disabled?: boolean
+	loading?: boolean
+	icon?: string
+	iconPosition?: 'left' | 'right'
+	class?: string
+}
+
+const {
+	variant = 'primary',
+	size = 'md',
+	href,
+	target,
+	type = 'button',
+	disabled = false,
+	loading = false,
+	icon,
+	iconPosition = 'left',
+	class: className = '',
+	...props
+} = Astro.props
+
+const baseClasses =
+	'inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-800 disabled:opacity-50 disabled:cursor-not-allowed'
+
+const variantClasses = {
+	primary:
+		'bg-blue-600 hover:bg-blue-700 text-white focus:ring-blue-500 dark:bg-blue-500 dark:hover:bg-blue-600',
+	secondary:
+		'bg-gray-600 hover:bg-gray-700 text-white focus:ring-gray-500 dark:bg-gray-500 dark:hover:bg-gray-600',
+	outline:
+		'border border-gray-300 dark:border-gray-600 bg-transparent hover:bg-gray-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 focus:ring-blue-500',
+	ghost:
+		'bg-transparent hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 focus:ring-gray-500',
+}
+
+const sizeClasses = {
+	sm: 'px-3 py-1.5 text-sm rounded-md gap-1.5',
+	md: 'px-4 py-2 text-sm rounded-lg gap-2',
+	lg: 'px-6 py-3 text-base rounded-lg gap-2',
+}
+
+const finalClasses = `${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`
+
+const Component = href ? 'a' : 'button'
+---
+
+<Component
+	class={finalClasses}
+	href={href}
+	target={href ? target : undefined}
+	type={!href ? type : undefined}
+	disabled={disabled || loading}
+	{...props}>
+	{
+		loading && (
+			<svg
+				class="-ml-1 mr-2 h-4 w-4 animate-spin"
+				fill="none"
+				viewBox="0 0 24 24">
+				<circle
+					class="opacity-25"
+					cx="12"
+					cy="12"
+					r="10"
+					stroke="currentColor"
+					stroke-width="4"
+				/>
+				<path
+					class="opacity-75"
+					fill="currentColor"
+					d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+				/>
+			</svg>
+		)
+	}
+
+	{
+		icon && iconPosition === 'left' && !loading && (
+			<span
+				class="flex-shrink-0"
+				set:html={icon}
+			/>
+		)
+	}
+
+	<slot />
+
+	{
+		icon && iconPosition === 'right' && !loading && (
+			<span
+				class="flex-shrink-0"
+				set:html={icon}
+			/>
+		)
+	}
+</Component>

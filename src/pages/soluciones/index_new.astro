@@ -2,9 +2,12 @@
 import ModernCardSolucion from '@/components/ModernCardSolucion.astro'
 import DefaultLayout from '@/layouts/DefaultLayout.astro'
 
-// Obtener los ejercicios desde el archivo markdown
-const ejerciciosFile = await Astro.glob('./ejercicios.md')
-const soluciones = ejerciciosFile[0]?.frontmatter || []
+// Obtener todas las entradas desde src/content/
+const solucionesFiles = await Astro.glob('@/content/*.json')
+// Filtra solo las soluciones
+const soluciones = solucionesFiles.find((file) =>
+	file.default?.title?.includes('Soluciones')
+)?.default?.soluciones
 ---
 
 <DefaultLayout title="Soluciones">

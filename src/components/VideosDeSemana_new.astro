@@ -11,8 +11,8 @@ const { videos, titulo } = Astro.props
 			videos.map((video) => (
 				<div class="md:w-1/2">
 					<ModernWatchVideo
-						title={video.nombre || video.Titulo}
-						urlYoutube={video.urlYoutube || video.URL}
+						title={video.Titulo}
+						urlYoutube={video.URL}
 					/>
 				</div>
 			))

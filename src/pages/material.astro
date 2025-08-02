@@ -1,9 +1,8 @@
 ---
-import AsideMenu from '@/components/AsideMenu.astro'
+import DefaultLayout from '@/layouts/DefaultLayout.astro'
 import CardSecciones from '@/components/CardSecciones.astro'
 import SeccionListaCopyCode from '@/components/SeccionListaCopyCode.astro'
 import Separador from '@/components/Separador.astro'
-import DefaultLayout from '@/layouts/DefaultLayout.astro'
 import { Icon } from 'astro-icon/components'
 import Git from '../content/data/Git.json'
 import patrones from '../content/data/Patrones.json'
@@ -32,404 +31,779 @@ const { programas } = programasFile[0].frontmatter
 	title="Material - Objetos II"
 	description="Universidad Nacional de Hurlingham, material de Programación con Objetos II"
 	author="Objetos II">
-	<div class="flex">
-		<aside
-			class="sticky left-0 top-0 h-screen w-max min-w-52 rounded-lg bg-gradient-to-t from-slate-200 to-[--background] dark:from-zinc-800 dark:to-[--background]">
-			<AsideMenu
-				title="Patrones de Diseño"
-				data={patrones}
-			/>
-			<AsideMenu
-				title="UML"
-				data={uml}
-			/>
-			<AsideMenu
-				title="Varios"
-				data={varios}
-			/>
-			<AsideMenu
-				title="Git"
-				data={Git}
-			/>
-			<AsideMenu
-				title="Programas necesarios para la cursada"
-				data={software}
-			/>
-		</aside>
-		<section class="m-auto md:mx-4">
-			<h3 class="mb-10 text-center text-3xl sm:text-5xl">Material</h3>
+	<!-- Hero Section Ultra Moderno -->
+	<section
+		class="relative overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-20 text-white">
+		<!-- Elementos decorativos animados -->
+		<div class="absolute inset-0">
+			<div
+				class="absolute left-10 top-20 h-32 w-32 animate-pulse rounded-full bg-gradient-to-r from-unahur-primary to-transparent opacity-30 blur-xl">
+			</div>
+			<div
+				class="absolute bottom-20 right-10 h-24 w-24 animate-bounce rounded-full bg-gradient-to-r from-unahur-accent to-transparent opacity-40 blur-xl">
+			</div>
+			<div
+				class="slow absolute left-1/2 top-1/2 h-40 w-40 animate-spin rounded-full bg-gradient-to-r from-purple-500 to-transparent opacity-20 blur-2xl">
+			</div>
+		</div>
 
-			<section class="m-auto md:mx-4">
-				<CardSecciones title="Patrones de Diseño">
-					<p>
-						Un patrón de diseño es una solución general y reutilizable para un
-						problema común en el diseño de software. No es un código específico
-						que puedas copiar y pegar, sino una plantilla o guía que describe
-						cómo resolver un problema de diseño de software de manera eficiente
-						y mantenible. Los patrones de diseño son el resultado de la
-						experiencia colectiva de desarrolladores que han enfrentado y
-						resuelto problemas similares a lo largo del tiempo.
-					</p>
+		<!-- Grid de fondo -->
+		<div
+			class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,.1)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.1)_1px,transparent_1px)] bg-[size:100px_100px] opacity-20">
+		</div>
 
-					<p>Características de los patrones de diseño:</p>
-					<ul>
-						<li>
-							<strong>- Reutilizable</strong>: Pueden aplicarse en diferentes
-							contextos y proyectos
-						</li>
-						<li>
-							<strong>- Probado</strong>: Han sido validados y refinados a
-							través de su uso en múltiples situaciones.
-						</li>
-						<li>
-							<strong>- Abstracción</strong>: No son soluciones concretas, sino
-							descripciones de cómo resolver un problema.
-						</li>
-						<li>
-							<strong>- Lenguaje común</strong>: Proporcionan un vocabulario
-							compartido entre desarrolladores para discutir soluciones de
-							diseño.
-						</li>
-					</ul>
+		<div class="container relative z-10 mx-auto px-4">
+			<div class="mx-auto max-w-5xl text-center">
+				<div class="mb-8 flex justify-center">
+					<div class="relative">
+						<div
+							class="absolute inset-0 animate-pulse rounded-full bg-gradient-to-r from-unahur-primary to-unahur-accent blur">
+						</div>
+						<div
+							class="relative rounded-full bg-gradient-to-r from-unahur-primary to-unahur-accent p-6">
+							<svg
+								class="h-16 w-16 text-white"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="1.5"
+									d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+								></path>
+							</svg>
+						</div>
+					</div>
+				</div>
 
-					<p>
-						Los patrones de diseño se clasifican en tres categorías principales:
-					</p>
-					<ul>
-						<li>
-							<strong>- Creacionales</strong>: Se centran en cómo se crean los
-							objetos. Ayudan a hacer que el sistema sea independiente de cómo
-							se crean, componen y representan los objetos.
-						</li>
-						<li>
-							<strong>- Estructurales</strong>: Se centran en cómo se componen
-							las clases y objetos para formar estructuras más grandes.
-						</li>
-						<li>
-							<strong>- De comportamiento</strong>: Se centran en la interacción
-							y distribución de responsabilidades entre objetos.
-						</li>
-					</ul>.
+				<h1
+					class="mb-6 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-5xl font-extrabold leading-tight text-transparent md:text-7xl">
+					Material Académico
+				</h1>
 
-					<Separador />
-					<article id="links">
-						<p
-							id="cero"
-							class="flex items-center">
-							Libro Patrones De Diseño- Elementos de software orientado a
-							objetos Reutilizable. (En Español - link)
-						</p>
-						<a
-							id="linCero"
-							href="https://info-biblioteca.mincyt.gob.ve/wp-content/uploads/2024/11/Patrones-de-Diseno-Erich-Gamma.pdf"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Link al PDF<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-					</article>
-
-					<SeccionListaCopyCode
-						id="comportamiento"
-						title={patrones[0].title}
-						lista={comportamiento}
-					/>
-					<SeccionListaCopyCode
-						id="estructurales"
-						title={patrones[1].title}
-						lista={estructurales}
-					/>
-				</CardSecciones>
-
-				<CardSecciones title="UML (Unified Modeling Language)">
-					<p>
-						UML es un lenguaje o herramienta de comunicación para las personas
-						que permite representar un modelo (una idea) del sistema real.
-						Recordemos que un modelo es una abstracción que lo expresamos a
-						través de los distintos diagramas: el modelo no es el sistema, sino
-						lo que me interesa representar del sistema
-					</p>
-
-					<Separador />
-
-					<article id="links">
-						<p
-							id={'guia'}
-							class="flex items-center">
-							Guía para los que necesiten comunicar el diseño basada en UML
-						</p>
-						<a
-							id={'linkguia'}
-							href="https://docs.google.com/document/d/15wH7JYUIx3k-uZyPdiDobIYJsCRTJgld6ug2roz3vK8/edit?tab=t.0"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ver la Guía<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-					</article>
-					<article id="links">
-						<p
-							id={'disenio'}
-							class="flex items-center">
-							Presentación donde hablamos de Diseño
-						</p>
-						<a
-							id={'linkdisenio'}
-							href="https://drive.google.com/file/d/1HTC2EqhwxCikQyPbo8bCG2QPAFiupl1L/view?usp=sharing"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ver el PDF<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-					</article>
-				</CardSecciones>
-
-				<CardSecciones
-					id={'excepciones'}
-					title="Manejo de Excepciones">
-					<p>
-						El concepto de <strong>excepciones</strong> en programación se refiere
-						a eventos inesperados o errores que ocurren durante la ejecución de un
-						programa. Estas excepciones pueden tener diferentes orígenes y niveles
-						de gravedad, desde problemas críticos de hardware hasta errores lógicos
-						en el código, como dividir por cero, tratar de acceder a un elemento
-						fuera de los límites de un vector, o enviar un mensaje a una referencia
-						que no apunta a ningún objeto
-					</p>
-
-					<Separador />
-
-					<article id="links">
-						<p
-							id={'parrafoexcepciones'}
-							class="flex items-center">
-							Intro a manejo de errores con excepciones en Java
-						</p>
-						<a
-							id={'linkexcepciones'}
-							href="https://docs.google.com/document/d/1Yy4YA3E_Gsuh7kcxbdRSpMsQat5PArnOEZWdnggzq7g/edit?usp=sharing"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ir al Apunte<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-					</article>
-				</CardSecciones>
-
-				<CardSecciones
-					id={'tdd'}
-					title="Test Driven Development">
-					<p>
-						Es una técnica de programación, por la cual el código se escribe
-						para satisfacer pruebas que ponen en evidencia la necesidad de dicho
-						código. Es por ello que se llama “desarrollo conducido por las
-						pruebas”
-					</p>
-					<ul>
-						<li>- Sólo se escribe nuevo código cuando una prueba ha fallado</li>
-						<li>- Se elimina la duplicación.</li>
-					</ul>
-					<Separador />
-
-					<article id="links">
-						<p
-							id={'parrafotdd'}
-							class="flex items-center">
-							Intro a Test Driven Development
-						</p>
-						<a
-							id={'linktdd'}
-							href="https://docs.google.com/presentation/d/18FvlQtfocLPGtptR7qMjYK_oDuHW3ykR/edit?usp=sharing&ouid=115500952139364204244&rtpof=true&sd=true"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ver PPT<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-					</article>
-				</CardSecciones>
-
-				<CardSecciones
-					id={'maven'}
-					title="Maven">
-					<p>
-						Maven es una herramienta que ayuda a desarrollar un proyecto basado
-						en el entorno de una JDK (Java, Kotlin, Xtend, Scala, Groovy, etc.)
-					</p>
-					<p><strong>Funcionalidades</strong></p>
-					<ul>
-						<li>
-							- Reificación de Proyecto / Artefacto en forma standard,
-							declarativa y extensible
-						</li>
-						<li>- Manejo de Dependencias.</li>
-						<li>
-							- Manejo del Ciclo de Vida del Artefacto, incluyendo releases
-						</li>
-					</ul>
-					<Separador />
-
-					<article id="links">
-						<p
-							id={'parrafoMaven'}
-							class="flex items-center">
-							Introduccion a Maven
-						</p>
-						<a
-							id={'linkmaven'}
-							href="https://github.com/unahur-obj2/maven"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ver Repo<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-					</article>
-				</CardSecciones>
-
-				<CardSecciones title="Git">
-					<p>
-						En esta materia utilizamos <a
-							href="https://git-scm.com/"
-							target="_blank"
-							>Git</a
-						> como herramienta para el control de versiones del código que vas a
-						ir produciendo. El manejo que necesitás es básico, y está explicado en
-						la guía rápida que te ofrecemos más abajo. El resto de los recursos pueden
-						serte útiles si querés profundizar en el conocimiento de la herramienta.
-					</p>
-					<p>
-						Acá van a poder ver los comandos mas comunes que estaremos
-						utilizando en Git:
-					</p>
-					<SeccionListaCopyCode
-						id="ComandosBasicos"
-						title="Comandos basicos de Git"
-						lista={comandosBasicGit}
-					/>
-					<center
-						><b>Aclaración</b>: El "--global" SOLO se utiliza en PC PERSONALES,
-						NO en la Universidad.</center
+				<p
+					class="mx-auto mb-8 max-w-3xl text-xl leading-relaxed text-slate-300 md:text-2xl">
+					Recursos completos, patrones de diseño y herramientas esenciales para
+					<span class="font-semibold text-unahur-accent"
+						>Programación con Objetos II</span
 					>
-					<Separador />
-					<article id="links">
-						<p
-							id="uno"
-							class="flex items-center">
-							Guía rápida de cómo usar Git (Lo mínimo que tenés que saber para
-							poder trabajar).
-						</p>
-						<a
-							id="linkUno"
-							href="https://github.com/obj1-unahur-2018s2/docs/wiki/Guia-r%C3%A1pida-de-GIT"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-						<p
-							id="dos"
-							class="flex items-center">
-							Otro apunte sobre Git (Un poco más extenso que el anterior,
-							explica con más detalle algunos comandos).
-						</p>
-						<a
-							id="linkDos"
-							href="https://docs.google.com/document/d/1ozqfYCwt-37stynmgAd5wJlNOFKWYQeIZoeqXpAEs0I/edit"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-						<p
-							id="tres"
-							class="flex items-center">
-							Tutorial interactivo de Git (Mucho más completo que los
-							anteriores. Funciona sin conexión a internet, hay que instalarlo e
-							incluye una primera parte que explica cómo bajarse Git. Por
-							defecto viene en inglés pero se puede poner en español).
-						</p>
-						<a
-							id="linkTres"
-							href="https://github.com/jlord/git-it-electron"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-						<p
-							id="tres"
-							class="flex items-center">
-							Machete de comandos de Git (Resumen de los comandos más utilizados
-							de GIT.).
-						</p>
-						<a
-							id="linkTres"
-							href="/pdf/ComandosBasicosDeGit.pdf"
-							target="_blank"
-							class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
-							>Ver recurso<Icon name="ion:arrow-up-right-box-outline" /></a
-						>
-					</article>
-				</CardSecciones>
-				<CardSecciones>
-					<SeccionListaCopyCode
-						id="enlace"
-						title="Programas para la cursada"
-						lista={programas}
-					/>
-				</CardSecciones>
+				</p>
+
+				<div class="flex flex-wrap justify-center gap-4 text-sm">
+					<span
+						class="rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur-sm"
+						>Patrones de Diseño</span
+					>
+					<span
+						class="rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur-sm"
+						>Control de Versiones</span
+					>
+					<span
+						class="rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur-sm"
+						>Testing</span
+					>
+					<span
+						class="rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur-sm"
+						>UML</span
+					>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Layout Principal Ultra Moderno -->
+	<div
+		class="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
+		<div class="flex">
+			<!-- Sidebar Ultra Modernizado -->
+			<aside
+				class="sticky left-0 top-0 hidden h-screen w-80 border-r border-slate-200/50 bg-white/80 shadow-2xl backdrop-blur-xl dark:border-slate-700/50 dark:bg-slate-800/80 xl:block">
+				<div class="h-full space-y-6 overflow-y-auto p-6">
+					<div class="mb-8 text-center">
+						<h2
+							class="bg-gradient-to-r from-unahur-primary to-unahur-accent bg-clip-text text-2xl font-bold text-transparent">
+							Navegación
+						</h2>
+						<div
+							class="mx-auto mt-2 h-1 w-16 rounded-full bg-gradient-to-r from-unahur-primary to-unahur-accent">
+						</div>
+					</div>
+
+					<!-- Navegación Modernizada -->
+					<div class="space-y-4">
+						<!-- Patrones de Diseño -->
+						<div class="group">
+							<div
+								class="relative overflow-hidden rounded-xl bg-gradient-to-br from-purple-600 to-blue-600 p-4 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl">
+								<div
+									class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent">
+								</div>
+								<div class="relative z-10">
+									<div class="mb-3 flex items-center">
+										<svg
+											class="mr-2 h-5 w-5 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+											></path>
+										</svg>
+										<h3 class="text-sm font-bold text-white">
+											Patrones de Diseño
+										</h3>
+									</div>
+									<div class="space-y-1">
+										{
+											patrones.map((patron) => (
+												<a
+													href={patron.url}
+													class="block rounded-lg border border-transparent px-3 py-1.5 text-xs text-blue-100 transition-all duration-200 hover:border-white/30 hover:bg-white/20 hover:text-white">
+													{patron.title}
+												</a>
+											))
+										}
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- UML -->
+						<div class="group">
+							<div
+								class="relative overflow-hidden rounded-xl bg-gradient-to-br from-emerald-600 to-teal-600 p-4 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl">
+								<div
+									class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent">
+								</div>
+								<div class="relative z-10">
+									<div class="mb-3 flex items-center">
+										<svg
+											class="mr-2 h-5 w-5 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+											></path>
+										</svg>
+										<h3 class="text-sm font-bold text-white">UML</h3>
+									</div>
+									<div class="space-y-1">
+										{
+											uml.map((item) => (
+												<a
+													href={item.url}
+													class="block rounded-lg border border-transparent px-3 py-1.5 text-xs text-emerald-100 transition-all duration-200 hover:border-white/30 hover:bg-white/20 hover:text-white">
+													{item.title}
+												</a>
+											))
+										}
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Varios -->
+						<div class="group">
+							<div
+								class="relative overflow-hidden rounded-xl bg-gradient-to-br from-amber-600 to-orange-600 p-4 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl">
+								<div
+									class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent">
+								</div>
+								<div class="relative z-10">
+									<div class="mb-3 flex items-center">
+										<svg
+											class="mr-2 h-5 w-5 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+											></path>
+										</svg>
+										<h3 class="text-sm font-bold text-white">Varios</h3>
+									</div>
+									<div class="space-y-1">
+										{
+											varios.map((item) => (
+												<a
+													href={item.url}
+													class="block rounded-lg border border-transparent px-3 py-1.5 text-xs text-amber-100 transition-all duration-200 hover:border-white/30 hover:bg-white/20 hover:text-white">
+													{item.title}
+												</a>
+											))
+										}
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Git -->
+						<div class="group">
+							<div
+								class="relative overflow-hidden rounded-xl bg-gradient-to-br from-slate-700 to-slate-800 p-4 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl">
+								<div
+									class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent">
+								</div>
+								<div class="relative z-10">
+									<div class="mb-3 flex items-center">
+										<svg
+											class="mr-2 h-5 w-5 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+											></path>
+										</svg>
+										<h3 class="text-sm font-bold text-white">Git</h3>
+									</div>
+									<div class="space-y-1">
+										{
+											Git.map((item) => (
+												<a
+													href={item.url}
+													class="block rounded-lg border border-transparent px-3 py-1.5 text-xs text-slate-200 transition-all duration-200 hover:border-white/30 hover:bg-white/20 hover:text-white">
+													{item.title}
+												</a>
+											))
+										}
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Software -->
+						<div class="group">
+							<div
+								class="relative overflow-hidden rounded-xl bg-gradient-to-br from-rose-600 to-pink-600 p-4 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl">
+								<div
+									class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent">
+								</div>
+								<div class="relative z-10">
+									<div class="mb-3 flex items-center">
+										<svg
+											class="mr-2 h-5 w-5 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+											></path>
+										</svg>
+										<h3 class="text-sm font-bold text-white">
+											Software Requerido
+										</h3>
+									</div>
+									<div class="space-y-1">
+										{
+											software.map((item) => (
+												<a
+													href={item.url}
+													class="block rounded-lg border border-transparent px-3 py-1.5 text-xs text-rose-100 transition-all duration-200 hover:border-white/30 hover:bg-white/20 hover:text-white">
+													{item.title}
+												</a>
+											))
+										}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
+
+			<!-- Contenido Principal Ultra Modernizado -->
+			<section class="flex-1 p-6 xl:p-8">
+				<div class="mx-auto max-w-6xl space-y-10">
+					<!-- Navegación móvil -->
+					<div class="mb-8 xl:hidden">
+						<div
+							class="rounded-2xl border border-slate-200/50 bg-white/90 p-4 shadow-xl backdrop-blur-xl dark:border-slate-700/50 dark:bg-slate-800/90">
+							<h3 class="mb-3 text-lg font-bold text-slate-800 dark:text-white">
+								Navegación Rápida
+							</h3>
+							<div class="grid grid-cols-2 gap-2 sm:grid-cols-3">
+								<a
+									href="#comportamiento"
+									class="rounded-lg bg-purple-100 px-3 py-2 text-sm font-medium text-purple-800 transition-colors hover:bg-purple-200 dark:bg-purple-900/50 dark:text-purple-200 dark:hover:bg-purple-800/50"
+									>Comportamiento</a
+								>
+								<a
+									href="#estructurales"
+									class="rounded-lg bg-blue-100 px-3 py-2 text-sm font-medium text-blue-800 transition-colors hover:bg-blue-200 dark:bg-blue-900/50 dark:text-blue-200 dark:hover:bg-blue-800/50"
+									>Estructurales</a
+								>
+								<a
+									href="#excepciones"
+									class="rounded-lg bg-emerald-100 px-3 py-2 text-sm font-medium text-emerald-800 transition-colors hover:bg-emerald-200 dark:bg-emerald-900/50 dark:text-emerald-200 dark:hover:bg-emerald-800/50"
+									>Excepciones</a
+								>
+								<a
+									href="#tdd"
+									class="rounded-lg bg-amber-100 px-3 py-2 text-sm font-medium text-amber-800 transition-colors hover:bg-amber-200 dark:bg-amber-900/50 dark:text-amber-200 dark:hover:bg-amber-800/50"
+									>TDD</a
+								>
+								<a
+									href="#git"
+									class="rounded-lg bg-slate-100 px-3 py-2 text-sm font-medium text-slate-800 transition-colors hover:bg-slate-200 dark:bg-slate-700 dark:text-slate-200 dark:hover:bg-slate-600"
+									>Git</a
+								>
+								<a
+									href="#programas"
+									class="rounded-lg bg-rose-100 px-3 py-2 text-sm font-medium text-rose-800 transition-colors hover:bg-rose-200 dark:bg-rose-900/50 dark:text-rose-200 dark:hover:bg-rose-800/50"
+									>Software</a
+								>
+							</div>
+						</div>
+					</div>
+
+					<!-- Sección Patrones Comportamiento -->
+					<div class="group relative">
+						<div
+							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-purple-600 to-blue-600 opacity-20 blur transition-opacity group-hover:opacity-30">
+						</div>
+						<div
+							class="hover:shadow-3xl relative rounded-2xl border border-slate-200/50 bg-white/90 p-8 shadow-2xl backdrop-blur-xl transition-all duration-300 dark:border-slate-700/50 dark:bg-slate-800/90">
+							<CardSecciones
+								id={'comportamiento'}
+								title="Patrones de comportamiento">
+								<div class="mb-6 flex items-start gap-4">
+									<div
+										class="rounded-xl bg-gradient-to-br from-purple-500 to-blue-500 p-3 shadow-lg">
+										<svg
+											class="h-6 w-6 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M13 10V3L4 14h7v7l9-11h-7z"
+											></path>
+										</svg>
+									</div>
+									<div>
+										<p
+											class="leading-relaxed text-slate-700 dark:text-slate-300">
+											Los patrones de comportamiento se centran en los
+											algoritmos y en la asignación de responsabilidades entre
+											los objetos. Estos patrones no solo describen objetos o
+											clases, sino también los patrones de comunicación entre
+											ellos.
+										</p>
+									</div>
+								</div>
+								<Separador />
+
+								<article id="links">
+									<SeccionListaCopyCode
+										title="Patrones de comportamiento"
+										lista={comportamiento}
+										textKey="titulo"
+										copyKey="codigo"
+									/>
+								</article>
+							</CardSecciones>
+						</div>
+					</div>
+
+					<!-- Sección Patrones Estructurales -->
+					<div class="group relative">
+						<div
+							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-blue-600 to-cyan-600 opacity-20 blur transition-opacity group-hover:opacity-30">
+						</div>
+						<div
+							class="hover:shadow-3xl relative rounded-2xl border border-slate-200/50 bg-white/90 p-8 shadow-2xl backdrop-blur-xl transition-all duration-300 dark:border-slate-700/50 dark:bg-slate-800/90">
+							<CardSecciones
+								id={'estructurales'}
+								title="Patrones estructurales">
+								<div class="mb-6 flex items-start gap-4">
+									<div
+										class="rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 p-3 shadow-lg">
+										<svg
+											class="h-6 w-6 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+											></path>
+										</svg>
+									</div>
+									<div>
+										<p
+											class="leading-relaxed text-slate-700 dark:text-slate-300">
+											Los patrones estructurales se ocupan de cómo se componen
+											las clases y objetos para formar estructuras más grandes.
+											Los patrones estructurales de clases usan la herencia para
+											componer interfaces o implementaciones.
+										</p>
+									</div>
+								</div>
+								<Separador />
+
+								<article id="links">
+									<SeccionListaCopyCode
+										title="Patrones estructurales"
+										lista={estructurales}
+										textKey="titulo"
+										copyKey="codigo"
+									/>
+								</article>
+							</CardSecciones>
+						</div>
+					</div>
+
+					<!-- Sección Excepciones -->
+					<div class="group relative">
+						<div
+							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-emerald-600 to-teal-600 opacity-20 blur transition-opacity group-hover:opacity-30">
+						</div>
+						<div
+							class="hover:shadow-3xl relative rounded-2xl border border-slate-200/50 bg-white/90 p-8 shadow-2xl backdrop-blur-xl transition-all duration-300 dark:border-slate-700/50 dark:bg-slate-800/90">
+							<CardSecciones
+								id={'excepciones'}
+								title="Excepciones">
+								<div class="mb-6 flex items-start gap-4">
+									<div
+										class="rounded-xl bg-gradient-to-br from-emerald-500 to-teal-500 p-3 shadow-lg">
+										<svg
+											class="h-6 w-6 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"
+											></path>
+										</svg>
+									</div>
+									<div class="flex-1">
+										<p
+											class="mb-4 leading-relaxed text-slate-700 dark:text-slate-300">
+											Intro a manejo de errores con excepciones en Java
+										</p>
+										<a
+											href="https://docs.google.com/document/d/1Yy4YA3E_Gsuh7kcxbdRSpMsQat5PArnOEZWdnggzq7g/edit?usp=sharing"
+											target="_blank"
+											class="inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 px-6 py-3 font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-emerald-700 hover:to-teal-700 hover:shadow-xl">
+											<span>Ir al Apunte</span>
+											<Icon
+												name="ion:arrow-up-right-box-outline"
+												class="h-5 w-5"
+											/>
+										</a>
+									</div>
+								</div>
+							</CardSecciones>
+						</div>
+					</div>
+
+					<!-- Sección TDD -->
+					<div class="group relative">
+						<div
+							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-amber-600 to-orange-600 opacity-20 blur transition-opacity group-hover:opacity-30">
+						</div>
+						<div
+							class="hover:shadow-3xl relative rounded-2xl border border-slate-200/50 bg-white/90 p-8 shadow-2xl backdrop-blur-xl transition-all duration-300 dark:border-slate-700/50 dark:bg-slate-800/90">
+							<CardSecciones
+								id={'tdd'}
+								title="Test Driven Development">
+								<div class="mb-6 flex items-start gap-4">
+									<div
+										class="rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 p-3 shadow-lg">
+										<svg
+											class="h-6 w-6 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+											></path>
+										</svg>
+									</div>
+									<div class="flex-1">
+										<p
+											class="mb-4 leading-relaxed text-slate-700 dark:text-slate-300">
+											Es una técnica de programación, por la cual el código se
+											escribe para satisfacer pruebas que ponen en evidencia la
+											necesidad de dicho código. Es por ello que se llama
+											"desarrollo conducido por las pruebas"
+										</p>
+										<ul
+											class="mb-6 list-none space-y-3 text-slate-700 dark:text-slate-300">
+											<li class="flex items-center gap-3">
+												<div class="h-2 w-2 rounded-full bg-amber-500"></div>
+												<span
+													>Sólo se escribe nuevo código cuando una prueba ha
+													fallado</span
+												>
+											</li>
+											<li class="flex items-center gap-3">
+												<div class="h-2 w-2 rounded-full bg-amber-500"></div>
+												<span>Se elimina la duplicación</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<Separador />
+
+								<article id="links">
+									<div class="flex items-center gap-4">
+										<div class="flex-1">
+											<p
+												class="mb-4 leading-relaxed text-slate-700 dark:text-slate-300">
+												Intro a Test Driven Development
+											</p>
+										</div>
+										<a
+											href="https://docs.google.com/document/d/1lCMGpzsKqLJHOZH8WlJOyRUOONLMrp-0_Iv8-tWX5es/edit?usp=sharing"
+											target="_blank"
+											class="inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-amber-600 to-orange-600 px-6 py-3 font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-amber-700 hover:to-orange-700 hover:shadow-xl">
+											<span>Ir al Apunte</span>
+											<Icon
+												name="ion:arrow-up-right-box-outline"
+												class="h-5 w-5"
+											/>
+										</a>
+									</div>
+								</article>
+							</CardSecciones>
+						</div>
+					</div>
+
+					<!-- Sección Git -->
+					<div class="group relative">
+						<div
+							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-slate-600 to-gray-700 opacity-20 blur transition-opacity group-hover:opacity-30">
+						</div>
+						<div
+							class="hover:shadow-3xl relative rounded-2xl border border-slate-200/50 bg-white/90 p-8 shadow-2xl backdrop-blur-xl transition-all duration-300 dark:border-slate-700/50 dark:bg-slate-800/90">
+							<CardSecciones title="Git">
+								<div class="mb-6 flex items-start gap-4">
+									<div
+										class="rounded-xl bg-gradient-to-br from-slate-600 to-gray-700 p-3 shadow-lg">
+										<svg
+											class="h-6 w-6 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+											></path>
+										</svg>
+									</div>
+									<div>
+										<p
+											class="leading-relaxed text-slate-700 dark:text-slate-300">
+											Git es un sistema de control de versiones distribuido, es
+											decir que todo el historial de nuestro proyecto queda
+											guardado en nuestro repositorio.
+										</p>
+									</div>
+								</div>
+								<Separador />
+
+								<article id="links">
+									<SeccionListaCopyCode
+										title="Configuración inicial"
+										lista={comandosBasicGit}
+										textKey="titulo"
+										copyKey="codigo"
+									/>
+								</article>
+							</CardSecciones>
+						</div>
+					</div>
+
+					<!-- Sección Programas -->
+					<div class="group relative">
+						<div
+							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-rose-600 to-pink-600 opacity-20 blur transition-opacity group-hover:opacity-30">
+						</div>
+						<div
+							class="hover:shadow-3xl relative rounded-2xl border border-slate-200/50 bg-white/90 p-8 shadow-2xl backdrop-blur-xl transition-all duration-300 dark:border-slate-700/50 dark:bg-slate-800/90">
+							<CardSecciones>
+								<div class="mb-6 flex items-center gap-4">
+									<div
+										class="rounded-xl bg-gradient-to-br from-rose-500 to-pink-500 p-3 shadow-lg">
+										<svg
+											class="h-6 w-6 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+											></path>
+										</svg>
+									</div>
+									<h3 class="text-2xl font-bold text-slate-800 dark:text-white">
+										Software Requerido
+									</h3>
+								</div>
+								<SeccionListaCopyCode
+									title="Software requerido para la cursada"
+									lista={programas}
+									textKey="titulo"
+								/>
+							</CardSecciones>
+						</div>
+					</div>
+				</div>
 			</section>
-		</section>
+		</div>
 	</div>
 
 	<style lang="scss">
-		p {
-			margin-bottom: 10px;
-		}
-		#links a {
-			transition: transform 0.2s ease-in-out;
-			margin: auto;
-			width: 100%;
-			height: 100%;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			padding: 1.25rem;
-		}
-
-		a:hover {
-			transform: scale(1.05);
-		}
-
-		#links {
-			display: grid;
-			gap: 1rem;
-			grid-template-rows: auto;
-			grid-template-columns: 1.5fr 0.3fr;
-			grid-template-areas:
-				'uno linkUno'
-				'dos linkDos';
-
-			@media (max-width: 1000px) {
-				grid-template-columns: 1fr;
-				grid-template-rows: auto;
-				grid-gap: 1rem;
-				grid-template-areas:
-					'uno'
-					'linkUno'
-					'dos'
-					'linkDos';
+		/* Animaciones personalizadas */
+		@keyframes slow-spin {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
 			}
 		}
 
-		#uno {
-			grid-area: uno;
+		.slow {
+			animation-duration: 20s;
 		}
 
-		#linkUno {
-			grid-area: linkUno;
-		}
-		#dos {
-			grid-area: dos;
-		}
-		#linkDos {
-			grid-area: linkDos;
+		/* Efectos de sombra mejorados */
+		.shadow-3xl {
+			box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
 		}
 
-		@media (max-width: 775px) {
+		/* Transiciones suaves para todos los elementos */
+		* {
+			transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		}
+
+		/* Efectos de hover para las cards */
+		.group:hover .group-hover\:scale-105 {
+			transform: scale(1.02);
+		}
+
+		/* Gradientes personalizados para el tema UNAHUR */
+		.bg-unahur-gradient {
+			background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+		}
+
+		/* Efectos de parallax sutil */
+		.parallax-bg {
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		/* Mejoras responsive */
+		@media (max-width: 1280px) {
 			aside {
 				display: none;
 			}
+		}
+
+		/* Efectos de blur y backdrop */
+		.backdrop-blur-xl {
+			backdrop-filter: blur(24px);
+		}
+
+		/* Animaciones de entrada */
+		@keyframes fadeInUp {
+			from {
+				opacity: 0;
+				transform: translate3d(0, 40px, 0);
+			}
+			to {
+				opacity: 1;
+				transform: translate3d(0, 0, 0);
+			}
+		}
+
+		.animate-fade-in-up {
+			animation: fadeInUp 0.6s ease-out;
+		}
+
+		/* Grid personalizado para layouts complejos */
+		#links {
+			display: grid;
+			gap: 1.5rem;
+			grid-template-columns: 1fr;
+
+			@media (min-width: 768px) {
+				grid-template-columns: 1fr auto;
+				align-items: center;
+			}
+		}
+
+		/* Hover effects mejorados */
+		a:hover {
+			transform: translateY(-2px);
+		}
+
+		/* Estados de loading y transiciones */
+		.loading {
+			opacity: 0.7;
+			pointer-events: none;
+		}
+
+		/* Efectos de glassmorphism */
+		.glass {
+			background: rgba(255, 255, 255, 0.1);
+			backdrop-filter: blur(20px);
+			border: 1px solid rgba(255, 255, 255, 0.2);
+		}
+
+		/* Scrollbar personalizado */
+		::-webkit-scrollbar {
+			width: 8px;
+		}
+
+		::-webkit-scrollbar-track {
+			background: rgba(0, 0, 0, 0.1);
+			border-radius: 10px;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background: linear-gradient(135deg, #3b82f6, #1e40af);
+			border-radius: 10px;
+		}
+
+		::-webkit-scrollbar-thumb:hover {
+			background: linear-gradient(135deg, #1e40af, #1e3a8a);
 		}
 	</style>
 </DefaultLayout>

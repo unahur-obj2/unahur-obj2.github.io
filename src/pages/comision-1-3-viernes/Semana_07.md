@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 7
 
-inicio: 2025-12-03
+inicio: 2025-03-03
 
 descripcion: En esta semana vamos a conocer el patrón decorator
 
