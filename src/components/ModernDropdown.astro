@@ -1,5 +1,4 @@
 ---
-// Componente moderno de dropdown usando solo Tailwind CSS
 export interface Props {
 	trigger: string
 	items: Array<{
@@ -13,13 +12,11 @@ const { trigger, items } = Astro.props
 ---
 
 <div class="group relative">
-	<!-- Trigger Button -->
 	<button
 		class="flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-blue-600 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-blue-400"
 		aria-haspopup="true"
 		aria-expanded="false">
 		{trigger}
-		<!-- Chevron Icon -->
 		<svg
 			class="h-4 w-4 transition-transform duration-200 group-hover:rotate-180"
 			fill="none"
@@ -34,7 +31,6 @@ const { trigger, items } = Astro.props
 		</svg>
 	</button>
 
-	<!-- Dropdown Menu -->
 	<div
 		class="invisible absolute left-0 z-50 mt-2 w-56 translate-y-1 transform opacity-0 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
 		<div
@@ -61,7 +57,6 @@ const { trigger, items } = Astro.props
 </div>
 
 <script>
-	// Mejorar la accesibilidad
 	document.addEventListener('DOMContentLoaded', () => {
 		const dropdowns = document.querySelectorAll('[aria-haspopup="true"]')
 

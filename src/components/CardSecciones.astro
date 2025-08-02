@@ -1,7 +1,6 @@
 ---
 const { id, title = '', atencion = false, importante = false } = Astro.props
 
-// Estilos ultra modernos con glassmorphism y gradientes
 const CARD_CSS_ATENCION =
 	'bg-gradient-to-br from-red-500/90 to-rose-600/90 backdrop-blur-xl border-red-300/30 shadow-red-500/20'
 const CARD_CSS_IMPORTANTE =
@@ -15,7 +14,6 @@ const cardClass = atencion
 	? CARD_CSS_IMPORTANTE
 	: CARD_CSS_DEFAULT
 
-// Clases de texto según el tipo de card
 const textColorClass =
 	atencion || importante ? 'text-white' : 'text-slate-800 dark:text-white'
 ---
@@ -23,12 +21,10 @@ const textColorClass =
 <section
 	id={id}
 	class={`group relative overflow-hidden rounded-2xl border transition-all duration-500 hover:shadow-2xl hover:scale-[1.01] ${cardClass}`}>
-	<!-- Efectos de resplandor en hover -->
 	<div
 		class="absolute -inset-0.5 rounded-2xl bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 blur transition-opacity duration-500 group-hover:opacity-20">
 	</div>
 
-	<!-- Contenido principal -->
 	<article class="relative z-10 space-y-6 p-8">
 		{
 			title && (
@@ -44,13 +40,11 @@ const textColorClass =
 			)
 		}
 
-		<!-- Slot para el contenido -->
 		<div class={`space-y-6 ${textColorClass}`}>
 			<slot />
 		</div>
 	</article>
 
-	<!-- Efectos decorativos de fondo -->
 	<div
 		class="absolute right-0 top-0 h-32 w-32 -translate-y-16 translate-x-16 rounded-full bg-gradient-to-br from-white/5 to-transparent transition-transform duration-700 group-hover:scale-110">
 	</div>

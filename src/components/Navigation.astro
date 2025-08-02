@@ -44,12 +44,10 @@ import ResponsiveToggle from './ResponsiveToggle.astro'
 
 <script>
 	document.addEventListener('astro:page-load', () => {
-		// variables
 		const mainNav = document.querySelector('#main-navigation')
 		const mainMenu = mainNav.querySelector('ul')
 		const dropdownMenus = [...document.querySelectorAll('.has-dropdown button')]
 
-		// functions
 		const setActiveMenuItem = () => {
 			const mobileDesktopMenus = mainNav.querySelectorAll('nav > ul')
 			const currenPathname = window.location.pathname
@@ -133,7 +131,6 @@ import ResponsiveToggle from './ResponsiveToggle.astro'
 			}
 		}
 
-		// execution
 		mainMenu &&
 			mainMenu.addEventListener('keydown', (event) => {
 				const element = event.target as Element

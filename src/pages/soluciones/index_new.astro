@@ -2,9 +2,7 @@
 import ModernCardSolucion from '@/components/ModernCardSolucion.astro'
 import DefaultLayout from '@/layouts/DefaultLayout.astro'
 
-// Obtener todas las entradas desde src/content/
 const solucionesFiles = await Astro.glob('@/content/*.json')
-// Filtra solo las soluciones
 const soluciones = solucionesFiles.find((file) =>
 	file.default?.title?.includes('Soluciones')
 )?.default?.soluciones
