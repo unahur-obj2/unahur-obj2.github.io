@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 8
 
-inicio: 2025-03-03
+inicio: 2025-12-03
 
 descripcion: Semana de parcial!!!
 
