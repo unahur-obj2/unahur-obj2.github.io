@@ -8,7 +8,7 @@ import DefaultLayout from '@layouts/DefaultLayout.astro'
 	author="Objetos II">
 	<!-- Hero Section -->
 	<section
-		class="relative overflow-hidden bg-gradient-to-br from-unahur-primary to-unahur-secondary py-20 text-white">
+		class="hero-section relative overflow-hidden bg-gradient-to-br from-unahur-primary to-unahur-secondary py-20 text-white">
 		<!-- Decorative Elements -->
 		<div class="absolute inset-0 opacity-10">
 			<div
@@ -25,7 +25,8 @@ import DefaultLayout from '@layouts/DefaultLayout.astro'
 			<div class="mx-auto max-w-5xl text-center">
 				<!-- Icon -->
 				<div class="mb-8 flex justify-center">
-					<div class="rounded-2xl bg-white/20 p-6 backdrop-blur-sm">
+					<div
+						class="animate-on-load rounded-2xl bg-white/20 p-6 backdrop-blur-sm">
 						<svg
 							class="h-16 w-16 text-white"
 							fill="none"
@@ -43,17 +44,19 @@ import DefaultLayout from '@layouts/DefaultLayout.astro'
 
 				<!-- Title -->
 				<h1
-					class="mb-6 bg-gradient-to-r from-white to-blue-100 bg-clip-text text-5xl font-bold text-transparent md:text-7xl">
+					class="animate-on-load mb-6 bg-gradient-to-r from-white to-blue-100 bg-clip-text text-5xl font-bold text-transparent md:text-7xl">
 					Programación con Objetos II
 				</h1>
 
 				<!-- Subtitle -->
-				<p class="mb-8 text-xl leading-relaxed text-blue-100 md:text-2xl">
+				<p
+					class="animate-on-load mb-8 text-xl leading-relaxed text-blue-100 md:text-2xl">
 					Universidad Nacional de Hurlingham
 				</p>
 
 				<!-- Action Buttons -->
-				<div class="flex flex-col justify-center gap-4 sm:flex-row">
+				<div
+					class="animate-on-load flex flex-col justify-center gap-4 sm:flex-row">
 					<a
 						href="/material"
 						class="transform rounded-lg bg-white px-8 py-3 font-semibold text-unahur-primary shadow-lg transition-all duration-300 hover:scale-105 hover:bg-blue-50">
@@ -70,24 +73,26 @@ import DefaultLayout from '@layouts/DefaultLayout.astro'
 	</section>
 
 	<!-- Welcome Section -->
-	<section class="bg-gray-50 py-16 dark:bg-gray-900">
+	<section
+		class="animate-on-load bg-gray-50 py-16 dark:bg-gray-900"
+		data-animate="fade-in-up">
 		<div class="container mx-auto px-4">
 			<div class="mx-auto max-w-4xl">
 				<!-- Welcome Card -->
 				<div
-					class="mb-8 rounded-2xl border border-gray-200 bg-white p-8 shadow-xl dark:border-gray-700 dark:bg-gray-800">
+					class="animate-on-load mb-8 rounded-2xl border border-gray-200 bg-white p-8 shadow-xl dark:border-gray-700 dark:bg-gray-800">
 					<div class="mb-8 text-center">
 						<h2
-							class="mb-4 bg-gradient-to-r from-unahur-primary to-unahur-secondary bg-clip-text text-4xl font-bold text-transparent">
+							class="animate-on-load mb-4 bg-gradient-to-r from-unahur-primary to-unahur-secondary bg-clip-text text-4xl font-bold text-transparent">
 							¡Bienvenido/a!
 						</h2>
 						<div
-							class="mx-auto h-1 w-24 rounded-full bg-gradient-to-r from-unahur-primary to-unahur-secondary">
+							class="animate-on-load mx-auto h-1 w-24 rounded-full bg-gradient-to-r from-unahur-primary to-unahur-secondary">
 						</div>
 					</div>
 
 					<div
-						class="space-y-6 leading-relaxed text-gray-700 dark:text-gray-300">
+						class="animate-on-load space-y-6 leading-relaxed text-gray-700 dark:text-gray-300">
 						<p class="text-lg">
 							Si llegaste hasta este sitio es muy probable que estés inscripto
 							en

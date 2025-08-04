@@ -6,8 +6,16 @@ const videosMd = await Astro.glob('./videos.md')
 
 <DefaultLayout title="Videos">
 	<div class="container">
-		<h3 class="mb-10 text-center text-3xl sm:text-5xl">Videos</h3>
-		{videosMd.map((video) => <VideosDeSemana videos={video.frontmatter} />)}
+		<h3
+			class="animate-on-load mb-10 text-center text-3xl sm:text-5xl"
+			data-animate="fade-in-down">
+			Videos
+		</h3>
+		<div
+			class="animate-on-load"
+			data-animate="fade-in-up">
+			{videosMd.map((video) => <VideosDeSemana videos={video.frontmatter} />)}
+		</div>
 	</div>
 </DefaultLayout>
 

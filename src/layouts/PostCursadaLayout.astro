@@ -29,7 +29,9 @@ if (currentUrl.includes('/comision-2-4-miercoles/')) {
 
 <LayoutSemanas title={title}>
 	<div class="container">
-		<div class="mt-12">
+		<div
+			class="animate-on-load mt-12"
+			data-animate="fade-in-down">
 			<Breadcrumbs>
 				<BreadcrumbsItem
 					href={PATH}
@@ -49,38 +51,68 @@ if (currentUrl.includes('/comision-2-4-miercoles/')) {
 
 	<div class="container">
 		<div class="my-12">
-			<h1 class="pb-3">{title}</h1>
+			<h1
+				class="animate-on-load pb-3"
+				data-animate="fade-in-up">
+				{title}
+			</h1>
 			{
 				atencion ? (
-					<CardSecciones
-						title="Atención"
-						atencion>
-						{atencion}
-					</CardSecciones>
+					<div
+						class="animate-on-load"
+						data-animate="fade-in-up">
+						<CardSecciones
+							title="Atención"
+							atencion>
+							{atencion}
+						</CardSecciones>
+					</div>
 				) : null
 			}
 			{
 				importante ? (
-					<CardSecciones
-						title="Importante"
-						importante>
-						{importante}
-					</CardSecciones>
+					<div
+						class="animate-on-load"
+						data-animate="fade-in-up">
+						<CardSecciones
+							title="Importante"
+							importante>
+							{importante}
+						</CardSecciones>
+					</div>
 				) : null
 			}
-			<div class="pb-2">
+			<div
+				class="animate-on-load pb-2"
+				data-animate="fade-in-up">
 				<slot />
 			</div>
-			{horarios ? <HorariosDeSemana horarios={horarios} /> : null}
+			{
+				horarios ? (
+					<div
+						class="animate-on-load"
+						data-animate="fade-in-up">
+						<HorariosDeSemana horarios={horarios} />
+					</div>
+				) : null
+			}
 			{
 				videos && (
-					<VideosDeSemana
-						titulo="Videos"
-						videos={videos}
-					/>
+					<div
+						class="animate-on-load"
+						data-animate="fade-in-up">
+						<VideosDeSemana
+							titulo="Videos"
+							videos={videos}
+						/>
+					</div>
 				)
 			}
-			<ActividadesDeSemana ejercicios={ejercicios} />
+			<div
+				class="animate-on-load"
+				data-animate="fade-in-up">
+				<ActividadesDeSemana ejercicios={ejercicios} />
+			</div>
 		</div>
 	</div>
 </LayoutSemanas>
