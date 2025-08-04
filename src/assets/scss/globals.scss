@@ -1,6 +1,3 @@
-// | -------------------------------------------------------------
-// | Globals
-// | -------------------------------------------------------------
 
 @use 'base/reset';
 @use 'base/root';
@@ -13,8 +10,6 @@
 @use 'base/outline';
 @use 'base/space-content';
 
-// Colores y componentes UNAHUR
 @use 'unahur-colors';
 
-// Animaciones de entrada
 @use 'entrance-animations';

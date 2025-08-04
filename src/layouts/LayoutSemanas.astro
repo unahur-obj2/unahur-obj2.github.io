@@ -19,8 +19,6 @@ if (currentUrl.includes('/comision-1-3-viernes/')) {
 	}
 }
 
-// Solo mostramos las clases de las semanas cuya fecha de inicio sea inferior a la fecha actual
-// por un tema de compatibilidad, también mostramos las clases que no especifican fecha de inicio
 semanas = semanas.reverse().filter((semana) => {
 	const inicio = new Date(semana.frontmatter.inicio)
 	const hoy = new Date()

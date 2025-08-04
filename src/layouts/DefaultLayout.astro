@@ -26,7 +26,6 @@ const {
 			content="ie=edge"
 		/>
 
-		<!-- favicon -->
 		<link
 			rel="icon"
 			type="image/svg+xml"
@@ -46,10 +45,8 @@ const {
 			transition:animate="none">
 			<slot />
 		</main>
-		<!-- <Footer /> -->
 
 		<style lang="scss" is:global>
-			// theme settings
 			:root {
 				--radius-small: 3px;
 				--radius-large: 6px;
@@ -57,7 +54,6 @@ const {
 				--font-measure: 70ch;
 				--font-family-default: 'Open Sans', sans-serif;
 				--font-family-special: 'Open Sans', sans-serif;
-				// light theme
 				--font-color: var(--neutral-900);
 				--action-color: var(--primary-400);
 				--action-color-state: var(--primary-500);
@@ -66,7 +62,6 @@ const {
 				--neutral-background: var(--neutral-200);
 			}
 
-			// dark color scheme overrides
 			.darkmode {
 				--font-color: var(--neutral-100);
 				--action-color: var(--secondary-100);
@@ -76,7 +71,6 @@ const {
 				--neutral-background: var(--neutral-900);
 			}
 
-			// sticky footer on low content pages
 			html,
 			body {
 				height: 100%;
@@ -117,9 +111,7 @@ const {
 			}
 		</style>
 
-		<!-- Scripts de animaciones de entrada -->
 		<script>
-			// Sistema de animaciones de entrada para elementos de la página
 			class EntranceAnimations {
 				constructor() {
 					this.initialized = false
@@ -129,39 +121,30 @@ const {
 					}
 				}
 
-				// Inicializar animaciones cuando se carga la página
 				init() {
 					if (this.initialized) return
 
-					// Marcar elementos para animación inicial
 					this.setupInitialAnimations()
 
-					// Configurar observer para animaciones en scroll (opcional)
 					this.setupScrollAnimations()
 
 					this.initialized = true
 				}
 
-				// Configurar animaciones que se ejecutan inmediatamente al cargar
 				setupInitialAnimations() {
-					// Animar elementos del hero
 					this.animateHeroElements()
 
-					// Animar elementos principales de la página
 					this.animateMainContent()
 
-					// Animar cards y elementos interactivos
 					this.animateCards()
 				}
 
-				// Animar elementos del hero section
 				animateHeroElements() {
 					const heroSection = document.querySelector(
 						'section[class*="hero"], section[class*="gradient"]'
 					)
 					if (!heroSection) return
 
-					// Icono del hero
 					const heroIcon = heroSection.querySelector('svg, img, .icon')
 					if (heroIcon && !heroIcon.closest('.animate-pulse')) {
 						heroIcon.classList.add('animate-on-load', 'hero-icon')
@@ -170,7 +153,6 @@ const {
 						})
 					}
 
-					// Título principal
 					const heroTitle = heroSection.querySelector('h1')
 					if (heroTitle) {
 						heroTitle.classList.add('animate-on-load', 'hero-title')
@@ -179,7 +161,6 @@ const {
 						})
 					}
 
-					// Subtítulo
 					const heroSubtitle = heroSection.querySelector('p')
 					if (heroSubtitle) {
 						heroSubtitle.classList.add('animate-on-load', 'hero-subtitle')
@@ -188,7 +169,6 @@ const {
 						})
 					}
 
-					// Botones de acción
 					const heroButtons = heroSection.querySelector(
 						'div[class*="flex"], .hero-buttons'
 					)
@@ -200,7 +180,6 @@ const {
 					}
 				}
 
-				// Animar contenido principal
 				animateMainContent() {
 					const sections = document.querySelectorAll(
 						'section:not([class*="hero"]):not([class*="gradient"])'
@@ -208,7 +187,6 @@ const {
 
 					sections.forEach((section, index) => {
 						if (index === 0) {
-							// Primera sección después del hero
 							section.classList.add(
 								'animate-on-load',
 								'animate-entrance',
@@ -220,11 +198,9 @@ const {
 						}
 					})
 
-					// Animar títulos principales
 					const mainTitles = document.querySelectorAll('h2, h3')
 					mainTitles.forEach((title, index) => {
 						if (index < 3) {
-							// Solo los primeros 3 títulos
 							title.classList.add(
 								'animate-on-load',
 								'animate-entrance',
@@ -237,7 +213,6 @@ const {
 						}
 					})
 
-					// Animar elementos con data-animate
 					const animateElements = document.querySelectorAll('[data-animate]')
 					animateElements.forEach((element, index) => {
 						const animationType = element.dataset.animate || 'fade-in-up'
@@ -256,14 +231,12 @@ const {
 					})
 				}
 
-				// Animar cards y elementos tipo tarjeta
 				animateCards() {
 					const cards = document.querySelectorAll(
 						'[class*="card"], [class*="rounded"], .bg-white, .bg-gray-50, [class*="shadow"]'
 					)
 
 					cards.forEach((card, index) => {
-						// Solo animar las primeras 6 cards visibles
 						if (index < 6 && this.isInViewport(card)) {
 							const delay = Math.min(index, 5)
 							card.classList.add(
@@ -279,7 +252,6 @@ const {
 					})
 				}
 
-				// Configurar animaciones en scroll (para elementos que aparecen después)
 				setupScrollAnimations() {
 					if (!window.IntersectionObserver) return
 
@@ -295,20 +267,17 @@ const {
 						})
 					}, this.observerOptions)
 
-					// Observar elementos que aparecen más tarde en la página
 					const laterElements = document.querySelectorAll(
 						'.animate-on-scroll, [data-animate]:not(.animate-on-load)'
 					)
 					laterElements.forEach((el) => observer.observe(el))
 				}
 
-				// Animar un elemento específico
 				animateElement(element) {
 					const animationType = element.dataset.animate || 'fade-in-up'
 					element.classList.add('animate-entrance', animationType)
 				}
 
-				// Verificar si un elemento está en el viewport
 				isInViewport(element) {
 					const rect = element.getBoundingClientRect()
 					return (
@@ -321,11 +290,9 @@ const {
 					)
 				}
 
-				// Limpiar y reinicializar (útil para navegación SPA)
 				reset() {
 					this.initialized = false
 
-					// Remover clases de animación existentes
 					const animatedElements = document.querySelectorAll(
 						'.animate-entrance, .animated, .animate-on-load'
 					)
@@ -360,15 +327,12 @@ const {
 				}
 			}
 
-			// Crear instancia global
 			const entranceAnimations = new EntranceAnimations()
 
-			// Inicializar cuando se carga la página
 			document.addEventListener('DOMContentLoaded', () => {
 				entranceAnimations.init()
 			})
 
-			// Reinicializar en navegación SPA (Astro)
 			document.addEventListener('astro:page-load', () => {
 				entranceAnimations.reset()
 				setTimeout(() => {
@@ -376,7 +340,6 @@ const {
 				}, 50)
 			})
 
-			// Exportar para uso global
 			window.entranceAnimations = entranceAnimations
 		</script>
 	</body>
