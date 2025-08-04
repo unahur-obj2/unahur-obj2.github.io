@@ -81,12 +81,16 @@ const githubIcon = `<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
 
 		<Fragment slot="mobile">
 			<li>
-				<a href={PATH}>Inicio</a>
+				<a
+					href={PATH}
+					class="block rounded-lg px-4 py-3 text-gray-700 transition-all duration-200 hover:bg-unahur-light hover:text-unahur-primary dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-unahur-accent"
+					>Inicio</a
+				>
 			</li>
 			<li>
 				<details class="group">
 					<summary
-						class="flex cursor-pointer items-center justify-between rounded-lg p-3 hover:bg-gray-100 dark:hover:bg-gray-800">
+						class="flex cursor-pointer items-center justify-between rounded-lg px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-800">
 						<span>Cursada</span>
 						<svg
 							class="h-4 w-4 transition-transform group-open:rotate-180"
@@ -115,12 +119,16 @@ const githubIcon = `<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
 				</details>
 			</li>
 			<li>
-				<a href={PATH_CONTRATO_PEDAGOGICO}>Contrato pedagógico</a>
+				<a
+					href={PATH_CONTRATO_PEDAGOGICO}
+					class="block rounded-lg px-4 py-3 text-gray-700 transition-all duration-200 hover:bg-unahur-light hover:text-unahur-primary dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-unahur-accent"
+					>Contrato pedagógico</a
+				>
 			</li>
 			<li>
 				<details class="group">
 					<summary
-						class="flex cursor-pointer items-center justify-between rounded-lg p-3 hover:bg-gray-100 dark:hover:bg-gray-800">
+						class="flex cursor-pointer items-center justify-between rounded-lg px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-800">
 						<span>Utilidad</span>
 						<svg
 							class="h-4 w-4 transition-transform group-open:rotate-180"
@@ -153,7 +161,7 @@ const githubIcon = `<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
 					href="https://github.com/unahur-obj2/unahur-obj2.github.io"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="flex items-center gap-3 rounded-lg p-3 hover:bg-gray-100 dark:hover:bg-gray-800">
+					class="flex items-center gap-3 rounded-lg px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-800">
 					<span set:html={githubIcon} />
 					<span>GitHub</span>
 				</a>

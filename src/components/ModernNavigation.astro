@@ -51,21 +51,24 @@ const closeIcon = `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBo
 				</div>
 			</div>
 
-			<button
-				id="mobile-menu-toggle"
-				class="rounded-lg p-2 text-gray-600 transition-colors duration-200 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800 lg:hidden"
-				aria-label="Abrir menú de navegación"
-				aria-expanded="false">
-				<span
-					id="menu-icon"
-					set:html={menuIcon}
-				/>
-				<span
-					id="close-icon"
-					class="hidden"
-					set:html={closeIcon}
-				/>
-			</button>
+			<div class="flex items-center space-x-2 lg:hidden">
+				<DarkMode />
+				<button
+					id="mobile-menu-toggle"
+					class="rounded-lg p-2 text-gray-600 transition-colors duration-200 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+					aria-label="Abrir menú de navegación"
+					aria-expanded="false">
+					<span
+						id="menu-icon"
+						set:html={menuIcon}
+					/>
+					<span
+						id="close-icon"
+						class="hidden"
+						set:html={closeIcon}
+					/>
+				</button>
+			</div>
 		</div>
 
 		<div
@@ -77,16 +80,28 @@ const closeIcon = `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBo
 						<slot name="mobile" />
 					</ul>
 				</nav>
-
-				<div class="mt-4 border-t border-gray-200 pt-4 dark:border-gray-700">
-					<div class="flex items-center justify-center">
-						<DarkMode />
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
 </nav>
+
+<script is:inline>
+	;(function () {
+		const savedTheme = localStorage.getItem('theme') || 'light'
+		const html = document.documentElement
+		const body = document.body
+
+		if (savedTheme === 'dark') {
+			html.classList.add('darkmode')
+			body.classList.add('darkmode')
+			html.setAttribute('data-theme', 'dark')
+		} else {
+			html.classList.remove('darkmode', 'dark')
+			body.classList.remove('darkmode', 'dark')
+			html.setAttribute('data-theme', 'light')
+		}
+	})()
+</script>
 
 <script>
 	document.addEventListener('astro:page-load', () => {
@@ -153,6 +168,96 @@ const closeIcon = `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBo
 			}
 		})
 
+		const applyTheme = (theme) => {
+			const html = document.documentElement
+			const body = document.body
+			const darkModeButtons = document.querySelectorAll(
+				'.darkmode-toggle, .accessible-astro-components button'
+			)
+
+			if (theme === 'dark') {
+				html.classList.add('darkmode')
+				body.classList.add('darkmode')
+				html.setAttribute('data-theme', 'dark')
+				darkModeButtons.forEach((button) =>
+					button.setAttribute('aria-pressed', 'true')
+				)
+			} else {
+				html.classList.remove('darkmode', 'dark')
+				body.classList.remove('darkmode', 'dark')
+				html.setAttribute('data-theme', 'light')
+				darkModeButtons.forEach((button) =>
+					button.setAttribute('aria-pressed', 'false')
+				)
+			}
+		}
+
+		const savedTheme = localStorage.getItem('theme') || 'light'
+		applyTheme(savedTheme)
+
+		window.addEventListener('storage', (e) => {
+			if (e.key === 'theme' && e.newValue) {
+				console.log('Theme changed in another tab:', e.newValue)
+				applyTheme(e.newValue)
+			}
+		})
+
+		document.addEventListener('visibilitychange', () => {
+			if (!document.hidden) {
+				const currentTheme = localStorage.getItem('theme') || 'light'
+				console.log('Page became visible, applying theme:', currentTheme)
+				applyTheme(currentTheme)
+			}
+		})
+
+		setTimeout(() => {
+			const darkModeButtons = document.querySelectorAll(
+				'.darkmode-toggle, .accessible-astro-components button'
+			)
+
+			darkModeButtons.forEach((button) => {
+				console.log('Found dark mode button:', button)
+
+				const toggleTheme = () => {
+					const html = document.documentElement
+					const isDark =
+						html.classList.contains('darkmode') ||
+						html.classList.contains('dark')
+
+					const newTheme = isDark ? 'light' : 'dark'
+					console.log('Toggling theme to:', newTheme)
+
+					localStorage.setItem('theme', newTheme)
+					applyTheme(newTheme)
+
+					window.dispatchEvent(
+						new StorageEvent('storage', {
+							key: 'theme',
+							newValue: newTheme,
+							oldValue: isDark ? 'dark' : 'light',
+						})
+					)
+				}
+
+				const touchHandler = function (e) {
+					e.preventDefault()
+					e.stopPropagation()
+					console.log('Touch event on dark mode button')
+					toggleTheme()
+				}
+
+				const clickHandler = function (e) {
+					e.preventDefault()
+					e.stopPropagation()
+					console.log('Click event on dark mode button')
+					toggleTheme()
+				}
+
+				button.addEventListener('touchstart', touchHandler, { passive: false })
+				button.addEventListener('click', clickHandler, { passive: false })
+			})
+		}, 500)
+
 		let lastScrollY = window.scrollY
 		window.addEventListener('scroll', () => {
 			const currentScrollY = window.scrollY
@@ -208,6 +313,100 @@ const closeIcon = `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBo
 		.container {
 			padding-left: 1rem;
 			padding-right: 1rem;
+		}
+
+		:global(.modern-navigation .darkmode-toggle) {
+			border: none !important;
+			outline: none !important;
+			box-shadow: none !important;
+			background: transparent !important;
+			padding: 8px !important;
+			border-radius: 8px;
+			min-height: 44px;
+			min-width: 44px;
+			touch-action: manipulation;
+			-webkit-tap-highlight-color: transparent;
+			appearance: none !important;
+			-webkit-appearance: none !important;
+		}
+
+		:global(.modern-navigation .darkmode-toggle:focus) {
+			border: none !important;
+			outline: none !important;
+			box-shadow: none !important;
+		}
+
+		:global(.modern-navigation .darkmode-toggle:active) {
+			border: none !important;
+			outline: none !important;
+			box-shadow: none !important;
+			background-color: rgba(0, 0, 0, 0.1) !important;
+		}
+
+		:global(.modern-navigation .darkmode-toggle svg) {
+			width: 20px !important;
+			height: 20px !important;
+			color: #6b7280 !important;
+		}
+
+		:global(.darkmode .modern-navigation .darkmode-toggle svg) {
+			color: #d1d5db !important;
+		}
+
+		:global(.modern-navigation .accessible-astro-components button) {
+			border: none !important;
+			outline: none !important;
+			box-shadow: none !important;
+			background: transparent !important;
+			padding: 8px !important;
+			border-radius: 8px;
+			min-height: 44px;
+			min-width: 44px;
+			touch-action: manipulation;
+			-webkit-tap-highlight-color: transparent;
+			appearance: none !important;
+			-webkit-appearance: none !important;
+		}
+
+		:global(.darkmode-toggle),
+		:global(button.darkmode-toggle),
+		:global(.accessible-astro-components button),
+		:global(.modern-navigation button[aria-label*='Dark']),
+		:global(.modern-navigation button[aria-label*='Light']) {
+			border: 0 !important;
+			border-width: 0 !important;
+			border-style: none !important;
+			border-color: transparent !important;
+			outline: 0 !important;
+			outline-width: 0 !important;
+			outline-style: none !important;
+			outline-color: transparent !important;
+			box-shadow: none !important;
+			-webkit-box-shadow: none !important;
+			-moz-box-shadow: none !important;
+			background: transparent !important;
+			background-color: transparent !important;
+			background-image: none !important;
+		}
+
+		:global(.darkmode-toggle:focus),
+		:global(button.darkmode-toggle:focus),
+		:global(.accessible-astro-components button:focus),
+		:global(.modern-navigation button[aria-label*='Dark']:focus),
+		:global(.modern-navigation button[aria-label*='Light']:focus) {
+			border: 0 !important;
+			outline: 0 !important;
+			box-shadow: none !important;
+		}
+
+		:global(.darkmode-toggle:active),
+		:global(button.darkmode-toggle:active),
+		:global(.accessible-astro-components button:active),
+		:global(.modern-navigation button[aria-label*='Dark']:active),
+		:global(.modern-navigation button[aria-label*='Light']:active) {
+			border: 0 !important;
+			outline: 0 !important;
+			box-shadow: none !important;
 		}
 	}
 </style>
