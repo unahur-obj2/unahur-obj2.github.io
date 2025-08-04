@@ -3,24 +3,33 @@ import ModernCardSolucion from '@/components/ModernCardSolucion.astro'
 import DefaultLayout from '@/layouts/DefaultLayout.astro'
 
 const ejerciciosFile = await Astro.glob('./ejercicios.md')
-const soluciones = ejerciciosFile[0]?.frontmatter || []
+const solucionesData = ejerciciosFile[0]?.frontmatter || {}
+const soluciones = Array.isArray(solucionesData) ? solucionesData : []
 ---
 
 <DefaultLayout title="Soluciones">
 	<section>
 		<div class="container">
 			<h1>Soluciones</h1>
-			<div class="grid-container">
-				{
-					soluciones?.map((solucion) => (
-						<ModernCardSolucion
-							title={solucion.title}
-							description={solucion.description}
-							urlGitHub={solucion.url}
-						/>
-					))
-				}
-			</div>
+			{
+				soluciones.length > 0 ? (
+					<div class="grid-container">
+						{soluciones.map((solucion) => (
+							<ModernCardSolucion
+								title={solucion.title}
+								description={solucion.description}
+								urlGitHub={solucion.url}
+							/>
+						))}
+					</div>
+				) : (
+					<div class="no-solutions">
+						<p class="text-center text-gray-600 dark:text-gray-400">
+							No hay soluciones disponibles en este momento.
+						</p>
+					</div>
+				)
+			}
 		</div>
 	</section>
 </DefaultLayout>
@@ -38,6 +47,16 @@ const soluciones = ejerciciosFile[0]?.frontmatter || []
 
 		@media (min-width: 950px) {
 			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+	.no-solutions {
+		padding: 4rem 2rem;
+		text-align: center;
+
+		p {
+			font-size: 1.1rem;
+			margin: 0;
 		}
 	}
 </style>

@@ -8,14 +8,20 @@ const { videos, titulo } = Astro.props
 <CardSecciones title={titulo || 'Videos de la semana'}>
 	<div class="md:flex md:flex-wrap">
 		{
-			videos.map((video) => (
-				<div class="md:w-1/2">
-					<ModernWatchVideo
-						title={video.nombre || video.Titulo}
-						urlYoutube={video.urlYoutube || video.URL}
-					/>
-				</div>
-			))
+			videos && videos.length > 0 ? (
+				videos.map((video) => (
+					<div class="md:w-1/2">
+						<ModernWatchVideo
+							title={video.nombre || video.Titulo}
+							urlYoutube={video.urlYoutube || video.URL}
+						/>
+					</div>
+				))
+			) : (
+				<p class="m-auto flex w-full text-center">
+					<strong>Esta semana no hay videos disponibles</strong>
+				</p>
+			)
 		}
 	</div>
 </CardSecciones>

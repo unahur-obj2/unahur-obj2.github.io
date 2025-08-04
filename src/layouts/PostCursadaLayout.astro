@@ -88,7 +88,7 @@ if (currentUrl.includes('/comision-2-4-miercoles/')) {
 				<slot />
 			</div>
 			{
-				horarios ? (
+				horarios && horarios.length > 0 ? (
 					<div
 						class="animate-on-load"
 						data-animate="fade-in-up">
@@ -97,7 +97,7 @@ if (currentUrl.includes('/comision-2-4-miercoles/')) {
 				) : null
 			}
 			{
-				videos && (
+				videos && videos.length > 0 && (
 					<div
 						class="animate-on-load"
 						data-animate="fade-in-up">
@@ -108,11 +108,25 @@ if (currentUrl.includes('/comision-2-4-miercoles/')) {
 					</div>
 				)
 			}
-			<div
-				class="animate-on-load"
-				data-animate="fade-in-up">
-				<ActividadesDeSemana ejercicios={ejercicios} />
-			</div>
+			{
+				ejercicios && ejercicios.length > 0 ? (
+					<div
+						class="animate-on-load"
+						data-animate="fade-in-up">
+						<ActividadesDeSemana ejercicios={ejercicios} />
+					</div>
+				) : (
+					<div
+						class="animate-on-load"
+						data-animate="fade-in-up">
+						<CardSecciones title="Ejercicios">
+							<p class="m-auto flex w-full text-center">
+								<strong>Esta semana no hay ejercicios</strong>
+							</p>
+						</CardSecciones>
+					</div>
+				)
+			}
 		</div>
 	</div>
 </LayoutSemanas>
