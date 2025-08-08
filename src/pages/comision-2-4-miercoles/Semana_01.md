@@ -6,10 +6,10 @@ inicio: 2025-08-08
 
 descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollok a Java.
 
-importante: Miercoles
+importante: Recuerden que la cursada será, en espejo, híbrida y alternada. Es espejo porque para todos las comisiones se dan los mismos temas. Híbrida porque al clases presenciales y virtuales. Alternanda porque semana a semana cambia la modalidad de presencial a virtual y viceversa.
 
 horarios:
-  - Comision: Comision 4 del T.Noche
+  - Comision: Comision 2 del T.Noche
     Dia: Miercoles 13 de Agosto
     Modalidad: Presencial
     Hora: 18.00hs
