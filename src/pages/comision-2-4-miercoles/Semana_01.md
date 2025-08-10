@@ -8,6 +8,8 @@ descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollo
 
 importante: Recuerden que la cursada será, en espejo, híbrida y alternada. Es espejo porque para todos las comisiones se dan los mismos temas. Híbrida porque al clases presenciales y virtuales. Alternanda porque semana a semana cambia la modalidad de presencial a virtual y viceversa.
 
+atencion: El sábado 16 de Agosto NO habrá clase de consulta.
+
 horarios:
   - Comision: Comision 2 del T.Noche
     Dia: Miercoles 13 de Agosto
@@ -20,6 +22,12 @@ horarios:
     Dia: Miercoles 13 de Agosto
     Modalidad: VIRTUAL
     Hora: 18.00hs
+    URL:
+
+  - Comision: Todas las Comisiones
+    Dia: Sábado 16  de Agosto
+    Modalidad: El sábado 16 de Agosto NO habrá clase de consulta.
+    Hora:
     URL:
 
 ejercicios:
@@ -35,7 +43,7 @@ ejercicios:
     repoUrl: 'unahur-obj2-2025c2/ciudad_futurista'
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: El ejercicio integrador Plataforma Contenido usado en 2025 C1. Resolver com Tarea de Alumnos
+      - name: El ejercicio integrador Ciudad Futurista usado en 2025 C1. Resolver com Tarea de Alumnos
 ---
 
 - **Repaso**: En esta semana repasaremos todo lo que aprendimos y para esto vamos a resolver este ejercicio que tomamos como Integrador en Objetos I. Pero lo vamos a resolver en la tecnología que vamos a usar en Obejtos II, sí, **_Java_**!!!. Los ejes principales de este repaso son:
