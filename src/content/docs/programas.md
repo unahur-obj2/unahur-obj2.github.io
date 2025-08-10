@@ -8,10 +8,10 @@ programas:
     descripcion: El JDK es un conjunto de herramientas que permite desarrollar y ejecutar aplicaciones en Java. Incluye el compilador de Java, el entorno de ejecución (JRE) y otras utilidades necesarias para el desarrollo en este lenguaje.
   - titulo: Visual Studio Code
     codigo: https://code.visualstudio.com/download
-    descripcion: Vamos a utilizar visual studio code con java, pero para tener un entrono con ayudas de sintaxis y otras herramientas vas a necesitar tambien agregar la extensión "Java extensions for Visual Studio Code" 
+    descripcion: Vamos a utilizar visual studio code con java, pero para tener un entrono con ayudas de sintaxis y otras herramientas vas a necesitar tambien agregar la extensión Java extensions for Visual Studio Code
   - titulo: Java extensions for Visual Studio Code
     codigo: https://code.visualstudio.com/docs/java/extensions
-    descripcion:  Es la extesión mas popular para java que incluye las siguiente utilidades: Language Support for Java, Debugger for Java, Test Runner for Java, Maven for Java,Visual Studio IntelliCode
+    descripcion: Es la extesión mas popular para java que incluye las siguiente utilidades - Language Support for Java, Debugger for Java, Test Runner for Java, Maven for Java,Visual Studio IntelliCode
   - titulo: Eclipse IDE
     codigo: https://www.eclipse.org/downloads/packages/release/2024-03/m1/eclipse-ide-java-developers
     descripcion: Eclipse es un entorno de desarrollo integrado (IDE) que facilita la creación de aplicaciones en diversos lenguajes de programación, especialmente Java. Ofrece herramientas como editor de código, depurador y soporte para integración con sistemas de control de versiones como Git.
