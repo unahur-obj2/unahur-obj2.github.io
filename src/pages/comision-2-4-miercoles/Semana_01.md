@@ -15,14 +15,14 @@ horarios:
     Dia: Miercoles 13 de Agosto
     Modalidad: Presencial
     Hora: 18.00hs
-    Aula:
+    Aula: Malvinas Argentinas - 112 (1°piso)
     Edificion: Malvinas Argentinas
 
   - Comision: Comision 4 del T.Noche
     Dia: Miercoles 13 de Agosto
     Modalidad: VIRTUAL
     Hora: 18.00hs
-    URL:
+    URL: https://meet.google.com/kxz-esct-xcp
 
   - Comision: Todas las Comisiones
     Dia: Sábado 16  de Agosto
