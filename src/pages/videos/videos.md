@@ -1,6 +1,6 @@
 ---
-- nombre: Instalación de Git, JDK, Eclipse IDE y Maven
-  urlYoutube: https://www.youtube.com/watch?v=X53_1Jc-1wU
+- nombre: Instalación de Software Requerido
+  urlYoutube: https://www.youtube.com/watch?v=UtJ7GO9IY94
 
 - nombre: Como generar el token de github
   urlYoutube: https://www.youtube.com/watch?v=5WcvLokJrmY

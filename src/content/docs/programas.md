@@ -12,9 +12,6 @@ programas:
   - titulo: Java extensions for Visual Studio Code
     codigo: https://code.visualstudio.com/docs/java/extensions
     descripcion: Es la extesión mas popular para java que incluye las siguiente utilidades - Language Support for Java, Debugger for Java, Test Runner for Java, Maven for Java,Visual Studio IntelliCode
-  - titulo: Eclipse IDE
-    codigo: https://www.eclipse.org/downloads/packages/release/2024-03/m1/eclipse-ide-java-developers
-    descripcion: Eclipse es un entorno de desarrollo integrado (IDE) que facilita la creación de aplicaciones en diversos lenguajes de programación, especialmente Java. Ofrece herramientas como editor de código, depurador y soporte para integración con sistemas de control de versiones como Git.
   - titulo: Maven
     codigo: https://maven.apache.org/download.cgi
     descripcion: Maven es una herramienta de gestión y construcción de proyectos Java. Automatiza tareas como la compilación del código, la gestión de dependencias y la generación de paquetes ejecutables, facilitando la organización y mantenimiento de proyectos complejos.
