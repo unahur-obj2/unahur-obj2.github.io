@@ -240,7 +240,7 @@ import DefaultLayout from '@layouts/DefaultLayout.astro'
 										<a
 											href="https://discord.gg/tqyHtPt"
 											target="_blank"
-											class="inline-flex items-center gap-2 rounded-lg bg-unahur-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-unahur-secondary">
+											class="inline-flex items-center gap-2 rounded-lg bg-unahur-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-unahur-secondary dark:bg-unahur-accent dark:text-white dark:hover:bg-unahur-accent-dark">
 											🏫 InformaticaUNAHUR
 											<svg
 												class="h-4 w-4"
@@ -272,7 +272,7 @@ import DefaultLayout from '@layouts/DefaultLayout.astro'
 										<a
 											href="https://discord.gg/XpP6kCTkFd"
 											target="_blank"
-											class="mb-2 inline-flex items-center gap-2 rounded-lg bg-purple-600 px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-purple-700">
+											class="mb-2 inline-flex items-center gap-2 rounded-lg bg-purple-600 px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-purple-700 dark:bg-purple-500 dark:text-white dark:hover:bg-purple-600">
 											📝 Matricularse en materias
 											<svg
 												class="h-4 w-4"
@@ -318,9 +318,14 @@ import DefaultLayout from '@layouts/DefaultLayout.astro'
 		</div>
 	</section>
 </DefaultLayout><style>
-	a {
+	a:not(.inline-flex) {
 		color: var(--primary-300) !important;
 	}
+
+	a.inline-flex {
+		color: white !important;
+	}
+
 	p {
 		margin-top: 0.7rem;
 		margin-bottom: 0.7rem;

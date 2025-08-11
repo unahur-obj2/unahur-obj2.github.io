@@ -26,8 +26,8 @@ horarios:
 
   - Comision: Todas las Comisiones
     Dia: Sábado 16  de Agosto
-    Modalidad: El sábado 16 de Agosto NO habrá clase de consulta.
-    Hora:
+    Modalidad: No hay clases de consultas.
+    Hora: El sábado 16 de Agosto NO habrá clase de consulta.
     URL:
 
 ejercicios:

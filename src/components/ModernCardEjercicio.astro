@@ -17,7 +17,6 @@ const {
 	ejemploUrl,
 	urlGitHub,
 	repoUrl,
-	defaultBranch,
 	fechaDeEntrega,
 	obligatorio,
 	consultas,
@@ -85,7 +84,7 @@ const calendarIcon = `<svg class="w-4 h-4" fill="none" stroke="currentColor" vie
 					rel="noopener noreferrer"
 					class="inline-flex items-center gap-2 rounded-lg bg-unahur-primary px-4 py-2 font-medium text-white transition-all duration-200 hover:scale-105 hover:bg-unahur-secondary hover:shadow-md">
 					<span set:html={githubIcon} />
-					Ver en GitHub
+					Aceptar asignación
 					<span set:html={linkIcon} />
 				</a>
 			)
@@ -97,7 +96,7 @@ const calendarIcon = `<svg class="w-4 h-4" fill="none" stroke="currentColor" vie
 					href={ejemploUrl}
 					target="_blank"
 					rel="noopener noreferrer"
-					class="inline-flex items-center gap-2 rounded-lg bg-gray-100 px-4 py-2 font-medium text-gray-700 transition-all duration-200 hover:scale-105 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600">
+					class="inline-flex items-center gap-2 rounded-lg bg-gray-600 px-4 py-2 font-medium text-white transition-all duration-200 hover:scale-105 hover:bg-gray-700 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600">
 					Ver ejemplo
 					<span set:html={linkIcon} />
 				</a>
@@ -110,7 +109,7 @@ const calendarIcon = `<svg class="w-4 h-4" fill="none" stroke="currentColor" vie
 					href={repoUrl}
 					target="_blank"
 					rel="noopener noreferrer"
-					class="inline-flex items-center gap-2 rounded-lg bg-gray-100 px-4 py-2 font-medium text-gray-700 transition-all duration-200 hover:scale-105 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
+					class="inline-flex items-center gap-2 rounded-lg bg-gray-600 px-4 py-2 font-medium text-white transition-all duration-200 hover:scale-105 hover:bg-gray-700 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
 					title={`Ir a: ${repoUrl}`}>
 					Repositorio
 					<span set:html={linkIcon} />
