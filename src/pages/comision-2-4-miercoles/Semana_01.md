@@ -30,6 +30,12 @@ horarios:
     Hora: El sábado 16 de Agosto NO habrá clase de consulta.
     URL:
 
+videos:
+  - nombre: Polimorfimso, herencia y colecciones - Parte 1
+    urlYoutube: https://www.youtube.com/watch?v=rh5V7zqztvg
+  - nombre: Polimorfimso, herencia y colecciones - Parte 2
+    urlYoutube: https://www.youtube.com/watch?v=pt5a395_Rs0
+
 ejercicios:
   - name: Practica 1 De Wollok a Java
     classroom: https://classroom.github.com/a/Du7WZ9tW

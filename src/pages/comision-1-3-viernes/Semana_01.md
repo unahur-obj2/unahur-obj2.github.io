@@ -2,38 +2,44 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 1
 
-inicio: 2025-12-12
+inicio: 2025-08-08
 
 descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollok a Java.
-# importante: Viernes
 
-# horarios:
-#   - Comision: Todas las Comisiones del T.Noche
-#     Dia: Viernes 28 de Marzo
-#     Modalidad: VIRTUAL
-#     Hora: 18.00hs
-#     URL: https://us06web.zoom.us/j/87958925031
+importante: Recuerden que la cursada será, en espejo, híbrida y alternada. Es espejo porque para todos las comisiones se dan los mismos temas. Híbrida porque al clases presenciales y virtuales. Alternanda porque semana a semana cambia la modalidad de presencial a virtual y viceversa. Les subimos el video y los ejercicios realizados en la clase del miércoles, para que vayan viendo, de todas maneras el viernes que de la semana que viene, se vera todo nuevamente desde 0.
 
-# videos:
-#   - nombre: De Wollok a Java Parte I
-#     urlYoutube: https://www.youtube.com/watch?v=psvrzHLzJZo
-#   - nombre: De Wollok a Java Parte II - (Strategy + Template Method)
-#     urlYoutube: https://www.youtube.com/watch?v=U2-FtCwKWkk
+atencion: El sábado 16 de Agosto NO habrá clase de consulta.
 
-# ejercicios:
-#   - name: Ciudad Futurista en Java
-#     repoUrl: 'unahur-obj2/ciudad_futurista_java'
-#     defaultBranch: 'main' # Acá va la rama default del repo
-#     comentarios:
-#       - name: Solución realizada en Java.
-#   - name: Ciudad Futurista en Wollok
-#     repoUrl: 'unahur-obj2/ciudad_futurista_wollok'
-#     defaultBranch: 'main' # Acá va la rama default del repo
-#     comentarios:
-#       - name: Solución realizada en Wollok.
+horarios:
+  - Comision: Todas las Comisiones
+    Dia: Sábado 16  de Agosto
+    Modalidad: No hay clases de consultas.
+    Hora: El sábado 16 de Agosto NO habrá clase de consulta.
+    URL:
+
+videos:
+  - nombre: Polimorfimso, herencia y colecciones - Parte 1
+    urlYoutube: https://www.youtube.com/watch?v=rh5V7zqztvg
+  - nombre: Polimorfimso, herencia y colecciones - Parte 2
+    urlYoutube: https://www.youtube.com/watch?v=pt5a395_Rs0
+
+ejercicios:
+  - name: Practica 1 De Wollok a Java
+    classroom: https://classroom.github.com/a/Du7WZ9tW
+    repoUrl: 'unahur-obj2-2025c2/plataforma_contenido'
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: El ejercicio integrador Plataforma Contenido usado en 2025 C1. Resolver en Clase
+
+  - name: Practica 2 De Wollok a Java
+    classroom: https://classroom.github.com/a/4HkfaLjO
+    repoUrl: 'unahur-obj2-2025c2/ciudad_futurista'
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: El ejercicio integrador Ciudad Futurista usado en 2025 C1. Resolver com Tarea de Alumnos
 ---
 
-- **Repaso**: En esta semana repasaremos todo lo que aprendimos y para esto vamos a resolver este ejercicio que tomamos en una fecha de Final de Objetos I. Pero lo vamos a resolver en la tecnología que vamos a usar en Obejtos II, sí, **_Java_**!!!. Los ejes principales de este repaso son:
+- **Repaso**: En esta semana repasaremos todo lo que aprendimos y para esto vamos a resolver este ejercicio que tomamos como Integrador en Objetos I. Pero lo vamos a resolver en la tecnología que vamos a usar en Obejtos II, sí, **_Java_**!!!. Los ejes principales de este repaso son:
 - - **Polimorfismo**
 - - **Herencia**
 - - **Colecciones**
@@ -44,5 +50,6 @@ descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollo
 - **Patrones de Diseño** vamos a hacer una aproximación de que es un patrón de Diseño. Veremos los patrones que usamos en este ejercicio.
 - - Strategy
 - - Template Mehtod
+- - Singleton
 -
 - Leé y profundiza para la próxima semana sobre estos 2 patrones del libro "Patrones de Diseño". El pdf del libro lo vas a encontrar en la sección de Material.
