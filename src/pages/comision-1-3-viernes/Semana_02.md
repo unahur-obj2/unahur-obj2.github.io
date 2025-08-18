@@ -1,48 +1,64 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 2
-
-inicio: 2025-12-03
-
-descripcion: Trabajaremos la idea de cómo podemos comunicar un diseño utilizando el lenguje y herramienta de comunicación UML. Hay ejercicios para practicar.
-
-importante: Esta semana hay un trabajo práctico que consideramos que es muy importante que lo realicen solos porque les permitirá afianzar el conocimiento sobre el patrón strategy. También les dejamos otro ejercicio más para que aprendan como  arrancar y realizar un proyecto java desde 0, estaría muy bueno que también lo hagan y se consulten entre uds.
-
-horarios:
-  - Comision: Todas las Comisiones del T.Noche
-    Dia: Viernes 4 de Abril
-    Modalidad: VIRTUAL
-    Hora: 18.10hs
-    URL: https://us06web.zoom.us/j/87958925031
-
-videos:
-  - nombre: Diseño - UML - Patrones
-    urlYoutube: https://www.youtube.com/watch?v=lVAD46HsXRE
-  - nombre: Clase de consultas 08-04-2025. Transición a Java
-    urlYoutube: https://www.youtube.com/watch?v=FiK_uvS5IvA
-
-ejercicios:
-  - name: Simulación de Vehículos
-    classroom: https://classroom.github.com/a/wb8WA4dW
-    repoUrl: 'unahur-obj2-2025c1/simulador' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    fechaDeEntrega: Sábado 12/04 12:00 AM
-    comentarios:
-      - name: Practica Strategy. Realizarlos solos, completo y con test.
-    obligatorio: true
-
-  - name: Transición a Java
-    classroom: https://classroom.github.com/a/UsOZOY4J
-    repoUrl: 'unahur-obj2-2025c1/java_transicion' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: Arrancar un proyecto desde 0 y realizarlo con Java.
 ---
 
-- Esta semana el profesor **Marcelo** nos va a contar como se puede comunicar un diseño de software utilizando el lenguaje y herramienta de comunicación **UML (Unified Modeling Language)**. Tomamos en cuenta que no existe una única verdad pero sí buenas prácticas para documentar una solución; esas prácticas facilitarán la comprensión a quien esté del otro lado.
+layout: src/layouts/PostCursadaLayout.astro
+title: Semana 1
 
-- UML (Unified Modeling Language). Es un lenguaje o herramienta de comunicación para las personas que permite representar un modelo (una idea) del sistema real. Recordemos que un modelo es una abstracción que lo expresamos a través de los distintos diagramas: el modelo no es el sistema, sino lo que me interesa representar del sistema.
+inicio: 2025-08-22
 
-- Un apunte que vas a tener que leer obligatoriamente es la guía que se encuentra en la sección <a href="/material#guia" target="_blank">**Utilidad**▼ Material> Guía Básica</a>
+descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollok a Java.
+
+importante: Recuerden que la cursada será, en espejo, híbrida y alternada. Es espejo porque para todos las comisiones se dan los mismos temas. Híbrida porque al clases presenciales y virtuales. Alternanda porque semana a semana cambia la modalidad de presencial a virtual y viceversa.
+
+horarios:
+
+- Comision: Comision 1 del T.Noche
+  Dia: Viernes 22 de Agosto
+  Modalidad: Presencial
+  Hora: 18.00hs
+  Aula: Malvinas Argentinas - 112 (1°piso)
+  Edificion: Malvinas Argentinas
+
+- Comision: Comision 3 del T.Noche
+  Dia: Viernes 22 de Agosto
+  Modalidad: VIRTUAL
+  Hora: 18.00hs
+  URL:https://meet.google.com/kxz-esct-xcp
+
+ejercicios:
+
+- name: Practica 1 De Wollok a Java
+  classroom: https://classroom.github.com/a/Du7WZ9tW
+  repoUrl: 'unahur-obj2-2025c2/plataforma_contenido'
+  defaultBranch: 'main' # Acá va la rama default del repo
+  comentarios:
+
+  - name: El ejercicio integrador Plataforma Contenido usado en 2025 C1. Resolver en Clase
+
+- name: Practica 2 De Wollok a Java
+  classroom: https://classroom.github.com/a/4HkfaLjO
+  repoUrl: 'unahur-obj2-2025c2/ciudad_futurista'
+  defaultBranch: 'main' # Acá va la rama default del repo
+  comentarios:
+  - name: El ejercicio integrador Ciudad Futurista usado en 2025 C1. Resolver com Tarea de Alumnos
+
+---
+
+- **Repaso**: En esta semana repasaremos todo lo que aprendimos y para esto vamos a resolver este ejercicio que tomamos como Integrador en Objetos I. Pero lo vamos a resolver en la tecnología que vamos a usar en Obejtos II, sí, **_Java_**!!!. Los ejes principales de este repaso son:
+- - **Polimorfismo**
+- - **Herencia**
+- - **Colecciones**
+-
+- Por el momento no vamos a hacer enfásis en cuestiones del lenguaje solo vamos a intentar pasar todo el código de la solución en Wollok a Java de la manera más simple posible. Y de paso vamos a ir hablando de algunos patrónes de diseño que usamos en esta solución y de conceptos nuevos que pueden aparecer, como por ejemplo Interfaces
+-
+-
+- **Patrones de Diseño** vamos a hacer una aproximación de que es un patrón de Diseño. Veremos los patrones que usamos en este ejercicio.
+- - Strategy
+- - Template Mehtod
+- - Singleton
+-
+- Leé y profundiza para la próxima semana sobre estos 2 patrones del libro "Patrones de Diseño". El pdf del libro lo vas a encontrar en la sección de Material.
 
 -
