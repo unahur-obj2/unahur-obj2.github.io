@@ -2,11 +2,11 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 1
 
-inicio: 2025-08-08
+inicio: 2026-08-08
 
 descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollok a Java.
 
-importante: Recuerden que la cursada será, en espejo, híbrida y alternada. Es espejo porque para todos las comisiones se dan los mismos temas. Híbrida porque al clases presenciales y virtuales. Alternanda porque semana a semana cambia la modalidad de presencial a virtual y viceversa. Les subimos el video y los ejercicios realizados en la clase del miércoles, para que vayan viendo, de todas maneras el viernes que de la semana que viene, se vera todo nuevamente desde 0.
+importante: Feriado
 
 atencion: El sábado 16 de Agosto NO habrá clase de consulta.
 
