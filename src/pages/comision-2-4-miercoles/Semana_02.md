@@ -33,7 +33,7 @@ ejercicios:
     classroom: https://classroom.github.com/a/iGOoXCwP
     repoUrl: 'unahur-obj2-2025c2/simulacion_vehiculos' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
-    fechaDeEntrega: Sábado 05/09 12:00 AM
+    fechaDeEntrega: Sábado 06/09 12:00 AM
     comentarios:
       - name: Practica Strategy. Realizarlos solos, completo y con test.
     obligatorio: true
