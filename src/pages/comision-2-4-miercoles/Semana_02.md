@@ -28,6 +28,10 @@ horarios:
     Modalidad: VIRTUAL (Es por zoom, no por meet.)
     URL: https://us06web.zoom.us/j/87958925031
 
+videos:
+  - nombre: Grabación de la Clase II de la comisión virtual por Hernan Coniglio
+    urlYoutube: https://www.youtube.com/watch?v=CT0voMp-plE
+
 ejercicios:
   - name: Simulación de Vehículos
     classroom: https://classroom.github.com/a/iGOoXCwP
