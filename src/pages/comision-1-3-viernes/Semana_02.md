@@ -13,8 +13,8 @@ horarios:
     Dia: Viernes 22 de Agosto
     Modalidad: Presencial
     Hora: 18.00hs
-    Aula: Malvinas Argentinas - 112 (1°piso)
-    Edificion: Malvinas Argentinas
+    Aula: LAB LP-207
+    Edificion: LA PATRIA
 
   - Comision: Comision 3 del T.Noche
     Dia: Viernes 22 de Agosto
