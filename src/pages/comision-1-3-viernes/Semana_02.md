@@ -21,6 +21,12 @@ horarios:
     Modalidad: VIRTUAL
     Hora: 18.00hs
     URL: https://meet.google.com/kxz-esct-xcp
+    
+  - Comision: Todas las Comisiones
+    Dia: Sábado 23  de Agosto
+    Hora: 13.00hs a 15:00
+    Modalidad: VIRTUAL (Es por zoom, no por meet.)
+    URL: https://us06web.zoom.us/j/87958925031
 
 ejercicios:
   - name: Practica 1 De Wollok a Java
