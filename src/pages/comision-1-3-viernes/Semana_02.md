@@ -14,7 +14,7 @@ horarios:
     Modalidad: Presencial
     Hora: 18.00hs
     Aula: LAB LP-207
-    Edificion: LA PATRIA
+    Edificio: LA PATRIA
 
   - Comision: Comision 3 del T.Noche
     Dia: Viernes 22 de Agosto
