@@ -1,16 +1,15 @@
 ---
-# - title: Ciudad Futurista
-#   url: https://github.com/unahur-obj2/ciudad_futurista_java
-#   description: Ejercicio resuelto en clase. Pasando de wollok a java.
+- title: Ciudad Futurista
+  url: https://github.com/unahur-obj2-2025c2/ciudad-futurista-java
+  description: Dejamos una posible solución del ejercicio.
 
-# - title: Transición a Java
-#   url: https://github.com/unahur-obj2/solucion-transicion-java
-#   description: Dejamos una posible solución del ejercicio. Dentro del código van a encontrar métodos comentados, que son otra manera de poder llegar al mismo resultado..
+- title: Ciudad Futurista (Wollok)
+  url: https://github.com/unahur-obj2-2025c2/ciudad-futurista-wollok
+  description: Dejamos una posible solución del ejercicio.
 
-# - title: Caja fuerte
-#   url: https://github.com/obj1-unahur-2025s1/caja-fuerte-resuelto
-#   description: Ejercicio resuelto en clase con TDD.
-
+- title: Plataforma contenido
+  url: https://github.com/unahur-obj2-2025c2/plataforma-contenido
+  description: Dejamos una posible solución del ejercicio.
 # - title: Simulación de Vehículos
 #   url: https://github.com/unahur-obj2-2025c1/Simulacion-de-Vehiculos
 #   description: Dejamos una posible solución del ejercicio.

@@ -35,6 +35,8 @@ videos:
     urlYoutube: https://www.youtube.com/watch?v=rh5V7zqztvg
   - nombre: Polimorfimso, herencia y colecciones - Parte 2
     urlYoutube: https://www.youtube.com/watch?v=pt5a395_Rs0
+  - nombre: Clase de consultas 23-08
+    urlYoutube: https://www.youtube.com/watch?v=tJDSnkz8la4
 
 ejercicios:
   - name: Practica 1 De Wollok a Java
@@ -66,3 +68,5 @@ ejercicios:
 - - Singleton
 -
 - Leé y profundiza para la próxima semana sobre estos 2 patrones del libro "Patrones de Diseño". El pdf del libro lo vas a encontrar en la sección de Material.
+
+- Presentación de la clase de consulta. <a href="https://docs.google.com/presentation/d/1ibjPE8sAEaFrQE72630plkaPokUE_H6M5Aw1ZBGBy2c/edit?slide=id.p#slide=id.p" target="_blank">Modificadores de Acceso y Static</a>
