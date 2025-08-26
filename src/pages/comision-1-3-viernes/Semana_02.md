@@ -9,10 +9,10 @@ descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollo
 importante: Recuerden que la cursada será, en espejo, híbrida y alternada. Es espejo porque para todos las comisiones se dan los mismos temas. Híbrida porque al clases presenciales y virtuales. Alternanda porque semana a semana cambia la modalidad de presencial a virtual y viceversa.
 
 videos:
-  - nombre: Polimorfimso, herencia y colecciones - Parte 1
-    urlYoutube: https://www.youtube.com/watch?v=rh5V7zqztvg
-  - nombre: Polimorfimso, herencia y colecciones - Parte 2
-    urlYoutube: https://www.youtube.com/watch?v=pt5a395_Rs0
+  - nombre: Grabación Clase - Comision 3 del Viernes 22-Ago-2025 - Parte 1
+    urlYoutube: https://youtu.be/XdfFQmjQPjM
+  - nombre: Grabación Clase - Comision 3 del Viernes 22-Ago-2025 - Parte 2
+    urlYoutube: https://youtu.be/Dr_uUBVg6qc
   - nombre: Clase de consultas 23-08
     urlYoutube: https://www.youtube.com/watch?v=tJDSnkz8la4
 
