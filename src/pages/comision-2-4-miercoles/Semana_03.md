@@ -11,7 +11,7 @@ horarios:
     Dia: Miercoles 27 de Agosto
     Modalidad: Presencial
     Hora: 18.00hs
-    Aula: Malvinas Argentinas - 110 (1°piso)
+    Aula: Malvinas Argentinas - 109 (1°piso)
     Edificion: Malvinas Argentinas
 
   - Comision: Comision 4 del T.Noche
