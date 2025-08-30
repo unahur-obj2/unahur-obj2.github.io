@@ -35,8 +35,6 @@ videos:
     urlYoutube: https://www.youtube.com/watch?v=rh5V7zqztvg
   - nombre: Polimorfimso, herencia y colecciones - Parte 2
     urlYoutube: https://www.youtube.com/watch?v=pt5a395_Rs0
-  - nombre: Clase de consultas 23-08
-    urlYoutube: https://www.youtube.com/watch?v=tJDSnkz8la4
 
 ejercicios:
   - name: Practica 1 De Wollok a Java

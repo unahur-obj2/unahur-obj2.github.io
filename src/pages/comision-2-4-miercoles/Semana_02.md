@@ -31,6 +31,8 @@ horarios:
 videos:
   - nombre: Grabación de la Clase II de la comisión virtual por Hernan Coniglio
     urlYoutube: https://www.youtube.com/watch?v=CT0voMp-plE
+  - nombre: Clase de consultas 23-08
+    urlYoutube: https://www.youtube.com/watch?v=tJDSnkz8la4
 
 ejercicios:
   - name: Simulación de Vehículos

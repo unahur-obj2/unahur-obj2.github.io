@@ -29,6 +29,10 @@ horarios:
     Modalidad: VIRTUAL (Es por zoom, no por meet.)
     URL: https://us06web.zoom.us/j/87958925031
 
+videos:
+  - nombre: Clase de consultas 30-08
+    urlYoutube: https://www.youtube.com/watch?v=ZQxwkt-uyyw
+
 ejercicios:
   - name: Simulación de Vehículos
     classroom: https://classroom.github.com/a/iGOoXCwP

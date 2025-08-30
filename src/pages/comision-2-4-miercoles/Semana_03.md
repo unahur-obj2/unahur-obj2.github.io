@@ -31,6 +31,8 @@ videos:
     urlYoutube: https://www.youtube.com/watch?v=GGTx0e3DrhY
   - nombre: Introduccion TDD por un Amigo de la Casa
     urlYoutube: https://www.youtube.com/watch?v=8MGtLPFtbQ8&t=7s&
+  - nombre: Clase de consultas 30-08
+    urlYoutube: https://www.youtube.com/watch?v=ZQxwkt-uyyw
 
 ejercicios:
   - name: Caja Fuerte
