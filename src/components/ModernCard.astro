@@ -5,9 +5,20 @@ export interface Props {
 	date?: string
 	href: string
 	isActive?: boolean
+	tags?: string[]
 }
 
-const { title, description, date, href, isActive = false } = Astro.props
+const {
+	title,
+	description,
+	date,
+	href,
+	isActive = false,
+	tags = [],
+} = Astro.props
+
+const hasVideos = tags.includes('Videos')
+const hasEjercicios = tags.includes('Ejercicios')
 ---
 
 <article
@@ -44,39 +55,49 @@ const { title, description, date, href, isActive = false } = Astro.props
 		</div>
 
 		<div class="mt-auto flex flex-col gap-2 pt-6 sm:flex-row">
-			<button
-				class="inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors duration-200 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-offset-gray-800 sm:flex-none">
-				<svg
-					class="h-4 w-4"
-					fill="none"
-					stroke="currentColor"
-					viewBox="0 0 24 24">
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293H15M9 10v4a2 2 0 002 2h2a2 2 0 002-2v-4M9 10V8a2 2 0 012-2h2a2 2 0 012 2v2"
-					></path>
-				</svg>
-				Videos
-			</button>
+			{
+				hasVideos && (
+					<a
+						href={`${href}#videos`}
+						class="relative z-10 inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors duration-200 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-offset-gray-800 sm:flex-none">
+						<svg
+							class="h-4 w-4"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24">
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293H15M9 10v4a2 2 0 002 2h2a2 2 0 002-2v-4M9 10V8a2 2 0 012-2h2a2 2 0 012 2v2"
+							/>
+						</svg>
+						Videos
+					</a>
+				)
+			}
 
-			<button
-				class="inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 transition-colors duration-200 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600 dark:focus:ring-offset-gray-800 sm:flex-none">
-				<svg
-					class="h-4 w-4"
-					fill="none"
-					stroke="currentColor"
-					viewBox="0 0 24 24">
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-					></path>
-				</svg>
-				Ejercicios
-			</button>
+			{
+				hasEjercicios && (
+					<a
+						href={`${href}#ejercicios`}
+						class="relative z-10 inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-gray-800 px-4 py-2 text-sm font-medium text-white transition-colors duration-200 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600 dark:focus:ring-offset-gray-800 sm:flex-none">
+						<svg
+							class="h-4 w-4"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24">
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+							/>
+						</svg>
+						Ejercicios
+					</a>
+				)
+			}
 		</div>
 	</div>
 

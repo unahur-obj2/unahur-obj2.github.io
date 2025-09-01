@@ -10,9 +10,9 @@ importante: Recuerden que la cursada será, en espejo, híbrida y alternada. Es 
 
 videos:
   - nombre: Grabación Clase - Comision 3 del Viernes 22-Ago-2025 - Parte 1
-    urlYoutube: https://youtu.be/XdfFQmjQPjM
+    urlYoutube: https://www.youtube.com/watch?v=XdfFQmjQPjM&feature=youtu.be
   - nombre: Grabación Clase - Comision 3 del Viernes 22-Ago-2025 - Parte 2
-    urlYoutube: https://youtu.be/Dr_uUBVg6qc
+    urlYoutube: https://www.youtube.com/watch?v=Dr_uUBVg6qc
   - nombre: Clase de consultas 23-08
     urlYoutube: https://www.youtube.com/watch?v=tJDSnkz8la4
 

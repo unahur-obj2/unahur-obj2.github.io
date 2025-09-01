@@ -30,6 +30,10 @@ horarios:
     URL: https://us06web.zoom.us/j/87958925031
 
 videos:
+  - nombre: Semana 3 - Comisión 1 y 3. Parte 1
+    urlYoutube: https://www.youtube.com/watch?v=9LZaJRrgJpQ
+  - nombre: Semana 3 - Comisión 1 y 3. Parte 2
+    urlYoutube: https://www.youtube.com/watch?v=R3UGBz7KTWA
   - nombre: Clase de consultas 30-08
     urlYoutube: https://www.youtube.com/watch?v=ZQxwkt-uyyw
 

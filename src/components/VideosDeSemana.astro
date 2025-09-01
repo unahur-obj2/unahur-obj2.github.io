@@ -5,7 +5,9 @@ import ModernWatchVideo from './ModernWatchVideo.astro'
 const { videos, titulo } = Astro.props
 ---
 
-<CardSecciones title={titulo || 'Videos de la semana'}>
+<CardSecciones
+	title={titulo || 'Videos de la semana'}
+	id="videos">
 	<div class="md:flex md:flex-wrap">
 		{
 			videos && videos.length > 0 ? (
