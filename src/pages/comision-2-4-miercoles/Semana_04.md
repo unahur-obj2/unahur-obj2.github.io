@@ -21,6 +21,10 @@ horarios:
     Modalidad: VIRTUAL (Es por zoom, no por meet.)
     URL: https://us06web.zoom.us/j/87958925031
 
+videos:
+  - nombre: Grabación Clase Virtual 03-Sep [Strategy + Template Method]
+    urlYoutube: https://youtube.com/watch?v=m2p2ObBW4gI
+
 ejercicios:
   - name: Oktuber-Fest (Patrones Strategy && Template Method)
     classroom: https://classroom.github.com/a/9S5JPC4Z
