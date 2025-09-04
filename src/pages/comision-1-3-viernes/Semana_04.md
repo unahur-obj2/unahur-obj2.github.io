@@ -21,7 +21,7 @@ horarios:
     URL: https://meet.google.com/kxz-esct-xcp
 
   - Comision: Todas las Comisiones
-    Dia: Viernes 06 de Septiembre
+    Dia: Sábado 06 de Septiembre
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL (Es por zoom, no por meet.)
     URL: https://us06web.zoom.us/j/87958925031
