@@ -10,7 +10,11 @@
 - title: Plataforma contenido
   url: https://github.com/unahur-obj2-2025c2/plataforma-contenido
   description: Dejamos una posible solución del ejercicio.
-# - title: Simulación de Vehículos
+
+- title: Transición a Java
+  url: https://github.com/unahur-obj2-2025c2/transicion-java
+  description: Dejamos una posible solución del ejercicio.
+# - title: Simulación de Vehículos  Transición a Java
 #   url: https://github.com/unahur-obj2-2025c1/Simulacion-de-Vehiculos
 #   description: Dejamos una posible solución del ejercicio.
 

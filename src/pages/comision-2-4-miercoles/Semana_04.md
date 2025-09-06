@@ -24,6 +24,8 @@ horarios:
 videos:
   - nombre: Grabación Clase Virtual 03-Sep [Strategy + Template Method]
     urlYoutube: https://youtube.com/watch?v=m2p2ObBW4gI
+  - nombre: Clase de consultas 06-09
+    urlYoutube: https://www.youtube.com/watch?v=rZH2E5u01o4
 
 ejercicios:
   - name: Oktuber-Fest (Patrones Strategy && Template Method)
