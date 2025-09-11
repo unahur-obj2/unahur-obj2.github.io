@@ -14,6 +14,10 @@
 - title: Transición a Java
   url: https://github.com/unahur-obj2-2025c2/transicion-java
   description: Dejamos una posible solución del ejercicio.
+
+- title: Simulador Vehiculos
+  url: https://github.com/unahur-obj2-2025c2/simulador_vehiculos
+  description: Dejamos una posible solución del ejercicio.
 # - title: Simulación de Vehículos  Transición a Java
 #   url: https://github.com/unahur-obj2-2025c1/Simulacion-de-Vehiculos
 #   description: Dejamos una posible solución del ejercicio.
