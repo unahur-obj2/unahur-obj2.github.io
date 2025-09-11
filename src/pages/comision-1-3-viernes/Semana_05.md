@@ -2,57 +2,38 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 5
 
-inicio: 2025-12-03
+inicio: 2025-09-11
 
-descripcion: En esta semana vamos a conocer el patrón composite
+descripcion: En esta semana daremos un paso más en el diseño orientado a objetos incorporando patrones de diseño, que son soluciones probadas y reutilizables para problemas comunes en el desarrollo de software. Estos patrones nos permiten escribir código más flexible, mantenible y fácil de extender.
+
+atencion: 12 DE SEPTIEMBRE - SUSPENCION DE CLASES POR PARO DOCENTE
 
 horarios:
-  - Comision: Todas las Comisiones del T.Noche
-    Dia: Viernes 25 de Abril
-    Modalidad: VIRTUAL
-    Hora: 18.10hs
+  - Comision: Todas las Comisiones
+    Dia: Sábado 13 de Septiembre
+    Hora: 13.00hs a 15:00
+    Modalidad: VIRTUAL (Es por zoom, no por meet.)
     URL: https://us06web.zoom.us/j/87958925031
 
-  - Comision: Clase de consulta
-    Dia: Sabado 26 de Abril
-    Modalidad: VIRTUAL
-    Hora: 14.30hs
-    URL: https://meet.google.com/qma-yxma-hyn
-
 videos:
-  - nombre: Patrón composite
-    urlYoutube: https://www.youtube.com/watch?v=WOaVCo7sDBg
-  - nombre: Clase de consultas - Filtro de paises
-    urlYoutube: https://www.youtube.com/watch?v=sEjoXZwj2gU
+  - nombre: Grabación Clase Virtual 03-Sep [Strategy + Template Method]
+    urlYoutube: https://youtube.com/watch?v=m2p2ObBW4gI
+  - nombre: Grabación Patrón Composite Cuatrimestre Anterior
+    urlYoutube: https://www.youtube.com/watch?v=WOaVCo7sDBg&t=1786s
+  - nombre: Clase de consultas 06-09
+    urlYoutube: https://www.youtube.com/watch?v=rZH2E5u01o4
 
 ejercicios:
-  - name: Tareas del un Proyecto
-    classroom: https://classroom.github.com/a/RIz7mNN0
-    repoUrl: 'unahur-obj2-2025c1/tareas_proyecto' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    fechaDeEntrega: Viernes 09/05 12:00 PM
-    comentarios:
-      - name: Practica Composite, Strategy y Template Method
-    obligatorio: true
-
-  - name: File System
-    classroom: https://classroom.github.com/a/bVZA1LKU
-    repoUrl: 'unahur-obj2-2025c1/file_system' # Acá va la URL del repo sin el "https://github.com/"
+  - name: Oktuber-Fest (Patrones Strategy && Template Method)
+    classroom: https://classroom.github.com/a/9S5JPC4Z
+    repoUrl: 'unahur-obj2-2025c2/unahur-obj2-2025c2-oktubrefest-strategy-templatemethod-oktuber-fest' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Practicamos en clase el composite con un ejercicio que simula un file system
-
-  - name: Filtro paises
-    classroom: https://classroom.github.com/a/PBM6xKh3
-    repoUrl: 'unahur-obj2-2025c1/filtros-paises' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: Usaremos este ejercicio en la clase de consultas del dia sabado 26/04
-    consultas: true
+      - name: Ejercicio para practicar la implementación de los patrones de diseño Strategy y Template Method.
 ---
 
-- En esta semana vamos a conocer el patrón composite. Este patrón nos propone componer objetos en estructuras de árbol para representar jerarquías de parte-todo. Permite que los clientes traten de manera uniforme a los objetos individuales y a los compuestos
+- En esta semana daremos un paso más en el diseño orientado a objetos incorporando patrones de diseño, que son soluciones probadas y reutilizables para problemas comunes en el desarrollo de software. Estos patrones nos permiten escribir código más flexible, mantenible y fácil de extender.
 
-- <div ><img src="https://www.cs.unc.edu/~stotts/GOF/hires/Pictures/compo075.gif"></img></div>
+- Comenzaremos estudiando el Patrón Strategy, que nos ayuda a definir un conjunto de algoritmos intercambiables, permitiendo cambiar el comportamiento de un objeto en tiempo de ejecución sin modificar su estructura. Luego veremos el Patrón Template Method, que establece la estructura general de un algoritmo en una clase abstracta, dejando que las subclases definan algunos pasos específicos. Finalmente, exploraremos el Patrón Singleton, que asegura que una clase tenga una única instancia global, controlando su punto de acceso.
 
-- Les recomendamos fuertemente leer la teoría del libro, es muy importante para entender en que situaciones es aplicable el patrón y la mejor forma de implementarlo <a href="/material#estructurales" target="_blank">**Utilidad**▼ Material> Patrones de Diseño</a>
+- Durante la práctica, aplicaremos estos patrones a ejemplos concretos para comprender sus ventajas y cuándo utilizarlos. Además, continuaremos trabajando con repositorios y herramientas de desarrollo, reforzando las buenas prácticas en la escritura y organización del código.
