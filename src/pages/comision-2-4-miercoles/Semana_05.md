@@ -23,7 +23,7 @@ horarios:
   - Comision: Todas las Comisiones
     Dia: Sábado 13 de Septiembre
     Hora: 13.00hs a 15:00
-    Modalidad: VIRTUAL (Es por zoom, no por meet.)
+    Modalidad: VIRTUAL
     URL: https://us06web.zoom.us/j/87958925031
 
 ejercicios:
