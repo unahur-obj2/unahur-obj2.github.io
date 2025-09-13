@@ -22,6 +22,8 @@ videos:
     urlYoutube: https://www.youtube.com/watch?v=WOaVCo7sDBg&t=1786s
   - nombre: Clase de consultas 06-09
     urlYoutube: https://www.youtube.com/watch?v=rZH2E5u01o4
+  - nombre: Clase de consultas 13-09
+    urlYoutube: https://www.youtube.com/watch?v=f1ZvsdLC8ME
 
 ejercicios:
   - name: Oktuber-Fest (Patrones Strategy && Template Method)

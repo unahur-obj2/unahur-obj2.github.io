@@ -29,6 +29,8 @@ horarios:
 videos:
   - nombre: Grabación Clase Virtual - Explicación Patrón Composite
     urlYoutube: https://www.youtube.com/watch?v=Zk-pTNjwxjE
+  - nombre: Clase de consultas 13-09
+    urlYoutube: https://www.youtube.com/watch?v=f1ZvsdLC8ME
 
 ejercicios:
   - name: Tareas de un Proyecto
