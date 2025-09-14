@@ -1,8 +1,8 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 5
-
-inicio: 2025-09-06
+mostrar: true
+inicio: 2025-09-10
 
 descripcion: En esta semana vamos a conocer el patrón composite
 

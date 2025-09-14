@@ -1,8 +1,8 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 3
-
-inicio: 2025-08-23
+mostrar: true
+inicio: 2025-08-27
 
 descripcion: Esta semana utilizaremos la metodología de diseño y desarrollo que guía la estructura del código mediante pruebas. TDD
 

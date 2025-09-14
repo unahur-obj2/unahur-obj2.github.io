@@ -1,8 +1,8 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 3
-
-inicio: 2025-08-24
+mostrar: true
+inicio: 2025-08-26
 
 atencion: Solo por esta semana, EL VIERNES 29 de AGOSTO AMBAS COMISIONES 1 Y 3 tendrán clase virtual JUNTOS
 

@@ -1,8 +1,8 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 6
-
-inicio: 2025-09-14
+mostrar: true
+inicio: 2025-09-17
 
 descripcion: En esta semana vamos a conocer el patrón decorator
 
