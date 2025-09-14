@@ -6,7 +6,8 @@ const { title, descripcion, inicio } = frontmatter
 
 let formattedDate = ''
 if (inicio) {
-	const date = new Date(inicio)
+	const [year, month, day] = inicio.split('-').map((num) => parseInt(num, 10))
+	const date = new Date(year, month - 1, day)
 	formattedDate = date.toLocaleDateString('es-ES', {
 		day: 'numeric',
 		month: 'short',
