@@ -8,6 +8,8 @@ descripcion: En esta semana vamos a conocer el patrón decorator
 
 importante: Dentro de 2 semanas tendremos la primer evaluación parcial de la materia el día miércoles 01/10. Los patrones a evaluar son Strategy, Template Method, Composite, Decorator y Singleton. Aún no definimos si será en modalidad presencial o virtual.
 
+atencion: Esta semana no habrá clases debido a la movilización que se hará al Congreso por la ley de financiamiento.
+
 horarios:
   - Comision: Comision 2 del T.Noche
     Dia: Miércoles 17 de Septiembre
@@ -42,5 +44,6 @@ ejercicios:
 ---
 
 - Esta semana vamos a ver el patrón Decorator. Este patrón sirve para sumar nuevas funcionalidades a un objeto sin tener que modificar su código. En lugar de usar herencia, lo que hace es “envolver” al objeto original con otros objetos que le agregan comportamientos extra, de forma flexible y dinámica.
+  ![alt text](image.png)
 
 - <div ><img src="https://www.cs.unc.edu/~stotts/GOF/hires/Pictures/decor064.gif"></img></div>
