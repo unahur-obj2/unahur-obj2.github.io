@@ -20,9 +20,7 @@ if (currentUrl.includes('/comision-1-3-viernes/')) {
 }
 
 semanas = semanas.reverse().filter((semana) => {
-	const inicio = new Date(semana.frontmatter.inicio)
-	const hoy = new Date()
-	return hoy >= inicio || !semana.frontmatter.inicio
+	return semana.frontmatter.mostrar
 })
 
 const { title } = Astro.props
