@@ -1,78 +1,57 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
-title: Semana 7
+title: Semana 6
+mostrar: true
+inicio: 2025-09-19
 
-inicio: 2025-12-03
-
-descripcion: Esta semana aprenderemos a resolver problemas más complejos con colecciones y conoceremos otro tipo de colección que son los diccionarios. También veremos como usar rangos para resolver algunas situaciones donde se requiere obtener parte de los elementos de una colección.
-
-atencion: Les informamos que se traslada el parcial de la Comisión 2 (Turno Mañana) al día sábado 5/10/24 de 10:00 a 12:00hs, debido al paro y movilización anunciado para el día miércoles 2/10. La modalidad será virtual, si algún o alguna estudiante no dispone del recurso PC/internet para poder realizar el exámen, deberá ponerse en contacto vía Discord con alguno de los profesores (antes del 30/9) para reservar aula en la Unahur. Las comisiones 1A y 1B (turno noche) no tendrán actividad el día 5/10.
+descripcion: En esta semana vamos a conocer el patrón composite
 
 horarios:
-  - Comision: Comisión 1A T.Noche
-    Dia: Martes 24 de Septiembre
+  - Comision: Comision 1 del T.Noche (Prof - Gerardo)
+    Dia: Viernes 19 de Septiembre
+    Modalidad: Presencial
+    Hora: 18.00hs
+    Aula: LAB LP-207
+    Edificio: LA PATRIA
+
+  - Comision: Comision 3 del T.Noche (Prof - Dario)
+    Dia: Viernes 19 de Septiembre
     Modalidad: VIRTUAL
     Hora: 18.00hs
-    URL: https://meet.google.com/nbd-fvja-vhj
+    URL: https://meet.google.com/kxz-esct-xcp
 
-  - Comision: Comisión 1B T.Noche
-    Dia: Martes 24 de Septiembre
-    Modalidad: PRESENCIAL
-    Hora: 18.15hs
-    Aula: Aula MA-113
-    Edificio: (Edificio Malvinas Argentinas, 1er piso)
-
-  - Comision: Comisión 2 T.Mañana
-    Dia: Miércoles 25 de Septiembre
-    Modalidad: PRESENCIAL
-    Hora: 08.00hs
-    Aula: Aula MA-113
-    Edificio: (Edificio Malvinas Argentinas, 1er piso)
-
-  - Comision: Comisiones 1A, 1B y 2
-    Dia: Sábado 28 de Septiembre
-    Modalidad: VIRTUAL
-    Hora: 10.00hs
-    URL: https://us06web.zoom.us/j/81450588625
-
-  - Comision: Tutoría para todas las Comisiones 1A, 1B y 2
-    Dia: Sábado 28 de Septiembre
-    Modalidad: VIRTUAL
-    Hora: 15.00hs
-    URL: https://meet.google.com/bob-cguz-qmq
+  - Comision: Todas las Comisiones
+    Dia: Sábado 20 de Septiembre
+    Hora: 13.00hs a 15:00
+    Modalidad: VIRTUAL (Es por zoom, no por meet.)
+    URL: https://us06web.zoom.us/j/87958925031
 
 videos:
-  - nombre: Clase martes 24/9/24 - Comisión 1A (Colecciones)
-    urlYoutube: https://www.youtube.com/watch?v=0onamPbjvA8
-  - nombre: Clase sábado 28/9/24 - Práctica del parcial
-    urlYoutube: https://www.youtube.com/watch?v=Cx2ny87709A
+  - nombre: Grabación Clase Virtual - Explicación Patrón Composite
+    urlYoutube: https://www.youtube.com/watch?v=Zk-pTNjwxjE
+  - nombre: Clase de consultas 13-09
+    urlYoutube: https://www.youtube.com/watch?v=f1ZvsdLC8ME
 
 ejercicios:
-  - name: Camión de Transporte
-    classroom: https://classroom.github.com/a/zSvg1Hqa
-    repoUrl: 'obj1-unahur-2024s2/obj1-unahur-2024s2-camiondetransporte-camionDeTransporte' # Acá va la URL del repo sin el "https://github.com/"
+  - name: Tareas de un Proyecto
+    classroom: https://classroom.github.com/a/oLQzUPpi
+    repoUrl: 'unahur-obj2-2025c2/tareas_entrega' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
+    fechaDeEntrega: Viernes 26/09 12:00 PM
     comentarios:
-      - name: Para practicar en casa y en clase.
+      - name: Practica Composite, Strategy y Template Method
+    obligatorio: true
 
-  - name: El Alambique Viajero
-    classroom: https://classroom.github.com/a/RTISJJ2A
-    repoUrl: 'obj1-unahur-2024s2/obj1-unahur-2024s2-elalambiqueviajero-elAlambiqueViajero' # Acá va la URL del repo sin el "https://github.com/"
+  - name: File System
+    classroom: https://classroom.github.com/a/WEUjMSsR
+    repoUrl: 'unahur-obj2-2025c2/fileSystem' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Otro ejercicio más para practicar en casa y/o en clase.
-
-  - name: Academina de Magia
-    classroom: https://classroom.github.com/a/D1VMYjOw
-    repoUrl: 'obj1-unahur-2024s2/obj1-unahur-2024s2-academiamagia-academiamagia' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: Ejercicio de práctica para el Parcial.
+      - name: Practicamos en clase el composite con un ejercicio que simula un file system
 ---
 
-- Esta semana aprenderemos a resolver problemas más complejos con colecciones y conoceremos otro tipo de colección que son los diccionarios. También veremos como usar rangos para resolver algunas situaciones donde se requiere obtener parte de los elementos de una colección.
+- En esta semana vamos a conocer el patrón composite. Este patrón nos propone componer objetos en estructuras de árbol para representar jerarquías de parte-todo. Permite que los clientes traten de manera uniforme a los objetos individuales y a los compuestos
 
-- Volvemos a recomendar la utilización del apunte que mencionamos la semana pasada sobre closures y colecciones que está disponible en la sección Material de esta página en este link:
-  <a href="https://objetos1wollokunq.gitlab.io/material/guia-colecciones-basicas.pdf" target="_blank">Closures y Colecciones</a>
+- <div ><img src="https://www.cs.unc.edu/~stotts/GOF/hires/Pictures/compo075.gif"></img></div>
 
-- Les dejamos 2 ejercicios para practicar lo que venimos aprendiendo, que suman el manejo de colecciones.
+- Les recomendamos fuertemente leer la teoría del libro, es muy importante para entender en que situaciones es aplicable el patrón y la mejor forma de implementarlo <a href="/material#estructurales" target="_blank">**Utilidad**▼ Material> Patrones de Diseño</a>
