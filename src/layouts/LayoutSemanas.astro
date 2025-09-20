@@ -29,22 +29,49 @@ const { title } = Astro.props
 <DefaultLayout title={title}>
 	<div class="flex">
 		<aside
-			class="animate-on-load sticky left-0 top-0 h-screen w-48 rounded-lg bg-gradient-to-t from-slate-200 to-[--background] dark:from-zinc-800 dark:to-[--background]"
-			data-animate="fade-in-left">
+			class="aside-menu sticky left-0 top-0 h-screen w-48 rounded-lg bg-gradient-to-t from-slate-200 to-[--background] dark:from-zinc-800 dark:to-[--background]">
 			<AsideMenu
 				title="Semanas"
 				data={semanas}
 			/>
 		</aside>
-		<div
-			class="animate-on-load sm:m-auto"
-			data-animate="fade-in-right">
+		<div class="main-content sm:m-auto">
 			<slot />
 		</div>
 	</div>
 </DefaultLayout>
 
 <style>
+	.aside-menu {
+		animation: slideInLeft 0.5s ease-out;
+	}
+
+	.main-content {
+		animation: fadeInContent 0.6s ease-out 0.2s both;
+	}
+
+	@keyframes slideInLeft {
+		from {
+			opacity: 0;
+			transform: translateX(-20px);
+		}
+		to {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+
+	@keyframes fadeInContent {
+		from {
+			opacity: 0;
+			transform: translateY(10px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
 	@media (max-width: 775px) {
 		aside {
 			display: none;
@@ -53,6 +80,13 @@ const { title } = Astro.props
 	@media (max-width: 1200px) {
 		aside {
 			min-width: 8rem;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.aside-menu,
+		.main-content {
+			animation: none;
 		}
 	}
 </style>

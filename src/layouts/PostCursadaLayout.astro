@@ -50,17 +50,13 @@ if (currentUrl.includes('/comision-2-4-miercoles/')) {
 	</div>
 
 	<div class="container">
-		<div class="my-12">
-			<h1
-				class="animate-on-load pb-3"
-				data-animate="fade-in-up">
+		<div class="content-container my-12">
+			<h1 class="content-title pb-3">
 				{title}
 			</h1>
 			{
 				atencion ? (
-					<div
-						class="animate-on-load"
-						data-animate="fade-in-up">
+					<div class="content-section">
 						<CardSecciones
 							title="Atención"
 							atencion>
@@ -71,9 +67,7 @@ if (currentUrl.includes('/comision-2-4-miercoles/')) {
 			}
 			{
 				importante ? (
-					<div
-						class="animate-on-load"
-						data-animate="fade-in-up">
+					<div class="content-section">
 						<CardSecciones
 							title="Importante"
 							importante>
@@ -82,25 +76,19 @@ if (currentUrl.includes('/comision-2-4-miercoles/')) {
 					</div>
 				) : null
 			}
-			<div
-				class="animate-on-load pb-2"
-				data-animate="fade-in-up">
+			<div class="content-section pb-2">
 				<slot />
 			</div>
 			{
 				horarios && horarios.length > 0 ? (
-					<div
-						class="animate-on-load"
-						data-animate="fade-in-up">
+					<div class="content-section">
 						<HorariosDeSemana horarios={horarios} />
 					</div>
 				) : null
 			}
 			{
 				videos && videos.length > 0 && (
-					<div
-						class="animate-on-load"
-						data-animate="fade-in-up">
+					<div class="content-section">
 						<VideosDeSemana
 							titulo="Videos"
 							videos={videos}
@@ -110,15 +98,11 @@ if (currentUrl.includes('/comision-2-4-miercoles/')) {
 			}
 			{
 				ejercicios && ejercicios.length > 0 ? (
-					<div
-						class="animate-on-load"
-						data-animate="fade-in-up">
+					<div class="content-section">
 						<ActividadesDeSemana ejercicios={ejercicios} />
 					</div>
 				) : (
-					<div
-						class="animate-on-load"
-						data-animate="fade-in-up">
+					<div class="content-section">
 						<CardSecciones title="Ejercicios">
 							<p class="m-auto flex w-full text-center">
 								<strong>Esta semana no hay ejercicios</strong>
@@ -130,3 +114,81 @@ if (currentUrl.includes('/comision-2-4-miercoles/')) {
 		</div>
 	</div>
 </LayoutSemanas>
+
+<style>
+	.content-container {
+		animation: fadeInContainer 0.7s ease-out;
+	}
+
+	.content-title {
+		animation: slideInTitle 0.6s ease-out 0.1s both;
+	}
+
+	.content-section {
+		animation: fadeInSection 0.5s ease-out both;
+	}
+
+	.content-section:nth-child(2) {
+		animation-delay: 0.2s;
+	}
+	.content-section:nth-child(3) {
+		animation-delay: 0.3s;
+	}
+	.content-section:nth-child(4) {
+		animation-delay: 0.4s;
+	}
+	.content-section:nth-child(5) {
+		animation-delay: 0.5s;
+	}
+	.content-section:nth-child(6) {
+		animation-delay: 0.6s;
+	}
+	.content-section:nth-child(7) {
+		animation-delay: 0.7s;
+	}
+
+	@keyframes fadeInContainer {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+
+	@keyframes slideInTitle {
+		from {
+			opacity: 0;
+			transform: translateY(-15px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	@keyframes fadeInSection {
+		from {
+			opacity: 0;
+			transform: translateY(10px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.content-container,
+		.content-title,
+		.content-section {
+			animation: none;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.content-section {
+			animation-duration: 0.3s;
+		}
+	}
+</style>
