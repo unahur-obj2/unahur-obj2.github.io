@@ -11,13 +11,6 @@ if (semanasVisibles.length > 0) {
 	ultimaSemana = semanasVisibles.reduce((latest, current) => {
 		const fechaLatest = new Date(latest.frontmatter.inicio || '1900-01-01')
 		const fechaCurrent = new Date(current.frontmatter.inicio || '1900-01-01')
-		console.log(
-			`Comparando: ${
-				latest.frontmatter.title
-			} (${fechaLatest.toISOString()}) vs ${
-				current.frontmatter.title
-			} (${fechaCurrent.toISOString()})`
-		)
 		return fechaCurrent > fechaLatest ? current : latest
 	})
 }
@@ -30,16 +23,18 @@ const ultimaSemanaUrl = ultimaSemana ? ultimaSemana.url : null
 	author="Objetos II">
 	<section class="my-12">
 		<div class="space-content container">
-			<h1>Cursada - Comisión 2/4 Miércoles</h1>
-			<ul class="m-auto">
+			<h1 class="page-title">Cursada - Comisión 2/4 Miércoles</h1>
+			<ul class="semanas-grid">
 				{
 					semanas
 						.reverse()
 						.filter((semana) => {
 							return semana.frontmatter.mostrar === true
 						})
-						.map((semana) => (
-							<li>
+						.map((semana, index) => (
+							<li
+								class="semana-item"
+								style={`animation-delay: ${index * 0.1}s`}>
 								<CardSemana
 									frontmatter={semana.frontmatter}
 									url={semana.url}
@@ -54,7 +49,11 @@ const ultimaSemanaUrl = ultimaSemana ? ultimaSemana.url : null
 </DefaultLayout>
 
 <style lang="scss">
-	ul {
+	.page-title {
+		animation: fadeInTitle 0.8s ease-out;
+	}
+
+	.semanas-grid {
 		display: grid;
 		grid-template-columns: 1fr;
 		gap: 2rem;
@@ -62,6 +61,7 @@ const ultimaSemanaUrl = ultimaSemana ? ultimaSemana.url : null
 		padding: 0;
 		margin: 0;
 		width: 100%;
+		animation: fadeInGrid 0.6s ease-out 0.2s both;
 
 		@media (min-width: 550px) {
 			grid-template-columns: repeat(2, 1fr);
@@ -70,17 +70,79 @@ const ultimaSemanaUrl = ultimaSemana ? ultimaSemana.url : null
 		@media (min-width: 950px) {
 			grid-template-columns: repeat(3, 1fr);
 		}
+	}
 
-		li {
-			display: flex;
-			height: 100%;
-			width: 100%;
-			min-width: 0; /* Permite que el contenido se ajuste */
+	.semana-item {
+		display: flex;
+		height: 100%;
+		width: 100%;
+		min-width: 0;
+		opacity: 0;
+		transform: translateY(20px);
+		animation: fadeInCard 0.6s ease-out forwards;
+	}
+
+	.semana-item > * {
+		width: 100%;
+		flex: 1;
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+
+	.semana-item:hover > * {
+		transform: translateY(-5px);
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+	}
+
+	@keyframes fadeInTitle {
+		from {
+			opacity: 0;
+			transform: translateY(-20px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	@keyframes fadeInGrid {
+		from {
+			opacity: 0;
+			transform: translateY(10px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	@keyframes fadeInCard {
+		from {
+			opacity: 0;
+			transform: translateY(20px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.page-title,
+		.semanas-grid,
+		.semana-item {
+			animation: none;
+			opacity: 1;
+			transform: none;
 		}
 
-		li > * {
-			width: 100%;
-			flex: 1;
+		.semana-item:hover > * {
+			transform: none;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.semana-item {
+			animation-duration: 0.4s;
 		}
 	}
 </style>
