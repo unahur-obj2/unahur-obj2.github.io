@@ -32,6 +32,13 @@ ejercicios:
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Ejercicio para practicar la implementación de los patrones de diseño Strategy y Template Method.
+
+  - name: UML a codigo cafeteria
+    classroom: https://classroom.github.com/a/mw7aSXUC
+    repoUrl: 'unahur-obj2-2025c2/uml-a-codigo-cafeteria' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Otro ejercicio más para practicar en casa y/o en clase.
 ---
 
 - En esta semana daremos un paso más en el diseño orientado a objetos incorporando patrones de diseño, que son soluciones probadas y reutilizables para problemas comunes en el desarrollo de software. Estos patrones nos permiten escribir código más flexible, mantenible y fácil de extender.
