@@ -48,6 +48,13 @@ ejercicios:
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Practicamos en clase el composite con un ejercicio que simula un file system
+
+  - name: UML a codigo cafeteria
+    classroom: https://classroom.github.com/a/mw7aSXUC
+    repoUrl: 'unahur-obj2-2025c2/uml-a-codigo-cafeteria' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Otro ejercicio más para practicar en casa y/o en clase.
 ---
 
 - En esta semana vamos a conocer el patrón composite. Este patrón nos propone componer objetos en estructuras de árbol para representar jerarquías de parte-todo. Permite que los clientes traten de manera uniforme a los objetos individuales y a los compuestos
