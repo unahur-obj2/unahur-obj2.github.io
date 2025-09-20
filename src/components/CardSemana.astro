@@ -1,7 +1,7 @@
 ---
 import ModernCard from '@/components/ModernCard.astro'
 
-const { frontmatter, url } = Astro.props
+const { frontmatter, url, isLatest = false } = Astro.props
 const { title, descripcion, inicio } = frontmatter
 
 let formattedDate = ''
@@ -27,4 +27,5 @@ if (frontmatter.horarios) tags.push('Horarios')
 	href={url}
 	tags={tags}
 	isActive={false}
+	isLatest={isLatest}
 />
