@@ -6,7 +6,7 @@ inicio: 2025-09-24
 
 descripcion: En esta semana vamos a conocer el patrón decorator
 
-importante: La próxima semana tendremos la primer evaluación parcial de la materia el día miércoles 01/10. Los patrones a evaluar son Strategy, Template Method, Composite, Decorator y Singleton. Aún no definimos si será en modalidad presencial o virtual.
+importante: La próxima semana tendremos la primer evaluación parcial de la materia el día miércoles 01/10. Los patrones a evaluar son Strategy, Template Method, Composite, Decorator y Singleton. La modalidad es virtual.
 
 horarios:
   - Comision: Comision 2 del T.Noche
