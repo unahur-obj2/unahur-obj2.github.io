@@ -16,6 +16,14 @@ horarios:
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL (Es por zoom, no por meet.)
     URL: https://us06web.zoom.us/j/87958925031
+
+ejercicios:
+  - name: UML a codigo cafeteria
+    classroom: https://classroom.github.com/a/mw7aSXUC
+    repoUrl: 'unahur-obj2-2025c2/uml-a-codigo-cafeteria' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Otro ejercicio más para practicar en casa y/o en clase.
 ---
 
 ![alt text](image.png)
