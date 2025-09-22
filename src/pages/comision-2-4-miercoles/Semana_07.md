@@ -1,51 +1,53 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 7
-
-inicio: 2025-12-03
+mostrar: true
+inicio: 2025-09-24
 
 descripcion: En esta semana vamos a conocer el patrón decorator
 
-importante: La semana próxima tendremos la primer evaluación parcial de la materia, el día viernes 16/5.
+importante: La próxima semana tendremos la primer evaluación parcial de la materia el día miércoles 01/10. Los patrones a evaluar son Strategy, Template Method, Composite, Decorator y Singleton. Aún no definimos si será en modalidad presencial o virtual.
 
 horarios:
-  - Comision: Todas las Comisiones del T.Noche
-    Dia: Viernes 9 de Mayo
-    Modalidad: VIRTUAL
-    Hora: 18.10hs
-    URL: https://meet.google.com/zvj-qcev-ekr
+  - Comision: Comision 2 del T.Noche
+    Dia: Miércoles 24 de Septiembre
+    Modalidad: PRESENCIAL
+    Hora: 18.00hs
+    Aula: Malvinas Argentinas - 109 (1°piso)
+    Edificion: Malvinas Argentinas
 
-  - Comision: Clase de consulta
-    Dia: Sabado 10 de Mayo
+  - Comision: Comision 4 del T.Noche
+    Dia: Miércoles 24 de Septiembre
     Modalidad: VIRTUAL
-    Hora: 14.30hs
-    URL: https://meet.google.com/zes-uozi-wec
+    Hora: 18.00hs
+    URL: https://meet.google.com/kxz-esct-xcp
+
+  - Comision: Todas las Comisiones
+    Dia: Sábado 27 de Septiembre
+    Hora: 13.00hs a 15:00
+    Modalidad: VIRTUAL (Es por zoom, no por meet.)
+    URL: https://us06web.zoom.us/j/87958925031
 
 videos:
-  - nombre: Obj2 - Decorator
+  - nombre: Obj2 - Decorator (Grabación del Cuatrimestre 2025-C1)
     urlYoutube: https://www.youtube.com/watch?v=jPQ4J7GubiM
-  - nombre: Clase de consultas - Préstamo Libros
-    urlYoutube: https://www.youtube.com/watch?v=adT4SSLHS7s
 
 ejercicios:
   - name: Cazadores de Recomepensas
-    classroom: https://classroom.github.com/a/_apuCZet
-    repoUrl: 'unahur-obj2-2025c1/cazadores-recompensa' # Acá va la URL del repo sin el "https://github.com/"
+    classroom: https://classroom.github.com/a/q_m3x596
+    repoUrl: 'unahur-obj2-2025c2/cazador_recompenza' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Ejercicio para reforzar los conocimientos sobre el patrón decorator
 
-  - name: Préstamo Libros
-    classroom: https://classroom.github.com/a/ddDbNlLX
-    repoUrl: 'unahur-obj2-2025c1/prestamo-libros' # Acá va la URL del repo sin el "https://github.com/"
+  - name: UML a codigo cafeteria
+    classroom: https://classroom.github.com/a/mw7aSXUC
+    repoUrl: 'unahur-obj2-2025c2/uml-a-codigo-cafeteria' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Usaremos este ejercicio en la clase de consultas del dia sabado 10/05
-    consultas: true
+      - name: Otro ejercicio más para practicar en casa y/o en clase.
 ---
 
 - Esta semana vamos a ver el patrón Decorator. Este patrón sirve para sumar nuevas funcionalidades a un objeto sin tener que modificar su código. En lugar de usar herencia, lo que hace es “envolver” al objeto original con otros objetos que le agregan comportamientos extra, de forma flexible y dinámica.
 
 - <div ><img src="https://www.cs.unc.edu/~stotts/GOF/hires/Pictures/decor064.gif"></img></div>
-
-- Les recomendamos fuertemente leer la teoría del libro, es muy importante para entender en que situaciones es aplicable el patrón y la mejor forma de implementarlo <a href="/material#estructurales" target="_blank">**Utilidad**▼ Material> Patrones de Diseño</a>
