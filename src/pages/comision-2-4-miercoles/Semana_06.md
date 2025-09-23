@@ -4,7 +4,7 @@ title: Semana 6
 mostrar: true
 inicio: 2025-09-17
 
-descripcion:
+descripcion: Esta semana no habrá clases el día miércoles debido a la movilización que se hará al Congreso por la ley de financiamiento.
 
 importante: Dentro de 2 semanas tendremos la primer evaluación parcial de la materia el día miércoles 01/10. Los patrones a evaluar son Strategy, Template Method, Composite, Decorator y Singleton. La modalidad es virtual.
 
@@ -16,6 +16,10 @@ horarios:
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL (Es por zoom, no por meet.)
     URL: https://us06web.zoom.us/j/87958925031
+
+videos:
+  - nombre: Clase de consultas 20-09
+    urlYoutube: https://www.youtube.com/watch?v=aIGBwxrDYmM
 
 ejercicios:
   - name: UML a codigo cafeteria
