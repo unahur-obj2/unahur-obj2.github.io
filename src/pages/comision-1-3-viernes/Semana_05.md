@@ -20,8 +20,6 @@ videos:
     urlYoutube: https://youtube.com/watch?v=m2p2ObBW4gI
   - nombre: Grabación Patrón Composite Cuatrimestre Anterior
     urlYoutube: https://www.youtube.com/watch?v=WOaVCo7sDBg&t=1786s
-  - nombre: Clase de consultas 06-09
-    urlYoutube: https://www.youtube.com/watch?v=rZH2E5u01o4
   - nombre: Clase de consultas 13-09
     urlYoutube: https://www.youtube.com/watch?v=f1ZvsdLC8ME
 
