@@ -31,6 +31,8 @@ horarios:
 videos:
   - nombre: Obj2 - Decorator (Grabación del Cuatrimestre 2025-C1)
     urlYoutube: https://www.youtube.com/watch?v=jPQ4J7GubiM
+  - nombre: Grabación 24-09, Patrón Decorator por Mauricio Pintos
+    urlYoutube: https://www.youtube.com/watch?v=yU1WTwvyvvg&t=30s
 
 ejercicios:
   - name: Cazadores de Recompensas
