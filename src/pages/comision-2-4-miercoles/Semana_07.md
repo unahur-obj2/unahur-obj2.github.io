@@ -41,6 +41,12 @@ ejercicios:
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Ejercicio para reforzar los conocimientos sobre el patrón decorator
+  - name: Filtro de Paises
+    classroom: https://classroom.github.com/a/Jyir8SmY
+    repoUrl: 'unahur-obj2-2025c2/filtro-paises' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Ejercicio para reforzar los conocimientos sobre el patrón composite
 ---
 
 - Esta semana vamos a ver el patrón Decorator. Este patrón sirve para sumar nuevas funcionalidades a un objeto sin tener que modificar su código. En lugar de usar herencia, lo que hace es “envolver” al objeto original con otros objetos que le agregan comportamientos extra, de forma flexible y dinámica.
