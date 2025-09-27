@@ -29,8 +29,12 @@ horarios:
     URL: https://us06web.zoom.us/j/87958925031
 
 videos:
-  - nombre: Obj2 - Decorator (Grabación del Cuatrimestre 2025-C1)
-    urlYoutube: https://www.youtube.com/watch?v=jPQ4J7GubiM
+  - nombre: Obj2 - Decorator Grabación Parte I  (26-09-2025)
+    urlYoutube: https://www.youtube.com/watch?v=_Tmo_D4OeYI
+  - nombre: Obj2 - Decorator Grabación Parte II   (26-09-2025)
+    urlYoutube: https://www.youtube.com/watch?v=lKZt7EsAtl0
+  - nombre: Obj2 - Decorator Grabación Parte III   (26-09-2025)
+    urlYoutube: https://www.youtube.com/watch?v=jb-qaBYekq4
   - nombre: Grabación 24-09, Patrón Decorator por Mauricio Pintos
     urlYoutube: https://www.youtube.com/watch?v=yU1WTwvyvvg&t=30s
 
