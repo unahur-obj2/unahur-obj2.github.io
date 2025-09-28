@@ -30,4 +30,8 @@
 - title: Tareas de un proyecto
   url: https://github.com/unahur-obj2-2025c2/tareas_entrega_solucion
   description: Dejamos una posible solución del ejercicio.
+
+- title: Filtro de Paises
+  url: https://github.com/unahur-obj2/solucion-filtros
+  description: Dejamos una posible solución del ejercicio.
 ---

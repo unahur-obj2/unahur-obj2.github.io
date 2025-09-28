@@ -33,6 +33,8 @@ videos:
     urlYoutube: https://www.youtube.com/watch?v=jPQ4J7GubiM
   - nombre: Grabación 24-09, Patrón Decorator por Mauricio Pintos
     urlYoutube: https://www.youtube.com/watch?v=yU1WTwvyvvg&t=30s
+  - nombre: Clase de consultas 27-09
+    urlYoutube: https://www.youtube.com/watch?v=wceasDarxyE
 
 ejercicios:
   - name: Cazadores de Recompensas
