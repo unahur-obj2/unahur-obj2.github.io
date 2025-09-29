@@ -14,6 +14,11 @@ horarios:
     Modalidad: PARCIAL VIRTUAL
     Hora: 18.00hs
     URL: https://meet.google.com/kxz-esct-xcp
+
+  - Comision: Todas las Comisiones
+    Dia: Sábado 4 de Octubre
+    Hora: 13.00hs a 15:00
+    Mensaje: NO HAY CLASE
 ---
 
 - **Instrucciones**: Deberán conectarse quienes vayan a rendir, al meet publicado en la sección horarios, para dar el presente y recibir el código que les permitirá acceder a la asignación correspondiente. Recomendamos hacerlo unos minutos antes del horario de inicio.
