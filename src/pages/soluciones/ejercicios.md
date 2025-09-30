@@ -34,4 +34,8 @@
 - title: Filtro de Paises
   url: https://github.com/unahur-obj2/solucion-filtros
   description: Dejamos una posible solución del ejercicio.
+
+- title: Cazadores de Recompensa
+  url: https://github.com/unahur-obj2-2025c2/cazadores_recompensa_solucion
+  description: Dejamos una posible solución del ejercicio.
 ---
