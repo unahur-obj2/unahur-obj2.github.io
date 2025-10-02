@@ -9,7 +9,7 @@ descripcion: Semana de Parcial!
 importante: Semana de parcial! Para comisiones 1 y 3, el parcial es el día miércoles 3/10 de manera virtual, en el horario de 18:00 a 21:30.
 
 horarios:
-  - Comision: Comisiones 2 y 4 del T.Noche
+  - Comision: Comisiones 1 y 3 del T.Noche
     Dia: Miércoles 3 de Octubre
     Modalidad: PARCIAL VIRTUAL
     Hora: 18.00hs
