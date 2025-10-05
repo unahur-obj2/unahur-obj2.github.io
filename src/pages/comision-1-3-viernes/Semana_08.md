@@ -1,27 +1,24 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 8
+mostrar: true
+inicio: 2025-10-03
 
-inicio: 2025-12-03
+descripcion: Semana de Parcial!
 
-descripcion: Semana de parcial!!!
-
-atencion: El parcial es el día viernes 16/5 de manera virtual. El horario es de 18:00 a 21:30.
+importante: Semana de parcial! Para comisiones 1 y 3, el parcial es el día miércoles 3/10 de manera virtual, en el horario de 18:00 a 21:30.
 
 horarios:
-  - Comision: Todas las Comisiones del T.Noche
-    Dia: Viernes 16 de Mayo
-    Modalidad: VIRTUAL
+  - Comision: Comisiones 1 y 3 del T.Noche
+    Dia: Miércoles 3 de Octubre
+    Modalidad: PARCIAL VIRTUAL
     Hora: 18.00hs
-    URL: https://us06web.zoom.us/j/87958925031
+    URL: https://meet.google.com/kxz-esct-xcp
 
-ejercicios:
-  - name: Primer parcial de objetos II
-    classroom: https://classroom.github.com/a/1MvFHCeY
-    repoUrl: 'unahur-obj2-2025c1/Parcial-I' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    fechaDeEntrega: Viernes 16/05 21:30 PM
-    comentarios:
-      - name: Primer parcial de objetos II
-    obligatorio: true
+  - Comision: Todas las Comisiones
+    Dia: Sábado 4 de Octubre
+    Hora: 13.00hs a 15:00
+    Mensaje: NO HAY CLASE
 ---
+
+- **Instrucciones**: Deberán conectarse quienes vayan a rendir al meet publicado en la sección horarios para dar el presente y recibir el código que les permitirá acceder a la asignación correspondiente. Recomendamos hacerlo unos minutos antes del horario de inicio.
