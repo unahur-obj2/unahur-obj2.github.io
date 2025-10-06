@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 9
 mostrar: true
-inicio: 2025-12-03
+inicio: 2025-10-08
 
 descripcion: Esta semana vamos a resolver entre todos el parcial de la semana pasada.
 
