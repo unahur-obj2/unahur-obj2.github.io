@@ -5,15 +5,10 @@ mostrar: true
 inicio: 2025-10-17
 descripcion: Manejo de Excepciones e introducción al patrón command.
 
-horarios:
-  - Comision: Comision 1 del T.Noche
-    Dia: Miércoles 17 de Octurbe
-    Modalidad: Presencial
-    Hora: 18.00hs
-    Aula: LAB LP-207
-    Edificio: La Patria
+atencion: La clase del viernes 17/10 será VIRTUAL para ambas comisiones, 1 y 3.
 
-  - Comision: Comision 3 del T.Noche
+horarios:
+  - Comision: Comision 1 y 3 del T.Noche
     Dia: Miércoles 17 de Octurbe
     Modalidad: VIRTUAL
     Hora: 18.00hs
