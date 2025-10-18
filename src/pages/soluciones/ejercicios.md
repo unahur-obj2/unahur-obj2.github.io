@@ -46,4 +46,8 @@
 - title: Solución Parcial I - Recetas Saludables - Comisiones de los Miércoles
   url: https://github.com/unahur-obj2-2025c2/recetas-saludables-solucion
   description: Dejamos un posible solucion del parcial
+
+- title: Maquina de Cafe
+  url: https://github.com/unahur-obj2-2025c2/maquina-cafe-con-diagrama
+  description: Dejamos un posible del ejercicio visto en clases de consulta
 ---
