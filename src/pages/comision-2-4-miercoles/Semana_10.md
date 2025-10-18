@@ -28,6 +28,8 @@ horarios:
 videos:
   - nombre: Objetos 2 - Command (Cuatrimestre Anterior)
     urlYoutube: https://www.youtube.com/watch?v=o3axWTW-ZDw
+  - nombre: Clase de consultas 18-10
+    urlYoutube: https://www.youtube.com/watch?v=UHQ_vfXPu6Y
 ---
 
 - **Excepciones**
