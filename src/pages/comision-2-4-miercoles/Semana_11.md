@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 11
-mostrar: false
+mostrar: true
 inicio: 2025-10-22
 
 descripcion: Manejo de Errores y Expeciones - Observer comunidando solo el estado de cambio.
