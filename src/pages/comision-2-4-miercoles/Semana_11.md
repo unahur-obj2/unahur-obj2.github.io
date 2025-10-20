@@ -34,6 +34,15 @@ ejercicios:
     comentarios:
       - name: Trabajamos con el patrón Command.
     obligatorio: true
+
+  - name: Robot Domestico
+    classroom: https://classroom.github.com/a/7S0i12DI
+    repoUrl: 'unahur-obj2-2025c2/unahur-obj2-2025c2-robotdomestico-robotDomestico' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Otro ejercicio para implementar el patrón Command.
+    obligatorio: false
 ---
 
 - Esta semana vamos a profundizar sobre el patrón Command.
+- <div ><img src="/img/command.png"></img></div>
