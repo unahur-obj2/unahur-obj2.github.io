@@ -4,7 +4,7 @@ title: Semana 11
 mostrar: true
 inicio: 2025-10-22
 
-descripcion: Manejo de Errores y Expeciones - Observer comunidando solo el estado de cambio.
+descripcion: Esta semana vamos a profundizar sobre el patrón Command.
 
 horarios:
   - Comision: Comision 2 del T.Noche
