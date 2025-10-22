@@ -8,7 +8,7 @@ descripcion: Esta semana vamos a profundizar sobre el patrón Command.
 
 horarios:
   - Comision: Comision 1 y 3 del T.Noche
-    Dia: Miércoles 24 de Octurbe
+    Dia: Viernes 24 de Octurbe
     Modalidad: VIRTUAL
     Hora: 18.00hs
     URL: https://meet.google.com/kxz-esct-xcp
