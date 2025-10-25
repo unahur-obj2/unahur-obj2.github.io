@@ -41,13 +41,17 @@
 
 - title: Solución Parcial I - Plataforma Fit-Flex - Comisiones de los Viernes
   url: https://github.com/unahur-obj2-2025c2/fit-flex
-  description: Dejamos un posible solucion del parcial
+  description: Dejamos una posible solucion del parcial
 
 - title: Solución Parcial I - Recetas Saludables - Comisiones de los Miércoles
   url: https://github.com/unahur-obj2-2025c2/recetas-saludables-solucion
-  description: Dejamos un posible solucion del parcial
+  description: Dejamos una posible solucion del parcial
 
 - title: Maquina de Cafe
   url: https://github.com/unahur-obj2-2025c2/maquina-cafe-con-diagrama
-  description: Dejamos un posible del ejercicio visto en clases de consulta
+  description: Dejamos una posible solucion del ejercicio visto en clases de consulta
+
+- title: Microcontrolador
+  url: https://github.com/unahur-obj2-2025c2/microcontrolador-gabrielledezma21
+  description: Dejamos una posible solucion del ejercicio visto en clases de consulta
 ---

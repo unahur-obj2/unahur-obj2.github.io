@@ -24,6 +24,8 @@ videos:
     urlYoutube: https://www.youtube.com/watch?v=mKGX3HauRK4
   - nombre: Objetos 2 - Clase 24-10-2025 - Parte 2
     urlYoutube: https://www.youtube.com/watch?v=Rb21OV5rZ_I
+  - nombre: Clase de consultas 25-10
+    urlYoutube: https://www.youtube.com/watch?v=79CggIjPZNQ
 
 ejercicios:
   - name: Microcontrolador

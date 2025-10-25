@@ -29,6 +29,8 @@ horarios:
 videos:
   - nombre: Grabación Clase Virtual 22-Oct
     urlYoutube: https://www.youtube.com/watch?v=vAoSI4tEvS8
+  - nombre: Clase de consultas 25-10
+    urlYoutube: https://www.youtube.com/watch?v=79CggIjPZNQ
 
 ejercicios:
   - name: Microcontrolador
