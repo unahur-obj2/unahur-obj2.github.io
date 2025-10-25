@@ -28,6 +28,10 @@ horarios:
 videos:
   - nombre: Objetos 2 - Command (Cuatrimestre Anterior)
     urlYoutube: https://www.youtube.com/watch?v=o3axWTW-ZDw
+  - nombre: Grabación Clase Virtual 15-Oct Parte 1
+    urlYoutube: https://www.youtube.com/watch?v=YpBNoDzVa3M
+  - nombre: Grabación Clase Virtual 15-Oct Parte 2
+    urlYoutube: https://www.youtube.com/watch?v=mf99xk8TueQ
   - nombre: Clase de consultas 18-10
     urlYoutube: https://www.youtube.com/watch?v=UHQ_vfXPu6Y
 ---

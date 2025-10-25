@@ -26,6 +26,10 @@ horarios:
     Modalidad: VIRTUAL
     URL: https://us06web.zoom.us/j/87958925031
 
+videos:
+  - nombre: Grabación Clase Virtual 22-Oct
+    urlYoutube: https://www.youtube.com/watch?v=vAoSI4tEvS8
+
 ejercicios:
   - name: Microcontrolador
     classroom: https://classroom.github.com/a/rL3NyY2o
