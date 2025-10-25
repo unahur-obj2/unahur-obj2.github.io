@@ -19,6 +19,12 @@ horarios:
     Modalidad: VIRTUAL
     URL: https://us06web.zoom.us/j/87958925031
 
+videos:
+  - nombre: Objetos 2 - Clase 24-10-2025 - Parte 1
+    urlYoutube: https://www.youtube.com/watch?v=mKGX3HauRK4
+  - nombre: Objetos 2 - Clase 24-10-2025 - Parte 2
+    urlYoutube: https://www.youtube.com/watch?v=Rb21OV5rZ_I
+
 ejercicios:
   - name: Microcontrolador
     classroom: https://classroom.github.com/a/rL3NyY2o
