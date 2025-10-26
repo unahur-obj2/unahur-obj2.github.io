@@ -48,6 +48,20 @@ ejercicios:
     comentarios:
       - name: Otro ejercicio para implementar el patrón Command.
     obligatorio: false
+
+  #ejemplos en clase:
+  - name: Cajero
+    #classroom: https://classroom.github.com/a/q_m3x596
+    repoUrl: 'mauriciopintos/cajero' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Ejemplo visto en clase 10 para mostrar el patrón command
+  - name: Juego
+    #classroom: https://classroom.github.com/a/Jyir8SmY
+    repoUrl: 'mauriciopintos/juego' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Ejemplo visto en clase 11 para mostrar el patrón command
 ---
 
 - Esta semana vamos a profundizar sobre el patrón Command.
