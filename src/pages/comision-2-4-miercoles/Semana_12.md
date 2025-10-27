@@ -6,7 +6,7 @@ inicio: 2025-10-29
 
 descripcion: Esta semana veremos el patrón Observer.
 
-importante: El 2do parcial será la próxima semana el día 5/11 en modalidad PRESENCIAL.
+importante: El 2do parcial para comisiones 2 y 4 (miércoles) será la próxima semana el día 5/11 en modalidad PRESENCIAL.
 
 horarios:
   - Comision: Comision 2 del T.Noche
