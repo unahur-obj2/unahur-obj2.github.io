@@ -1,18 +1,46 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 12
+mostrar: true
+inicio: 2025-10-31
 
-inicio: 2025-12-03
+descripcion: Esta semana veremos el patrón Observer.
 
-descripcion: Esta semana tenemos el parcial de manera presencial el dia viernes 13 de Junio.
-importante: El parcial será a carpeta abierta, lo que significa que podrán llevar ejercicios resueltos por ustedes mismos para consultar durante el examen.
-atencion: Los estudiantes que asistan con su propia computadora deberán dirigirse al aula MA-103. Aquellos que no cuenten con equipo personal deberán presentarse en los laboratorios MA-109 y MA-113.
+importante: El 2do parcial para comisiones 1 y 3 (viernes) será la próxima semana el día 7/11 en modalidad VIRTUAL.
 
 horarios:
-  - Comision: Comisión 1A T.Noche
-    Dia: Viernes 13 de Junio
-    Modalidad: PRESENCIAL
+  - Comision: Comision 1 y 3 del T.Noche
+    Dia: Viernes 31 de Octurbe
+    Modalidad: VIRTUAL
     Hora: 18.00hs
-    Aula: Leer cartel ATENCION
-    Edificio: (Edificio Malvinas Argentinas, 1er piso)
+    URL: https://meet.google.com/kxz-esct-xcp
+
+  - Comision: Todas las Comisiones
+    Dia: Sábado 1 de Noviembre
+    Hora: 13.00hs a 15:00
+    Modalidad: VIRTUAL
+    URL: https://us06web.zoom.us/j/87958925031
+
+ejercicios:
+  - name: Central de Alarmas
+    classroom: https://classroom.github.com/a/Cb-pOyP_
+    repoUrl: 'unahur-obj2-2025c2/centralAlertas' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Para resolver aplicando el Patrón Observer, parcial del cuatrimestre anterior.
+    obligatorio: false
+
+  - name: Subastas Online
+    classroom: https://classroom.github.com/a/xMKQiflp
+    repoUrl: 'unahur-obj2-2025c2/subastas' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Otro ejercicio para implementar el patrón Observer.
+    obligatorio: false
 ---
+
+- Esta semana veremos el patrón Observer.
+- Define una dependencia de uno-a-muchos entre objetos, de forma que cuando un
+  objeto cambie de estado se notifique y se actualicen automáticamente todos los
+  objetos que dependen de él.
+- <div ><img src="/img/observer.png"></img></div>
