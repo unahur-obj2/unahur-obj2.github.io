@@ -28,6 +28,12 @@ horarios:
     Modalidad: VIRTUAL
     URL: https://us06web.zoom.us/j/87958925031
 
+videos:
+  - nombre: Grabación Clase Virtual 29-Oct
+    urlYoutube: https://www.youtube.com/watch?v=sFcl84Ap5nQ
+  #- nombre: Clase de consultas 01-11
+  #  urlYoutube: https://www.youtube.com/watch?v=79CggIjPZNQ
+
 ejercicios:
   - name: Central de Alarmas
     classroom: https://classroom.github.com/a/Cb-pOyP_
