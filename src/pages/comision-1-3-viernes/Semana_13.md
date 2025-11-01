@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 13
-mostrar: false
+mostrar: true
 inicio: 2025-12-03
 
 descripcion: Semana del 2° Parcial!
