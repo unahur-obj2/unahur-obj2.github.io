@@ -20,6 +20,9 @@ horarios:
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL
     URL: https://us06web.zoom.us/j/87958925031
+videos:
+  - nombre: Clase de consultas 01-11
+    urlYoutube: https://www.youtube.com/watch?v=6M8TydgM8zA
 
 ejercicios:
   - name: Central de Alarmas

@@ -54,4 +54,12 @@
 - title: Microcontrolador
   url: https://github.com/unahur-obj2-2025c2/microcontrolador-gabrielledezma21
   description: Dejamos una posible solucion del ejercicio visto en clases de consulta
+
+- title: Robot domestico
+  url: https://github.com/unahur-obj2-2025c2/robotdomestico-gabrielledezma21
+  description: Dejamos una posible solucion del ejercicio de la semana 11 de patron command
+
+- title: Central de Alertas
+  url: https://github.com/unahur-obj2-2025c2/centralalarmas-gabrielledezma21
+  description: Dejamos una posible solucion del ejercicio visto en clases de consulta
 ---

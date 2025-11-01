@@ -31,8 +31,8 @@ horarios:
 videos:
   - nombre: Grabación Clase Virtual 29-Oct
     urlYoutube: https://www.youtube.com/watch?v=sFcl84Ap5nQ
-  #- nombre: Clase de consultas 01-11
-  #  urlYoutube: https://www.youtube.com/watch?v=79CggIjPZNQ
+  - nombre: Clase de consultas 01-11
+    urlYoutube: https://www.youtube.com/watch?v=6M8TydgM8zA
 
 ejercicios:
   - name: Central de Alarmas
