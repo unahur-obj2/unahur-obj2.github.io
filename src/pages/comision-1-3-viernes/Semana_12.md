@@ -21,6 +21,10 @@ horarios:
     Modalidad: VIRTUAL
     URL: https://us06web.zoom.us/j/87958925031
 videos:
+  - nombre: Clase de consultas 31-10 - Parte 1
+    urlYoutube: https://www.youtube.com/watch?v=RvWQZN0VqhU
+  - nombre: Clase 31-10 - Parte 2
+    urlYoutube: https://www.youtube.com/watch?v=VpSB39MxLwc
   - nombre: Clase de consultas 01-11
     urlYoutube: https://www.youtube.com/watch?v=6M8TydgM8zA
 
