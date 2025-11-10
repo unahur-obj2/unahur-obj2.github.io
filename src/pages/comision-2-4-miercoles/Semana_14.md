@@ -1,28 +1,32 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 14
+mostrar: false
 
-inicio: 2025-12-03
+inicio: 2025-11-12
 
-descripcion: Semana de recuperatorio.
+descripcion: Esta semana vamos a resolver entre todos el parcial de la semana pasada.
 
-atencion: El viernes 04 de Julio es la fecha del RECUPERATORIO.  Tenemos asignadas las aulas MA-111 Y MA-112. Los que quieran pueden traer sus computadoras personales.
-importante: Los alumnos que lleven su notebook se reunirán en MA-111, y el resto de los alumnos en MA-112.
+importante: Esta semana ambas comisiones van a tener clase de manera virtual.
 
 horarios:
-  - Comision: Comisión 1A T.Noche
-    Dia: Viernes 04 de Julio
-    Modalidad: PRESENCIAL
+  - Comision: Comision 2 del T.Noche
+    Dia: Miércoles 12 de Noviembre
+    Modalidad: VIRTUAL
     Hora: 18.00hs
-    Aula: Leer cartel ATENCION
-    Edificio: (Edificio Malvinas Argentinas, 1er piso)
+    URL: https://meet.google.com/kxz-esct-xcp
 
-ejercicios:
-  - name: Recupera2
-    classroom: https://classroom.github.com/a/vPhKb02o
-    repoUrl: 'unahur-obj2-2025c1/recupera2' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: Recuperatorio Parcial 1 y Parcial 2
-    obligatorio: true
+  - Comision: Comision 4 del T.Noche
+    Dia: Miércoles 12 de Noviembre
+    Modalidad: VIRTUAL
+    Hora: 18.00hs
+    URL: https://meet.google.com/kxz-esct-xcp
+
+  - Comision: Todas las Comisiones
+    Dia: Sábado 15 de Noviembre
+    Hora: 13.00hs a 15:00
+    Modalidad: VIRTUAL (Es por zoom, no por meet.)
+    URL: https://us06web.zoom.us/j/87958925031
 ---
+
+- Esta semana ambas comisiones van a tener clase de manera virtual. Vamos a resolver entre todos el parcial de la semana pasada y aclarar dudas de cara a los próximos recuperatorios.
