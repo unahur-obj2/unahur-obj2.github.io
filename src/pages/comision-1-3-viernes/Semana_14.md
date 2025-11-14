@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 14
-mostrar: false
+mostrar: true
 
 inicio: 2025-11-14
 
