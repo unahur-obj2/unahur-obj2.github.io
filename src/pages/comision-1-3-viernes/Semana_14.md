@@ -10,13 +10,13 @@ descripcion: Esta semana vamos a resolver entre todos el parcial de la semana pa
 importante: Esta semana ambas comisiones van a tener clase de manera virtual.
 
 horarios:
-  - Comision: Comision 2 del T.Noche
+  - Comision: Comision 1 del T.Noche
     Dia: Miércoles 14 de Noviembre
     Modalidad: VIRTUAL
     Hora: 18.00hs
     URL: https://meet.google.com/kxz-esct-xcp
 
-  - Comision: Comision 4 del T.Noche
+  - Comision: Comision 3 del T.Noche
     Dia: Miércoles 14 de Noviembre
     Modalidad: VIRTUAL
     Hora: 18.00hs
