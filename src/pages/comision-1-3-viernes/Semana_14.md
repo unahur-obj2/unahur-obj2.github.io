@@ -27,6 +27,10 @@ horarios:
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL (Es por zoom, no por meet.)
     URL: https://us06web.zoom.us/j/87958925031
+
+videos:
+  - nombre: Clase de consultas 15-11
+    urlYoutube: https://www.youtube.com/watch?v=rIO06Fj-hgc
 ---
 
 - Esta semana ambas comisiones van a tener clase de manera virtual. Vamos a resolver entre todos el parcial de la semana pasada y aclarar dudas de cara a los próximos recuperatorios.

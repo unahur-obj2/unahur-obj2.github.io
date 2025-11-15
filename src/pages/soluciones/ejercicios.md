@@ -62,4 +62,8 @@
 - title: Central de Alertas
   url: https://github.com/unahur-obj2-2025c2/centralalarmas-gabrielledezma21
   description: Dejamos una posible solucion del ejercicio visto en clases de consulta
+
+- title: Bebidas - Modelo de Parcial
+  url: https://github.com/unahur-obj2/bebidas
+  description: Dejamos una posible solucion del modelo de parcial visto en clases de consulta
 ---
