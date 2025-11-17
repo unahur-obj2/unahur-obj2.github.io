@@ -1,40 +1,32 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 15
+mostrar: true
 
-inicio: 2025-12-03
+inicio: 2025-11-19
 
-descripcion: Esta semana es para la presentación y defensa de los TP Game Grupales.
+descripcion: Esta semana será el recuperatorio de 1er y 2do Parcial en modalidad Virtual para las comisiones 2 y 4.
+
+atencion: Los recuperatorios para comisiones 2 y 4 serán en modalidad VIRTUAL el miércoles 19/11, debido al paro no docente anunciado.
 
 horarios:
-  - Comision: Comisión 1A T.Noche
-    Dia: Martes 19 de Noviembre
-    Modalidad: PRESENCIAL
+  - Comision: Comision 2 del T.Noche
+    Dia: Miércoles 19 de Noviembre
+    Modalidad: RECUPERATORIO PARCIALES VIRTUAL
     Hora: 18.00hs
-    Aula: Aula TA-015
-    Edificio: (Edificio Trabajo Argentino)
+    URL: https://meet.google.com/kxz-esct-xcp
 
-  - Comision: Comisión 1B T.Noche
-    Dia: Martes 19 de Noviembre
-    Modalidad: PRESENCIAL
-    Hora: 18.15hs
-    Aula: Aula MA-113
-    Edificio: (Edificio Malvinas Argentinas, 1er piso)
+  - Comision: Comision 4 del T.Noche
+    Dia: Miércoles 19 de Noviembre
+    Modalidad: RECUPERATORIO PARCIALES VIRTUAL
+    Hora: 18.00hs
+    URL: https://meet.google.com/kxz-esct-xcp
 
-  - Comision: Comisión 2 T.Mañana
-    Dia: Miércoles 20 de Noviembre
-    Modalidad: PRESENCIAL
-    Hora: 08.00hs
-    Aula: Aula MA-113
-    Edificio: (Edificio Malvinas Argentinas, 1er piso)
-
-  - Comision: Comisiones 1A, 1B y 2
-    Dia: Sábado 23 de Noviembre
-    Modalidad: VIRTUAL
-    Hora: 10.00hs
-    URL: https://us06web.zoom.us/j/81450588625
+  - Comision: Todas las Comisiones
+    Dia: Sábado 15 de Noviembre
+    Hora: 13.00hs a 15:00
+    Modalidad: VIRTUAL (Es por zoom, no por meet.)
+    URL: https://us06web.zoom.us/j/87958925031
 ---
 
-- Esta semana es para la presentación y defensa de los TP Game Grupales.
-
-- Todos los grupos deberán realizar la entrega y defensa de los TP Game, debiendo estar presentes todos sus integrantes.
+- Esta semana será el recuperatorio de 1er y 2do Parcial en modalidad Virtual para las comisiones 2 y 4.
