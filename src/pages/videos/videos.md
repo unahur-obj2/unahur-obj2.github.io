@@ -1,12 +1,11 @@
 ---
-- nombre: Instalación de Software Requerido
-  urlYoutube: https://www.youtube.com/watch?v=UtJ7GO9IY94
+# - nombre: Instalación de Software Requerido
+#   urlYoutube: https://www.youtube.com/watch?v=UtJ7GO9IY94
 
-- nombre: Como generar el token de github
-  urlYoutube: https://www.youtube.com/watch?v=5WcvLokJrmY
+# - nombre: Como generar el token de github
+#   urlYoutube: https://www.youtube.com/watch?v=5WcvLokJrmY
 - nombre: Instalación Maven
   urlYoutube: https://www.youtube.com/watch?v=s-abc-QvOls
-
 # - nombre: Instalación Wollok - Windows
 #   urlYoutube: https://www.youtube.com/watch?v=kPxbjL7WUHc
 

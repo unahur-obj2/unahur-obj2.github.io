@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 9
-mostrar: true
+mostrar: false
 inicio: 2025-10-10
 
 descripcion: Esta semana no tendremos clases por el feriado, aunque si tendremos clase virtual el dia sabado
@@ -14,4 +14,4 @@ horarios:
     URL: https://us06web.zoom.us/j/87958925031
 ---
 
-- 
+-
