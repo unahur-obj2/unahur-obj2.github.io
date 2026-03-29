@@ -6,7 +6,7 @@ inicio: 2026-04-02
 
 descripcion: No hay clases por Feriado, Día del Veterano y de los Caídos en la Guerra de Malvinas
 
-importante: Feriado
+# importante: Feriado
 
 atencion: El sábado 4 de Abril NO habrá clase de consulta.
 

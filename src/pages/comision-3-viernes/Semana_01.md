@@ -6,7 +6,7 @@ inicio: 2026-04-03
 
 descripcion: No hay clases por Feriado, Viernes Santo Festividad Cristiana
 
-importante: Feriado
+# importante: Feriado
 
 atencion: El sábado 4 de Abril NO habrá clase de consulta.
 
