@@ -4,7 +4,7 @@
 
 # - nombre: Como generar el token de github
 #   urlYoutube: https://www.youtube.com/watch?v=5WcvLokJrmY
-- nombre: Instalación Maven
+- nombre: Instalación Maven (al agregar el Path, verificar bien la ruta a la carpeta "\bin")
   urlYoutube: https://www.youtube.com/watch?v=s-abc-QvOls
 # - nombre: Instalación Wollok - Windows
 #   urlYoutube: https://www.youtube.com/watch?v=kPxbjL7WUHc
