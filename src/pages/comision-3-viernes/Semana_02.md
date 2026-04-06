@@ -1,55 +1,40 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 2
-mostrar: false
-inicio: 2025-08-19
+mostrar: true
+inicio: 2026-04-10
 
 descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollok a Java.
 
 importante: Recuerden que la cursada será, en espejo, híbrida y alternada. Es espejo porque para todos las comisiones se dan los mismos temas. Híbrida porque al clases presenciales y virtuales. Alternanda porque semana a semana cambia la modalidad de presencial a virtual y viceversa.
 
-videos:
-  - nombre: Grabación Clase - Comision 3 del Viernes 22-Ago-2025 - Parte 1
-    urlYoutube: https://www.youtube.com/watch?v=XdfFQmjQPjM&feature=youtu.be
-  - nombre: Grabación Clase - Comision 3 del Viernes 22-Ago-2025 - Parte 2
-    urlYoutube: https://www.youtube.com/watch?v=Dr_uUBVg6qc
-  - nombre: Clase de consultas 23-08
-    urlYoutube: https://www.youtube.com/watch?v=tJDSnkz8la4
-
 horarios:
-  - Comision: Comision 1 del T.Noche
-    Dia: Viernes 22 de Agosto
-    Modalidad: Presencial
-    Hora: 18.00hs
-    Aula: LAB LP-207
-    Edificio: LA PATRIA
-
-  - Comision: Comision 3 del T.Noche
-    Dia: Viernes 22 de Agosto
+  - Comision: Comisión 3
+    Dia: Viernes 10 de Abril
     Modalidad: VIRTUAL
     Hora: 18.00hs
     URL: https://meet.google.com/kxz-esct-xcp
 
   - Comision: Todas las Comisiones
-    Dia: Sábado 23  de Agosto
+    Dia: Sábado 11 de Abril
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL (Es por zoom, no por meet.)
-    URL: https://us06web.zoom.us/j/87958925031
+    URL: https://us06web.zoom.us/j/89430035564
 
 ejercicios:
   - name: Practica 1 De Wollok a Java
-    classroom: https://classroom.github.com/a/Du7WZ9tW
-    repoUrl: 'unahur-obj2-2025c2/plataforma_contenido'
+    classroom: https://classroom.github.com/a/8wp6Tny5
+    repoUrl: 'unahur-obj2-2026c1/unahur-obj2-2026c1-wtoj-plataforma-contenidos-plataforma-contenidos'
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: El ejercicio integrador Plataforma Contenido usado en 2025 C1. Resolver en Clase
 
   - name: Practica 2 De Wollok a Java
-    classroom: https://classroom.github.com/a/4HkfaLjO
-    repoUrl: 'unahur-obj2-2025c2/ciudad_futurista'
+    classroom: https://classroom.github.com/a/dG-_1CXw
+    repoUrl: 'unahur-obj2-2026c1/unahur-obj2-2026c1-wtoj-ciudadfuturista-ciudadFuturista'
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: El ejercicio integrador Ciudad Futurista usado en 2025 C1. Resolver com Tarea de Alumnos
+      - name: El ejercicio integrador Ciudad Futurista usado en 2025 C1. Resolver como Tarea de Alumnos
 ---
 
 - **Repaso**: En esta semana repasaremos todo lo que aprendimos y para esto vamos a resolver este ejercicio que tomamos como Integrador en Objetos I. Pero lo vamos a resolver en la tecnología que vamos a usar en Obejtos II, sí, **_Java_**!!!. Los ejes principales de este repaso son:
@@ -57,7 +42,7 @@ ejercicios:
 - - **Herencia**
 - - **Colecciones**
 -
-- Por el momento no vamos a hacer enfásis en cuestiones del lenguaje solo vamos a intentar pasar todo el código de la solución en Wollok a Java de la manera más simple posible. Y de paso vamos a ir hablando de algunos patrónes de diseño que usamos en esta solución y de conceptos nuevos que pueden aparecer, como por ejemplo Interfaces
+- Por el momento no vamos a hacer enfásis en cuestiones del lenguaje solo vamos a intentar pasar todo el código de la solución en Wollok a Java de la manera más simple posible. Y de paso vamos a ir hablando de algunos patrones de diseño que usamos en esta solución y de conceptos nuevos que pueden aparecer, como por ejemplo Interfaces
 -
 -
 - **Patrones de Diseño** vamos a hacer una aproximación de que es un patrón de Diseño. Veremos los patrones que usamos en este ejercicio.
