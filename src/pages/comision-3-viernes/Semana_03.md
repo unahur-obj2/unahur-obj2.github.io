@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 3
-mostrar: false
+mostrar: true
 inicio: 2026-04-16
 
 descripcion: Trabajaremos la idea de cómo podemos comunicar un diseño utilizando el lenguje y herramienta de comunicación UML y el patrón Singleton.
