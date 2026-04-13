@@ -37,7 +37,7 @@ ejercicios:
       - name: El ejercicio integrador Plataforma Contenido usado en 2025 C1. Resolver en Clase
 
   - name: Practica 2 De Wollok a Java
-    classroom: https://classroom.github.com/a/dG-_1CXw
+    classroom: https://classroom.github.com/a/oRatrKun
     repoUrl: 'unahur-obj2-2026c1/unahur-obj2-2026c1-wtoj-ciudadfuturista-ciudadFuturista'
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
