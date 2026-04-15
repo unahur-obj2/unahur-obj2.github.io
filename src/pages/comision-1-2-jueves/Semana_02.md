@@ -28,6 +28,10 @@ horarios:
     Modalidad: VIRTUAL (Es por zoom, no por meet.)
     URL: https://us06web.zoom.us/j/89430035564
 
+videos:
+  - nombre: Clase de Consultas - Semana 2
+    urlYoutube: https://www.youtube.com/watch?v=E-UDGF16nRQ
+
 ejercicios:
   - name: Practica 1 De Wollok a Java
     classroom: https://classroom.github.com/a/8wp6Tny5
@@ -59,4 +63,4 @@ ejercicios:
 -
 - Leé y profundiza para la próxima semana sobre estos 2 patrones del libro "Patrones de Diseño". El pdf del libro lo vas a encontrar en la sección de Material.
 
-- Presentación de la clase de consulta. <a href="https://docs.google.com/presentation/d/1ibjPE8sAEaFrQE72630plkaPokUE_H6M5Aw1ZBGBy2c/edit?slide=id.p#slide=id.p" target="_blank">Modificadores de Acceso y Static</a>
+- Presentación de la clase de consulta. <a href="https://drive.google.com/file/d/153hoFHLtPm6vxnWO3xIXVJyjg6XQog6-/view?usp=sharing" target="_blank">Taller de Wollok a Java</a>
