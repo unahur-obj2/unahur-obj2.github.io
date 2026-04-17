@@ -380,6 +380,123 @@ const { programas } = programasFile[0].frontmatter
 
 					<div class="group relative">
 						<div
+							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-blue-600 to-indigo-600 opacity-20 blur transition-opacity group-hover:opacity-30">
+						</div>
+						<div
+							class="hover:shadow-3xl relative rounded-2xl border border-slate-200/50 bg-white/90 p-4 shadow-2xl backdrop-blur-xl transition-all duration-300 dark:border-slate-700/50 dark:bg-slate-800/90 sm:p-6 xl:p-8">
+							<CardSecciones
+								id={'disenio'}
+								title="UML - Diseño de Software">
+								<div class="mb-6 flex items-start gap-4">
+									<div
+										class="rounded-xl bg-gradient-to-br from-blue-500 to-indigo-500 p-3 shadow-lg">
+										<svg
+											class="h-6 w-6 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+											></path>
+										</svg>
+									</div>
+									<div>
+										<p
+											class="leading-relaxed text-slate-700 dark:text-slate-300">
+											El diseño de software utilizando UML nos permite crear
+											diagramas que representen la estructura, comportamiento e
+											interacciones de nuestro sistema antes de implementarlo.
+										</p>
+									</div>
+								</div>
+								<Separador />
+
+								<article id="links">
+									<div class="space-y-6">
+										<div
+											class="flex flex-col gap-4 sm:flex-row sm:items-center">
+											<div class="flex-1">
+												<h4
+													class="mb-2 text-lg font-semibold text-slate-800 dark:text-white">
+													Patrones de Diseño
+												</h4>
+												<p class="text-slate-700 dark:text-slate-300">
+													Documento completo sobre patrones de diseño aplicados
+													al desarrollo de software.
+												</p>
+											</div>
+											<a
+												href="https://drive.google.com/file/d/1-1ZfcI9UYGHgcRHTmO5wryfb7y3eEKX7/view?usp=drive_link"
+												target="_blank"
+												class="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 px-4 py-2.5 text-sm font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-blue-700 hover:to-indigo-700 hover:shadow-xl sm:px-6 sm:py-3 sm:text-base">
+												<span class="whitespace-nowrap">Ver PDF</span>
+												<Icon
+													name="ion:document-text-outline"
+													class="h-4 w-4 sm:h-5 sm:w-5"
+												/>
+											</a>
+										</div>
+
+										<div class="border-t pt-4 dark:border-slate-600">
+											<div
+												class="flex flex-col gap-4 sm:flex-row sm:items-center">
+												<div class="flex-1">
+													<h4
+														class="mb-2 text-lg font-semibold text-slate-800 dark:text-white">
+														Patrones Comportamiento
+													</h4>
+													<p class="text-slate-700 dark:text-slate-300">
+														Explora los patrones de comportamiento implementados
+														en el curso.
+													</p>
+												</div>
+												<a
+													href="#comportamiento"
+													class="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2.5 text-sm font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-purple-700 hover:to-blue-700 hover:shadow-xl sm:px-6 sm:py-3 sm:text-base">
+													<span class="whitespace-nowrap">Ver Sección</span>
+													<Icon
+														name="ion:arrow-down-outline"
+														class="h-4 w-4 sm:h-5 sm:w-5"
+													/>
+												</a>
+											</div>
+										</div>
+
+										<div class="border-t pt-4 dark:border-slate-600">
+											<div
+												class="flex flex-col gap-4 sm:flex-row sm:items-center">
+												<div class="flex-1">
+													<h4
+														class="mb-2 text-lg font-semibold text-slate-800 dark:text-white">
+														Patrones Estructurales
+													</h4>
+													<p class="text-slate-700 dark:text-slate-300">
+														Descubre los patrones estructurales y su aplicación
+														práctica.
+													</p>
+												</div>
+												<a
+													href="#estructurales"
+													class="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 px-4 py-2.5 text-sm font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-cyan-700 hover:to-blue-700 hover:shadow-xl sm:px-6 sm:py-3 sm:text-base">
+													<span class="whitespace-nowrap">Ver Sección</span>
+													<Icon
+														name="ion:arrow-down-outline"
+														class="h-4 w-4 sm:h-5 sm:w-5"
+													/>
+												</a>
+											</div>
+										</div>
+									</div>
+								</article>
+							</CardSecciones>
+						</div>
+					</div>
+
+					<div class="group relative">
+						<div
 							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-purple-600 to-blue-600 opacity-20 blur transition-opacity group-hover:opacity-30">
 						</div>
 						<div
@@ -472,127 +589,6 @@ const { programas } = programasFile[0].frontmatter
 										textKey="titulo"
 										copyKey="codigo"
 									/>
-								</article>
-							</CardSecciones>
-						</div>
-					</div>
-
-					<div class="group relative">
-						<div
-							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-emerald-600 to-teal-600 opacity-20 blur transition-opacity group-hover:opacity-30">
-						</div>
-						<div
-							class="hover:shadow-3xl relative rounded-2xl border border-slate-200/50 bg-white/90 p-4 shadow-2xl backdrop-blur-xl transition-all duration-300 dark:border-slate-700/50 dark:bg-slate-800/90 sm:p-6 xl:p-8">
-							<CardSecciones
-								id={'excepciones'}
-								title="Excepciones">
-								<div class="mb-6 flex items-start gap-4">
-									<div
-										class="rounded-xl bg-gradient-to-br from-emerald-500 to-teal-500 p-3 shadow-lg">
-										<svg
-											class="h-6 w-6 text-white"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24">
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"
-											></path>
-										</svg>
-									</div>
-									<div class="flex-1">
-										<p
-											class="mb-4 leading-relaxed text-slate-700 dark:text-slate-300">
-											Intro a manejo de errores con excepciones en Java
-										</p>
-										<a
-											href="https://docs.google.com/document/d/1Yy4YA3E_Gsuh7kcxbdRSpMsQat5PArnOEZWdnggzq7g/edit?usp=sharing"
-											target="_blank"
-											class="inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 px-6 py-3 font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-emerald-700 hover:to-teal-700 hover:shadow-xl">
-											<span>Ir al Apunte</span>
-											<Icon
-												name="ion:arrow-up-right-box-outline"
-												class="h-5 w-5"
-											/>
-										</a>
-									</div>
-								</div>
-							</CardSecciones>
-						</div>
-					</div>
-
-					<div class="group relative">
-						<div
-							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-amber-600 to-orange-600 opacity-20 blur transition-opacity group-hover:opacity-30">
-						</div>
-						<div
-							class="hover:shadow-3xl relative rounded-2xl border border-slate-200/50 bg-white/90 p-4 shadow-2xl backdrop-blur-xl transition-all duration-300 dark:border-slate-700/50 dark:bg-slate-800/90 sm:p-6 xl:p-8">
-							<CardSecciones
-								id={'tdd'}
-								title="Test Driven Development">
-								<div class="mb-6 flex items-start gap-4">
-									<div
-										class="rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 p-3 shadow-lg">
-										<svg
-											class="h-6 w-6 text-white"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24">
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-											></path>
-										</svg>
-									</div>
-									<div class="flex-1">
-										<p
-											class="mb-4 leading-relaxed text-slate-700 dark:text-slate-300">
-											Es una técnica de programación, por la cual el código se
-											escribe para satisfacer pruebas que ponen en evidencia la
-											necesidad de dicho código. Es por ello que se llama
-											"desarrollo conducido por las pruebas"
-										</p>
-										<ul
-											class="mb-6 list-none space-y-3 text-slate-700 dark:text-slate-300">
-											<li class="flex items-center gap-3">
-												<div class="h-2 w-2 rounded-full bg-amber-500"></div>
-												<span
-													>Sólo se escribe nuevo código cuando una prueba ha
-													fallado</span
-												>
-											</li>
-											<li class="flex items-center gap-3">
-												<div class="h-2 w-2 rounded-full bg-amber-500"></div>
-												<span>Se elimina la duplicación</span>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<Separador />
-
-								<article id="links">
-									<div class="flex items-center gap-4">
-										<div class="flex-1">
-											<p
-												class="mb-4 leading-relaxed text-slate-700 dark:text-slate-300">
-												Intro a Test Driven Development
-											</p>
-										</div>
-										<a
-											href="https://docs.google.com/presentation/d/18FvlQtfocLPGtptR7qMjYK_oDuHW3ykR/edit?slide=id.p1#slide=id.p1"
-											target="_blank"
-											class="inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-amber-600 to-orange-600 px-6 py-3 font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-amber-700 hover:to-orange-700 hover:shadow-xl">
-											<span>Ir a la Presentación</span>
-											<Icon
-												name="ion:arrow-up-right-box-outline"
-												class="h-5 w-5"
-											/>
-										</a>
-									</div>
 								</article>
 							</CardSecciones>
 						</div>
@@ -746,7 +742,7 @@ const { programas } = programasFile[0].frontmatter
 												href="https://docs.google.com/document/d/15wH7JYUIx3k-uZyPdiDobIYJsCRTJgld6ug2roz3vK8/edit?usp=sharing"
 												target="_blank"
 												class="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-600 to-green-600 px-4 py-2.5 text-sm font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-emerald-700 hover:to-green-700 hover:shadow-xl sm:px-6 sm:py-3 sm:text-base">
-												<span class="whitespace-nowrap">Ver PDF</span>
+												<span class="whitespace-nowrap">Ver Documento</span>
 												<Icon
 													name="ion:document-text-outline"
 													class="h-4 w-4 sm:h-5 sm:w-5"
@@ -755,22 +751,43 @@ const { programas } = programasFile[0].frontmatter
 										</div>
 									</div>
 								</article>
+
+								<article id="links">
+									<div class="flex items-center gap-4">
+										<div class="flex-1">
+											<p
+												class="mb-4 leading-relaxed text-slate-700 dark:text-slate-300">
+												Diseño y UML
+											</p>
+										</div>
+										<a
+											href="https://drive.google.com/file/d/19UJbCW8JQjq8lP9F-0wmt5ue0iVLE3RW/view"
+											target="_blank"
+											class="inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-amber-600 to-orange-600 px-6 py-3 font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-amber-700 hover:to-orange-700 hover:shadow-xl">
+											<span>Ir a la Presentación</span>
+											<Icon
+												name="ion:arrow-up-right-box-outline"
+												class="h-5 w-5"
+											/>
+										</a>
+									</div>
+								</article>
 							</CardSecciones>
 						</div>
 					</div>
 
 					<div class="group relative">
 						<div
-							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-blue-600 to-indigo-600 opacity-20 blur transition-opacity group-hover:opacity-30">
+							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-amber-600 to-orange-600 opacity-20 blur transition-opacity group-hover:opacity-30">
 						</div>
 						<div
 							class="hover:shadow-3xl relative rounded-2xl border border-slate-200/50 bg-white/90 p-4 shadow-2xl backdrop-blur-xl transition-all duration-300 dark:border-slate-700/50 dark:bg-slate-800/90 sm:p-6 xl:p-8">
 							<CardSecciones
-								id={'disenio'}
-								title="UML - Diseño de Software">
+								id={'tdd'}
+								title="Test Driven Development">
 								<div class="mb-6 flex items-start gap-4">
 									<div
-										class="rounded-xl bg-gradient-to-br from-blue-500 to-indigo-500 p-3 shadow-lg">
+										class="rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 p-3 shadow-lg">
 										<svg
 											class="h-6 w-6 text-white"
 											fill="none"
@@ -780,98 +797,102 @@ const { programas } = programasFile[0].frontmatter
 												stroke-linecap="round"
 												stroke-linejoin="round"
 												stroke-width="2"
-												d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+												d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
 											></path>
 										</svg>
 									</div>
-									<div>
+									<div class="flex-1">
 										<p
-											class="leading-relaxed text-slate-700 dark:text-slate-300">
-											El diseño de software utilizando UML nos permite crear
-											diagramas que representen la estructura, comportamiento e
-											interacciones de nuestro sistema antes de implementarlo.
+											class="mb-4 leading-relaxed text-slate-700 dark:text-slate-300">
+											Es una técnica de programación, por la cual el código se
+											escribe para satisfacer pruebas que ponen en evidencia la
+											necesidad de dicho código. Es por ello que se llama
+											"desarrollo conducido por las pruebas"
 										</p>
+										<ul
+											class="mb-6 list-none space-y-3 text-slate-700 dark:text-slate-300">
+											<li class="flex items-center gap-3">
+												<div class="h-2 w-2 rounded-full bg-amber-500"></div>
+												<span
+													>Sólo se escribe nuevo código cuando una prueba ha
+													fallado</span
+												>
+											</li>
+											<li class="flex items-center gap-3">
+												<div class="h-2 w-2 rounded-full bg-amber-500"></div>
+												<span>Se elimina la duplicación</span>
+											</li>
+										</ul>
 									</div>
 								</div>
 								<Separador />
 
 								<article id="links">
-									<div class="space-y-6">
-										<div
-											class="flex flex-col gap-4 sm:flex-row sm:items-center">
-											<div class="flex-1">
-												<h4
-													class="mb-2 text-lg font-semibold text-slate-800 dark:text-white">
-													Patrones de Diseño
-												</h4>
-												<p class="text-slate-700 dark:text-slate-300">
-													Documento completo sobre patrones de diseño aplicados
-													al desarrollo de software.
-												</p>
-											</div>
-											<a
-												href="https://drive.google.com/file/d/1-1ZfcI9UYGHgcRHTmO5wryfb7y3eEKX7/view?usp=drive_link"
-												target="_blank"
-												class="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 px-4 py-2.5 text-sm font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-blue-700 hover:to-indigo-700 hover:shadow-xl sm:px-6 sm:py-3 sm:text-base">
-												<span class="whitespace-nowrap">Ver PDF</span>
-												<Icon
-													name="ion:document-text-outline"
-													class="h-4 w-4 sm:h-5 sm:w-5"
-												/>
-											</a>
+									<div class="flex items-center gap-4">
+										<div class="flex-1">
+											<p
+												class="mb-4 leading-relaxed text-slate-700 dark:text-slate-300">
+												Intro a Test Driven Development
+											</p>
 										</div>
-
-										<div class="border-t pt-4 dark:border-slate-600">
-											<div
-												class="flex flex-col gap-4 sm:flex-row sm:items-center">
-												<div class="flex-1">
-													<h4
-														class="mb-2 text-lg font-semibold text-slate-800 dark:text-white">
-														Patrones Comportamiento
-													</h4>
-													<p class="text-slate-700 dark:text-slate-300">
-														Explora los patrones de comportamiento implementados
-														en el curso.
-													</p>
-												</div>
-												<a
-													href="#comportamiento"
-													class="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2.5 text-sm font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-purple-700 hover:to-blue-700 hover:shadow-xl sm:px-6 sm:py-3 sm:text-base">
-													<span class="whitespace-nowrap">Ver Sección</span>
-													<Icon
-														name="ion:arrow-down-outline"
-														class="h-4 w-4 sm:h-5 sm:w-5"
-													/>
-												</a>
-											</div>
-										</div>
-
-										<div class="border-t pt-4 dark:border-slate-600">
-											<div
-												class="flex flex-col gap-4 sm:flex-row sm:items-center">
-												<div class="flex-1">
-													<h4
-														class="mb-2 text-lg font-semibold text-slate-800 dark:text-white">
-														Patrones Estructurales
-													</h4>
-													<p class="text-slate-700 dark:text-slate-300">
-														Descubre los patrones estructurales y su aplicación
-														práctica.
-													</p>
-												</div>
-												<a
-													href="#estructurales"
-													class="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 px-4 py-2.5 text-sm font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-cyan-700 hover:to-blue-700 hover:shadow-xl sm:px-6 sm:py-3 sm:text-base">
-													<span class="whitespace-nowrap">Ver Sección</span>
-													<Icon
-														name="ion:arrow-down-outline"
-														class="h-4 w-4 sm:h-5 sm:w-5"
-													/>
-												</a>
-											</div>
-										</div>
+										<a
+											href="https://docs.google.com/presentation/d/18FvlQtfocLPGtptR7qMjYK_oDuHW3ykR/edit?slide=id.p1#slide=id.p1"
+											target="_blank"
+											class="inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-amber-600 to-orange-600 px-6 py-3 font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-amber-700 hover:to-orange-700 hover:shadow-xl">
+											<span>Ir a la Presentación</span>
+											<Icon
+												name="ion:arrow-up-right-box-outline"
+												class="h-5 w-5"
+											/>
+										</a>
 									</div>
 								</article>
+							</CardSecciones>
+						</div>
+					</div>
+
+					<div class="group relative">
+						<div
+							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-emerald-600 to-teal-600 opacity-20 blur transition-opacity group-hover:opacity-30">
+						</div>
+						<div
+							class="hover:shadow-3xl relative rounded-2xl border border-slate-200/50 bg-white/90 p-4 shadow-2xl backdrop-blur-xl transition-all duration-300 dark:border-slate-700/50 dark:bg-slate-800/90 sm:p-6 xl:p-8">
+							<CardSecciones
+								id={'excepciones'}
+								title="Excepciones">
+								<div class="mb-6 flex items-start gap-4">
+									<div
+										class="rounded-xl bg-gradient-to-br from-emerald-500 to-teal-500 p-3 shadow-lg">
+										<svg
+											class="h-6 w-6 text-white"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"
+											></path>
+										</svg>
+									</div>
+									<div class="flex-1">
+										<p
+											class="mb-4 leading-relaxed text-slate-700 dark:text-slate-300">
+											Intro a manejo de errores con excepciones en Java
+										</p>
+										<a
+											href="https://docs.google.com/document/d/1Yy4YA3E_Gsuh7kcxbdRSpMsQat5PArnOEZWdnggzq7g/edit?usp=sharing"
+											target="_blank"
+											class="inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 px-6 py-3 font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-emerald-700 hover:to-teal-700 hover:shadow-xl">
+											<span>Ir al Apunte</span>
+											<Icon
+												name="ion:arrow-up-right-box-outline"
+												class="h-5 w-5"
+											/>
+										</a>
+									</div>
+								</div>
 							</CardSecciones>
 						</div>
 					</div>

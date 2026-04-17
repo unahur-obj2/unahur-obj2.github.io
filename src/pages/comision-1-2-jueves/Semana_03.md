@@ -41,4 +41,6 @@ ejercicios:
 
 - Un apunte que vas a tener que leer obligatoriamente es la guía que se encuentra en la sección <a href="/material#guia" target="_blank">**Utilidad**▼ Material> Guía Básica</a>
 
-- También les dejamos una presentación en formato PDF que resume, entre otros temas, aspectos del diseño: <a href="https://drive.google.com/file/d/1HTC2EqhwxCikQyPbo8bCG2QPAFiupl1L/view" target="_blank">**Diseño UML y Patrones**</a>
+- También les dejamos una presentación en formato PDF que resume, entre otros temas, aspectos del diseño y UML: <a href="https://drive.google.com/file/d/19UJbCW8JQjq8lP9F-0wmt5ue0iVLE3RW/view" target="_blank">**Diseño y UML**</a>
+
+<!-- - También les dejamos una presentación en formato PDF que resume, entre otros temas, aspectos del diseño: <a href="https://drive.google.com/file/d/1HTC2EqhwxCikQyPbo8bCG2QPAFiupl1L/view" target="_blank">**Diseño UML y Patrones**</a> -->
