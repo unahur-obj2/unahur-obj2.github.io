@@ -19,6 +19,12 @@ horarios:
     Modalidad: VIRTUAL
     URL: https://meet.google.com/uyd-tupo-azd
 
+videos:
+  - nombre: Clase de Consultas - Semana 3 - Parte 1
+    urlYoutube: https://www.youtube.com/watch?v=WVNTvMqX5Kg
+  - nombre: Clase de Consultas - Semana 3 - Parte 2
+    urlYoutube: https://www.youtube.com/watch?v=wQ9kwpXXHiA
+
 ejercicios:
   - name: Práctica Movilidad Urbana
     classroom: https://classroom.github.com/a/x7RKC1Kx
