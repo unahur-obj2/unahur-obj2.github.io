@@ -16,8 +16,8 @@ horarios:
   - Comision: Todas las Comisiones
     Dia: Sábado 18 de Abril
     Hora: 13.00hs a 15:00
-    Modalidad: VIRTUAL (Es por zoom, no por meet.)
-    URL: https://us06web.zoom.us/j/89430035564
+    Modalidad: VIRTUAL
+    URL: https://meet.google.com/uyd-tupo-azd
 
 ejercicios:
   - name: Práctica Movilidad Urbana
