@@ -22,6 +22,10 @@ horarios:
     URL: https://us06web.zoom.us/j/89430035564
 
 videos:
+  - nombre: Clase 1 - Semana 2 - Parte 1
+    urlYoutube: https://www.youtube.com/watch?v=Vfjvh4A9Fa0
+  - nombre: Clase 1 - Semana 2 - Parte 2
+    urlYoutube: https://www.youtube.com/watch?v=DJWdnFbbxMY
   - nombre: Clase de Consultas - Semana 2
     urlYoutube: https://www.youtube.com/watch?v=E-UDGF16nRQ
 
