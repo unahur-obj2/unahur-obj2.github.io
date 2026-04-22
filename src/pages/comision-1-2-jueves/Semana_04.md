@@ -6,19 +6,18 @@ inicio: 2026-04-23
 
 descripcion: Esta semana veremos la metodología de diseño y desarrollo guiada mediante pruebas, TDD. También veremos la introducción a Maven.
 
+atencion: No hay clase virtual ni presencial el día jueves 23/4 por PARO. Información para estudiantes de las comisiones 1 y 2 más abajo.
+
 horarios:
   - Comision: Comisión 1
     Dia: Jueves 23 de Abril
-    Modalidad: VIRTUAL
-    Hora: 18.00hs
-    URL: https://meet.google.com/kxz-esct-xcp
+    Hora: NO HAY CLASE POR PARO
+    Modalidad: PARO
 
   - Comision: Comisión 2
     Dia: Jueves 23 de Abril
-    Modalidad: Presencial
-    Hora: 18.00hs
-    Aula: Malvinas Argentinas - 113 (1°piso)
-    Edificion: Malvinas Argentinas
+    Hora: NO HAY CLASE POR PARO
+    Modalidad: PARO
 
   - Comision: Todas las Comisiones
     Dia: Sábado 25 de Abril
@@ -40,6 +39,22 @@ ejercicios:
 
 - El Desarrollo Guiado por Pruebas (TDD) sigue un ciclo riguroso donde primero se escriben pruebas unitarias antes del código de producción. Para garantizar claridad, se utilizan patrones como AAA (Arrange-Act-Assert) y GWT (Given-When-Then), que ayudan a estructurar los tests de manera legible y mantenible. Ambos enfoques promueven tests claros, autocontenidos y enfocados en comportamiento, clave en TDD para evitar código frágil.
 
-- Vamos a utilizar esta presentación para hacer una introducción a la metodología <a href="/material#tdd" target="_blank">**Utilidad**▼ Material> TDD</a>
+- Vamos a utilizar este material para continuar la clase de manera asincrónica <a href="https://github.com/unahur-obj2/TDD-en-caja-fuerte" target="_blank">**< Material Semana 4 >**</a>
 
-- Por otro lado, veremos como se gestionan proyectos Java utilizando la herramienta de gestión Maven. Les dejamos el link directo que se encuentra en la sección Material de esta página para que lo vayan viendo (está en un repo de github): <a href="/material#maven" target="_blank">**Utilidad**▼ Material> Maven</a>
+- ***
+
+- ⚠️ **ATENCIÓN Comisiones 1 y 2 de los jueves.**
+- Estimados/as alumnos/as:
+- En virtud del paro anunciado por el sindicato, al cual adherimos ambos docentes de las comisiones 1 y 2, enmarcado en el plan de lucha contra el desfinanciamiento de la educación pública en general y de la universidad pública en particular, y considerando que fue comunicado luego de la publicación del contenido de la semana 4, **armamos un plan alternativo de cursada asincrónica para garantizar la continuidad pedagógica**.
+
+- **El mismo consiste en**
+  - 👉 Material teórico.
+  - 👉 Guías didácticas paso a paso para la resolución de un ejercicio.
+  - 👉 Se subirá la grabación de la clase del viernes para que puedan verla de manera asincrónica.
+  - 👉 Se habilita el espacio de consulta de los sábados para trabajar y profundizar los temas de la semana.
+-
+- Se espera que revisen el material y realicen al menos un primer intento de resolución del ejercicio antes de asistir al espacio de consulta.
+
+- Gracias por comprender y acompañar esta medida, que no es exclusivamente salarial, sino en defensa del derecho a la educación pública, gratuita y de calidad.
+
+- <div ><img src="/img/sudhur_23-4-26.jpg"></img></div>
