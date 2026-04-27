@@ -2,45 +2,59 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 5
 mostrar: false
-inicio: 2025-09-12
+inicio: 2026-05-01
 
-descripcion: En esta semana daremos un paso más en el diseño orientado a objetos incorporando patrones de diseño, que son soluciones probadas y reutilizables para problemas comunes en el desarrollo de software. Estos patrones nos permiten escribir código más flexible, mantenible y fácil de extender.
+atencion: Feriado por el Día Internacional de los Trabajadores
 
-atencion: 12 DE SEPTIEMBRE - SUSPENCION DE CLASES POR PARO DOCENTE
+descripcion: Esta semana no tendremos clases por el feriado, aunque si tendremos clase virtual el dia sabado
 
 horarios:
+  - Comision: Comisión 3
+    Dia: Viernes 1 de Mayo
+    Hora: NO HAY CLASE POR FERIADO
+    Modalidad: DÍA INTERNACIONAL DE LOS TRABAJADORES
+
   - Comision: Todas las Comisiones
-    Dia: Sábado 13 de Septiembre
+    Dia: Sábado 2 de Mayo
     Hora: 13.00hs a 15:00
-    Modalidad: VIRTUAL (Es por zoom, no por meet.)
-    URL: https://us06web.zoom.us/j/87958925031
+    Modalidad: VIRTUAL
+    URL: https://meet.google.com/uyd-tupo-azd
 
-videos:
-  - nombre: Grabación Clase Virtual 03-Sep [Strategy + Template Method]
-    urlYoutube: https://youtube.com/watch?v=m2p2ObBW4gI
-  - nombre: Grabación Patrón Composite Cuatrimestre Anterior
-    urlYoutube: https://www.youtube.com/watch?v=WOaVCo7sDBg&t=1786s
-  - nombre: Clase de consultas 13-09
-    urlYoutube: https://www.youtube.com/watch?v=f1ZvsdLC8ME
+  # - Comision: Todas las Comisiones
+  #   Dia: Sábado 1 de Mayo
+  #   Hora: NO HAY CLASE POR FERIADO
+  #   Modalidad: DÍA INTERNACIONAL DE LOS TRABAJADORES
+  #   URL:
+# videos:
+#   - nombre: Grabación Clase Virtual 03-Sep [Strategy + Template Method]
+#     urlYoutube: https://youtube.com/watch?v=m2p2ObBW4gI
+#   - nombre: Clase de consultas 06-09
+#     urlYoutube: https://www.youtube.com/watch?v=rZH2E5u01o4
 
-ejercicios:
-  - name: Oktuber-Fest (Patrones Strategy && Template Method)
-    classroom: https://classroom.github.com/a/9S5JPC4Z
-    repoUrl: 'unahur-obj2-2025c2/unahur-obj2-2025c2-oktubrefest-strategy-templatemethod-oktuber-fest' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: Ejercicio para practicar la implementación de los patrones de diseño Strategy y Template Method.
-
-  - name: UML a codigo cafeteria
-    classroom: https://classroom.github.com/a/mw7aSXUC
-    repoUrl: 'unahur-obj2-2025c2/uml-a-codigo-cafeteria' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: Otro ejercicio más para practicar en casa y/o en clase.
+# ejercicios:
+#   - name: Se agregará en la semana (Patrones Strategy && Template Method)
+# - name: Oktuber-Fest (Patrones Strategy && Template Method)
+# classroom: #https://classroom.github.com/a/9S5JPC4Z
+#   repoUrl: 'unahur-obj2-2025c2/unahur-obj2-2025c2-oktubrefest-strategy-templatemethod-oktuber-fest' # Acá va la URL del repo sin el "https://github.com/"
+#   defaultBranch: 'main' # Acá va la rama default del repo
+#   comentarios:
+#     - name: Ejercicio para practicar la implementación de los patrones de diseño Strategy y Template Method.
 ---
 
-- En esta semana daremos un paso más en el diseño orientado a objetos incorporando patrones de diseño, que son soluciones probadas y reutilizables para problemas comunes en el desarrollo de software. Estos patrones nos permiten escribir código más flexible, mantenible y fácil de extender.
+Esta semana no tendremos clases por el feriado, aunque si tendremos clase virtual el dia sabado
 
-- Comenzaremos estudiando el Patrón Strategy, que nos ayuda a definir un conjunto de algoritmos intercambiables, permitiendo cambiar el comportamiento de un objeto en tiempo de ejecución sin modificar su estructura. Luego veremos el Patrón Template Method, que establece la estructura general de un algoritmo en una clase abstracta, dejando que las subclases definan algunos pasos específicos. Finalmente, exploraremos el Patrón Singleton, que asegura que una clase tenga una única instancia global, controlando su punto de acceso.
+<!-- - En esta semana daremos un paso más en el diseño orientado a objetos profundizando en patrones de diseño, que son soluciones probadas y reutilizables para problemas comunes en el desarrollo de software. Estos patrones nos permiten escribir código más flexible, mantenible y fácil de extender -->
 
-- Durante la práctica, aplicaremos estos patrones a ejemplos concretos para comprender sus ventajas y cuándo utilizarlos. Además, continuaremos trabajando con repositorios y herramientas de desarrollo, reforzando las buenas prácticas en la escritura y organización del código.
+<!-- - Comenzaremos estudiando el Patrón Strategy, que nos ayuda a definir un conjunto de algoritmos intercambiables, permitiendo cambiar el comportamiento de un objeto en tiempo de ejecución sin modificar su estructura. -->
+
+<!-- ![alt text](../../assets/img/patrones/strategy-UML.jpg) -->
+
+<!-- - Luego veremos el Patrón Template Method, que establece la estructura general de un algoritmo en una clase abstracta, dejando que las subclases definan algunos pasos específicos. Finalmente, exploraremos el Patrón Singleton, que asegura que una clase tenga una única instancia global, controlando su punto de acceso. -->
+
+<!-- - ![alt text](../../assets/img/patrones/template-method-UML.png) -->
+
+<!-- - Durante la práctica, aplicaremos estos patrones a ejemplos concretos para comprender sus ventajas y cuándo utilizarlos. Además, continuaremos trabajando con repositorios y herramientas de desarrollo, reforzando las buenas prácticas en la escritura y organización del código. -->
+
+<!-- - <div ><img src="https://www.cs.unc.edu/~stotts/GOF/hires/Pictures/compo075.gif"></img></div> -->
+
+<!-- - Les recomendamos fuertemente leer la teoría del libro, es muy importante para entender en que situaciones es aplicable el patrón y la mejor forma de implementarlo <a href="/material#estructurales" target="_blank">**Utilidad**▼ Material> Patrones de Diseño</a> -->
