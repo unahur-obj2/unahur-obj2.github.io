@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 5
 mostrar: true
-inicio: 2026-04-30
+inicio: 2026-04-28
 
 descripcion: En esta semana daremos un paso más en el diseño orientado a objetos profundizando en patrones de diseño, que son soluciones probadas y reutilizables para problemas comunes en el desarrollo de software. Estos patrones nos permiten escribir código más flexible, mantenible y fácil de extender.
 
@@ -39,13 +39,13 @@ horarios:
 #     urlYoutube: https://www.youtube.com/watch?v=rZH2E5u01o4
 
 ejercicios:
-  - name: Se agregará en la semana (Patrones Strategy && Template Method)
-  # - name: Oktuber-Fest (Patrones Strategy && Template Method)
-  # classroom: #https://classroom.github.com/a/9S5JPC4Z
-  #   repoUrl: 'unahur-obj2-2025c2/unahur-obj2-2025c2-oktubrefest-strategy-templatemethod-oktuber-fest' # Acá va la URL del repo sin el "https://github.com/"
-  #   defaultBranch: 'main' # Acá va la rama default del repo
-  #   comentarios:
-  #     - name: Ejercicio para practicar la implementación de los patrones de diseño Strategy y Template Method.
+  # - name: Se agregará en la semana (Patrones Strategy && Template Method)
+  - name: Oktuber-Fest (Patrones Strategy && Template Method)
+    classroom: #https://classroom.github.com/a/9S5JPC4Z
+    repoUrl: 'unahur-obj2-2026c1/oktubrefest' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Ejercicio para practicar la implementación de los patrones de diseño Strategy y Template Method.
 ---
 
 - En esta semana daremos un paso más en el diseño orientado a objetos profundizando en patrones de diseño, que son soluciones probadas y reutilizables para problemas comunes en el desarrollo de software. Estos patrones nos permiten escribir código más flexible, mantenible y fácil de extender
