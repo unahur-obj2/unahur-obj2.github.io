@@ -19,6 +19,12 @@ horarios:
     Modalidad: VIRTUAL
     URL: https://meet.google.com/uyd-tupo-azd
 
+videos:
+  - nombre: Clase virtual viernes 24/4/26 Parte 1
+    urlYoutube: https://youtu.be/8ZYkUMvWblY
+  - nombre: Clase virtual viernes 24/4/26 Parte 2
+    urlYoutube: https://youtu.be/W-uCR6iHHmg
+
 ejercicios:
   - name: Caja Fuerte
     classroom: https://classroom.github.com/a/kXx9F4x6
