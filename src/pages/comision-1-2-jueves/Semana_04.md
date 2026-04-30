@@ -29,7 +29,7 @@ videos:
   - nombre: Clase virtual viernes 24/4/26 Parte 1
     urlYoutube: https://www.youtube.com/watch?v=8ZYkUMvWblY
   - nombre: Clase virtual viernes 24/4/26 Parte 2
-    urlYoutube: https://www.youtube.com/watch?v=uCR6iHHmg
+    urlYoutube: https://www.youtube.com/watch?v=W-uCR6iHHmg
 
 ejercicios:
   - name: Caja Fuerte
