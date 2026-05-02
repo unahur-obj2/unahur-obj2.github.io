@@ -14,6 +14,10 @@
 - title: Transición a Java
   url: https://github.com/unahur-obj2-2025c2/transicion-java
   description: Dejamos una posible solución del ejercicio.
+
+- title: Plataforma contenido Refactorizado
+  url: https://github.com/unahur-obj2-2026c1/wtoj-plataforma-contenidos-mauriciopintos/tree/solucion-refactor
+  description: Dejamos una posible solución del ejercicio de plataforma de contenidos, refactorizado en la clase virtual, con los patrones vistos en clase.
 # - title: Simulador Vehiculos
 #   url: https://github.com/unahur-obj2-2025c2/simulador_vehiculos
 #   description: Dejamos una posible solución del ejercicio.

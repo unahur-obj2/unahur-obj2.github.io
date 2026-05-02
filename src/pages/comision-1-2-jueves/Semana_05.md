@@ -31,6 +31,9 @@ horarios:
   #   Hora: NO HAY CLASE POR FERIADO
   #   Modalidad: DÍA INTERNACIONAL DE LOS TRABAJADORES
   #   URL:
+videos:
+  - nombre: Grabación Clase Virtual 30-Abril [Strategy + Template Method]
+    urlYoutube: https://www.youtube.com/watch?v=Jz6tkC5NTUE
 
 # videos:
 #   - nombre: Grabación Clase Virtual 03-Sep [Strategy + Template Method]
