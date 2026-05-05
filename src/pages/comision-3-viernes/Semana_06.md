@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 6
-mostrar: true
+mostrar: false
 inicio: 2026-05-08
 
 descripcion: Manejo de Excepciones.
