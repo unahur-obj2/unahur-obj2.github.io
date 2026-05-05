@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 6
-mostrar: false
+mostrar: true
 inicio: 2026-05-07
 
 descripcion: Manejo de Excepciones.
@@ -31,13 +31,12 @@ horarios:
 #   - nombre: Clase de consultas 20-09
 #     urlYoutube: https://www.youtube.com/watch?v=aIGBwxrDYmM
 
-# ejercicios:
-#   - name: UML a codigo cafeteria
-#     classroom: https://classroom.github.com/a/mw7aSXUC
-#     repoUrl: 'unahur-obj2-2025c2/uml-a-codigo-cafeteria' # Acá va la URL del repo sin el "https://github.com/"
-#     defaultBranch: 'main' # Acá va la rama default del repo
-#     comentarios:
-#       - name: Otro ejercicio más para practicar en casa y/o en clase.
+ejercicios:
+  - name: HeliSim (excepciones para Simulador de Helicóptero)
+    repoUrl: 'unahur-obj2-2026c1/excepcionesHeliSim' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Ejercicio para practicar en casa y/o en clase. Podrán realizar fork si quieren mantener una versión propia en github o clonarlo directamente desde este repo y resolver local.
 ---
 
 - **Excepciones**

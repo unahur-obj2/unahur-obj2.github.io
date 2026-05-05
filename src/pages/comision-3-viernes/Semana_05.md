@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 5
-mostrar: false
+mostrar: true
 inicio: 2026-05-01
 
 atencion: Feriado por el Día Internacional de los Trabajadores

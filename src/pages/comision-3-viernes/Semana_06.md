@@ -1,64 +1,41 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 6
-mostrar: false
-inicio: 2025-09-19
+mostrar: true
+inicio: 2026-05-08
 
-descripcion: En esta semana vamos a conocer el patrón composite
+descripcion: Manejo de Excepciones.
+
+importante: Dentro de 2 semanas tendremos la primer evaluación parcial de la materia el día jueves 21/05. Los patrones a evaluar son Strategy, Template Method, y Singleton, y el manejo de excepciones. La modalidad será virtual.
 
 horarios:
-  - Comision: Comision 1 del T.Noche (Prof - Gerardo)
-    Dia: Viernes 19 de Septiembre
-    Modalidad: Presencial
-    Hora: 18.00hs
-    Aula: LAB LP-207
-    Edificio: LA PATRIA
-
-  - Comision: Comision 3 del T.Noche (Prof - Dario)
-    Dia: Viernes 19 de Septiembre
+  - Comision: Comisión 3
+    Dia: Viernes 8 de Mayo
     Modalidad: VIRTUAL
     Hora: 18.00hs
     URL: https://meet.google.com/kxz-esct-xcp
 
   - Comision: Todas las Comisiones
-    Dia: Sábado 20 de Septiembre
+    Dia: Sábado 9 de Mayo
     Hora: 13.00hs a 15:00
-    Modalidad: VIRTUAL (Es por zoom, no por meet.)
-    URL: https://us06web.zoom.us/j/87958925031
-
-videos:
-  - nombre: Grabación Clase Virtual - Explicación Patrón Composite
-    urlYoutube: https://www.youtube.com/watch?v=Zk-pTNjwxjE
-  - nombre: Clase de consultas 20-09
-    urlYoutube: https://www.youtube.com/watch?v=aIGBwxrDYmM
+    Modalidad: VIRTUAL
+    URL: https://meet.google.com/uyd-tupo-azd
+# videos:
+#   - nombre: Clase de consultas 20-09
+#     urlYoutube: https://www.youtube.com/watch?v=aIGBwxrDYmM
 
 ejercicios:
-  - name: Tareas de un Proyecto
-    classroom: https://classroom.github.com/a/oLQzUPpi
-    repoUrl: 'unahur-obj2-2025c2/tareas_entrega' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    fechaDeEntrega: Viernes 26/09 12:00 PM
-    comentarios:
-      - name: Practica Composite, Strategy y Template Method
-    obligatorio: true
-
-  - name: File System
-    classroom: https://classroom.github.com/a/WEUjMSsR
-    repoUrl: 'unahur-obj2-2025c2/fileSystem' # Acá va la URL del repo sin el "https://github.com/"
+  - name: HeliSim (excepciones para Simulador de Helicóptero)
+    repoUrl: 'unahur-obj2-2026c1/excepcionesHeliSim' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Practicamos en clase el composite con un ejercicio que simula un file system
-
-  - name: UML a codigo cafeteria
-    classroom: https://classroom.github.com/a/mw7aSXUC
-    repoUrl: 'unahur-obj2-2025c2/uml-a-codigo-cafeteria' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: Otro ejercicio más para practicar en casa y/o en clase.
+      - name: Ejercicio para practicar en casa y/o en clase. Podrán realizar fork si quieren mantener una versión propia en github o clonarlo directamente desde este repo y resolver local.
 ---
 
-- En esta semana vamos a conocer el patrón composite. Este patrón nos propone componer objetos en estructuras de árbol para representar jerarquías de parte-todo. Permite que los clientes traten de manera uniforme a los objetos individuales y a los compuestos
+- **Excepciones**
+- Esta semana vamos a ver como manejar las excepciones de un programa. Todo lo que vamos a aprender esta en este <a href="https://docs.google.com/document/d/1Yy4YA3E_Gsuh7kcxbdRSpMsQat5PArnOEZWdnggzq7g/edit?tab=t.0#heading=h.c8inh48wd2fd" target="_blank"> Apunte</a>.
 
-- <div ><img src="https://www.cs.unc.edu/~stotts/GOF/hires/Pictures/compo075.gif"></img></div>
+- También podes acceder desde la sección material <a href="/material#excepciones" target="_blank">\*\*Utilidad\*\*▼ Material> Excepeciones</a>.
 
-- Les recomendamos fuertemente leer la teoría del libro, es muy importante para entender en que situaciones es aplicable el patrón y la mejor forma de implementarlo <a href="/material#estructurales" target="_blank">**Utilidad**▼ Material> Patrones de Diseño</a>
+- Conoceremos la Jerarquía de Clases que manejan las excepciones y entenderemos la principal diferencia entre excepciones chequeadas y no chequedas.
+- <div ><img src="/img/JerarquiaExcepciones.png"></img></div>
