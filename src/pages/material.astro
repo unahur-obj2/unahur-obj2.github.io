@@ -382,6 +382,7 @@ const { programas } = programasFile[0].frontmatter
 						<div
 							class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-blue-600 to-indigo-600 opacity-20 blur transition-opacity group-hover:opacity-30">
 						</div>
+
 						<div
 							class="hover:shadow-3xl relative rounded-2xl border border-slate-200/50 bg-white/90 p-4 shadow-2xl backdrop-blur-xl transition-all duration-300 dark:border-slate-700/50 dark:bg-slate-800/90 sm:p-6 xl:p-8">
 							<CardSecciones
@@ -734,9 +735,6 @@ const { programas } = programasFile[0].frontmatter
 													class="mb-2 text-lg font-semibold text-slate-800 dark:text-white">
 													Guía para comunicar un diseño
 												</h4>
-												<p class="text-slate-700 dark:text-slate-300">
-													Guía para comunicar un diseño
-												</p>
 											</div>
 											<a
 												href="https://docs.google.com/document/d/15wH7JYUIx3k-uZyPdiDobIYJsCRTJgld6ug2roz3vK8/edit?usp=sharing"
@@ -755,10 +753,10 @@ const { programas } = programasFile[0].frontmatter
 								<article id="links">
 									<div class="flex items-center gap-4">
 										<div class="flex-1">
-											<p
-												class="mb-4 leading-relaxed text-slate-700 dark:text-slate-300">
+											<h4
+												class="mb-2 text-lg font-semibold text-slate-800 dark:text-white">
 												Diseño y UML
-											</p>
+											</h4>
 										</div>
 										<a
 											href="https://drive.google.com/file/d/19UJbCW8JQjq8lP9F-0wmt5ue0iVLE3RW/view"
@@ -862,7 +860,7 @@ const { programas } = programasFile[0].frontmatter
 								title="Excepciones">
 								<div class="mb-6 flex items-start gap-4">
 									<div
-										class="rounded-xl bg-gradient-to-br from-emerald-500 to-teal-500 p-3 shadow-lg">
+										class="rounded-xl bg-gradient-to-br from-emerald-500 to-green-500 p-3 shadow-lg">
 										<svg
 											class="h-6 w-6 text-white"
 											fill="none"
@@ -876,23 +874,59 @@ const { programas } = programasFile[0].frontmatter
 											></path>
 										</svg>
 									</div>
-									<div class="flex-1">
+									<div>
 										<p
-											class="mb-4 leading-relaxed text-slate-700 dark:text-slate-300">
-											Intro a manejo de errores con excepciones en Java
+											class="leading-relaxed text-slate-700 dark:text-slate-300">
+											Introducción al manejo de Excepciones
 										</p>
+									</div>
+								</div>
+								<Separador />
+
+								<article id="links">
+									<div class="space-y-6">
+										<div
+											class="flex flex-col gap-4 sm:flex-row sm:items-center">
+											<div class="flex-1">
+												<h4
+													class="mb-2 text-lg font-semibold text-slate-800 dark:text-white">
+													Intro a manejo de errores con excepciones en Java
+												</h4>
+											</div>
+											<a
+												href="https://docs.google.com/document/d/1Yy4YA3E_Gsuh7kcxbdRSpMsQat5PArnOEZWdnggzq7g/edit?usp=sharing"
+												target="_blank"
+												class="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-600 to-green-600 px-4 py-2.5 text-sm font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-emerald-700 hover:to-green-700 hover:shadow-xl sm:px-6 sm:py-3 sm:text-base">
+												<span class="whitespace-nowrap">Ver Documento</span>
+												<Icon
+													name="ion:document-text-outline"
+													class="h-4 w-4 sm:h-5 sm:w-5"
+												/>
+											</a>
+										</div>
+									</div>
+								</article>
+
+								<article id="links">
+									<div class="flex items-center gap-4">
+										<div class="flex-1">
+											<h4
+												class="mb-2 text-lg font-semibold text-slate-800 dark:text-white">
+												PPT - Manejo de excepciones
+											</h4>
+										</div>
 										<a
-											href="https://docs.google.com/document/d/1Yy4YA3E_Gsuh7kcxbdRSpMsQat5PArnOEZWdnggzq7g/edit?usp=sharing"
+											href="https://drive.google.com/file/d/12lrInEvQnjdt8Rk_RJIQb1WEup6lFOp_/view"
 											target="_blank"
-											class="inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 px-6 py-3 font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-emerald-700 hover:to-teal-700 hover:shadow-xl">
-											<span>Ir al Apunte</span>
+											class="inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-amber-600 to-orange-600 px-6 py-3 font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-amber-700 hover:to-orange-700 hover:shadow-xl">
+											<span>Ir a la Presentación</span>
 											<Icon
 												name="ion:arrow-up-right-box-outline"
 												class="h-5 w-5"
 											/>
 										</a>
 									</div>
-								</div>
+								</article>
 							</CardSecciones>
 						</div>
 					</div>

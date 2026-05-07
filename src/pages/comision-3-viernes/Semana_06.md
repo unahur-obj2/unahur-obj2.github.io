@@ -35,7 +35,7 @@ ejercicios:
 - **Excepciones**
 - Esta semana vamos a ver como manejar las excepciones de un programa. Todo lo que vamos a aprender esta en este <a href="https://docs.google.com/document/d/1Yy4YA3E_Gsuh7kcxbdRSpMsQat5PArnOEZWdnggzq7g/edit?tab=t.0#heading=h.c8inh48wd2fd" target="_blank"> Apunte</a>.
 
-- También podes acceder desde la sección material <a href="/material#excepciones" target="_blank">\*\*Utilidad\*\*▼ Material> Excepeciones</a>.
+- También podes acceder desde la sección material <a href="/material#excepciones" target="_blank">**Utilidad**▼ Material> Excepeciones</a>.
 
 - Conoceremos la Jerarquía de Clases que manejan las excepciones y entenderemos la principal diferencia entre excepciones chequeadas y no chequedas.
 - <div ><img src="/img/JerarquiaExcepciones.png"></img></div>
