@@ -20,9 +20,12 @@ horarios:
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL
     URL: https://meet.google.com/uyd-tupo-azd
-# videos:
-#   - nombre: Clase de consultas 20-09
-#     urlYoutube: https://www.youtube.com/watch?v=aIGBwxrDYmM
+
+videos:
+  - nombre: Clase virtual viernes 08/05/26 Parte 1
+    urlYoutube: https://youtu.be/52j4iXHGHMs
+  - nombre: Clase virtual viernes 08/05/26 Parte 2
+    urlYoutube: https://youtu.be/lvkO2WFucB4
 
 ejercicios:
   - name: HeliSim (excepciones para Simulador de Helicóptero)
