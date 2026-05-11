@@ -23,9 +23,9 @@ horarios:
 
 videos:
   - nombre: Clase virtual viernes 08/05/26 Parte 1
-    urlYoutube: https://youtu.be/52j4iXHGHMs
+    urlYoutube: https://www.youtube.com/watch?v=52j4iXHGHMs
   - nombre: Clase virtual viernes 08/05/26 Parte 2
-    urlYoutube: https://youtu.be/lvkO2WFucB4
+    urlYoutube: https://www.youtube.com/watch?v=lvkO2WFucB4
 
 ejercicios:
   - name: HeliSim (excepciones para Simulador de Helicóptero)
