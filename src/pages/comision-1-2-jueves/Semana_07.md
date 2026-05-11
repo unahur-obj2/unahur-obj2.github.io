@@ -1,56 +1,44 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 7
-mostrar: false
-inicio: 2025-09-24
+mostrar: true
+inicio: 2026-05-14
 
 descripcion: En esta semana vamos a conocer el patrón decorator
 
-importante: La próxima semana tendremos la primer evaluación parcial de la materia el día miércoles 01/10. Los patrones a evaluar son Strategy, Template Method, Composite, Decorator y Singleton. La modalidad es virtual.
+importante: La 1er evaluación parcial de la materia se traslada al día jueves 28/5 (Semana 9). Los patrones a evaluar son Strategy, Template Method, Decorator y Singleton. La modalidad será virtual.
 
 horarios:
-  - Comision: Comision 2 del T.Noche
-    Dia: Miércoles 24 de Septiembre
-    Modalidad: PRESENCIAL
+  - Comision: Comisión 1
+    Dia: Jueves 14 de Mayo
+    Modalidad: Presencial
     Hora: 18.00hs
-    Aula: Malvinas Argentinas - 109 (1°piso)
+    Aula: Malvinas Argentinas - 113 (1°piso)
     Edificion: Malvinas Argentinas
 
-  - Comision: Comision 4 del T.Noche
-    Dia: Miércoles 24 de Septiembre
+  - Comision: Comisión 2
+    Dia: Jueves 14 de Mayo
     Modalidad: VIRTUAL
     Hora: 18.00hs
     URL: https://meet.google.com/kxz-esct-xcp
 
   - Comision: Todas las Comisiones
-    Dia: Sábado 27 de Septiembre
+    Dia: Sábado 16 de Mayo
     Hora: 13.00hs a 15:00
-    Modalidad: VIRTUAL (Es por zoom, no por meet.)
-    URL: https://us06web.zoom.us/j/87958925031
-
-videos:
-  - nombre: Obj2 - Decorator (Grabación del Cuatrimestre 2025-C1)
-    urlYoutube: https://www.youtube.com/watch?v=jPQ4J7GubiM
-  - nombre: Grabación 24-09, Patrón Decorator por Mauricio Pintos
-    urlYoutube: https://www.youtube.com/watch?v=yU1WTwvyvvg&t=30s
-  - nombre: Clase de consultas 27-09
-    urlYoutube: https://www.youtube.com/watch?v=wceasDarxyE
+    Modalidad: VIRTUAL
+    URL: https://meet.google.com/uyd-tupo-azd
 
 ejercicios:
   - name: Cazadores de Recompensas
-    classroom: https://classroom.github.com/a/q_m3x596
-    repoUrl: 'unahur-obj2-2025c2/cazador_recompenza' # Acá va la URL del repo sin el "https://github.com/"
+    repoUrl: 'unahur-obj2-2026c1/cazador_recompensas' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Ejercicio para reforzar los conocimientos sobre el patrón decorator
-  - name: Filtro de Paises
-    classroom: https://classroom.github.com/a/Jyir8SmY
-    repoUrl: 'unahur-obj2-2025c2/filtro-paises' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: Ejercicio para reforzar los conocimientos sobre el patrón composite
 ---
 
+- -
 - Esta semana vamos a ver el patrón Decorator. Este patrón sirve para sumar nuevas funcionalidades a un objeto sin tener que modificar su código. En lugar de usar herencia, lo que hace es “envolver” al objeto original con otros objetos que le agregan comportamientos extra, de forma flexible y dinámica.
-
+- -
 - <div ><img src="https://www.cs.unc.edu/~stotts/GOF/hires/Pictures/decor064.gif"></img></div>
+- -
+- Es muy importante la lectura previa a la clase de la documentación incluida en el libro sobre Patrones de diseño, en este caso **Página 207** del libro <a href="https://drive.google.com/file/d/1-1ZfcI9UYGHgcRHTmO5wryfb7y3eEKX7/view?usp=drive_link" target="_blank">**Patrones de Diseño**</a>
