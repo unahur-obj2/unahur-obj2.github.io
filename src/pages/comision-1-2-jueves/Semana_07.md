@@ -6,7 +6,7 @@ inicio: 2026-05-14
 
 descripcion: En esta semana vamos a conocer el patrón decorator
 
-importante: La 1er evaluación parcial de la materia se traslada al día jueves 28/5 (Semana 9). Los patrones a evaluar son Strategy, Template Method, Decorator y Singleton. La modalidad será virtual.
+importante: La 1er evaluación parcial de la materia se traslada al día jueves 28/5 (Semana 9) para las comisiones 1 y 2. Los patrones a evaluar son Strategy, Template Method, Decorator y Singleton. La modalidad será virtual.
 
 horarios:
   - Comision: Comisión 1
