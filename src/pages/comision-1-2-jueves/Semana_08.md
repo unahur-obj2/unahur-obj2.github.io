@@ -1,24 +1,38 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 8
-mostrar: false
-inicio: 2025-10-01
+mostrar: true
+inicio: 2026-05-18
 
-descripcion: Semana de Parcial!
+descripcion: Semana de práctica de Parcial1!
 
-importante: Semana de parcial! Para comisiones 2 y 4, el parcial es el día miércoles 1/10 de manera virtual, en el horario de 18:00 a 21:30.
+importante: Esta semana ambas comisiones, 1 y 2 van virtual.
 
 horarios:
-  - Comision: Comisiones 2 y 4 del T.Noche
-    Dia: Miércoles 1 de Octubre
-    Modalidad: PARCIAL VIRTUAL
+  - Comision: Comisión 1
+    Dia: Jueves 21 de Mayo
+    Modalidad: VIRTUAL
+    Hora: 18.00hs
+    URL: https://meet.google.com/kxz-esct-xcp
+
+  - Comision: Comisión 2
+    Dia: Jueves 21 de Mayo
+    Modalidad: VIRTUAL
     Hora: 18.00hs
     URL: https://meet.google.com/kxz-esct-xcp
 
   - Comision: Todas las Comisiones
-    Dia: Sábado 4 de Octubre
+    Dia: Sábado 23 de Mayo
     Hora: 13.00hs a 15:00
-    Mensaje: NO HAY CLASE
+    Modalidad: VIRTUAL
+    URL: https://meet.google.com/uyd-tupo-azd
+
+ejercicios:
+  - name: Práctica de Parcial 1 (Recetas saludables)
+    repoUrl: 'unahur-obj2-2026c1/practicaParcial1_recetas' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Ejercicio para practicar para el parcial
 ---
 
-- **Instrucciones**: Deberán conectarse quienes vayan a rendir, al meet publicado en la sección horarios, para dar el presente y recibir el código que les permitirá acceder a la asignación correspondiente. Recomendamos hacerlo unos minutos antes del horario de inicio.
+- ## Semana de práctica de Parcial1!
