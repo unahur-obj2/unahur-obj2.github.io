@@ -19,6 +19,10 @@ horarios:
     Modalidad: VIRTUAL
     URL: https://meet.google.com/uyd-tupo-azd
 
+videos:
+  - nombre: Clase de Consultas - Semana 8
+    urlYoutube: https://www.youtube.com/watch?v=uTFYbpOoJGQ
+
 ejercicios:
   - name: Práctica de Parcial 1 (Recetas saludables)
     repoUrl: 'unahur-obj2-2026c1/practicaParcial1_recetas' # Acá va la URL del repo sin el "https://github.com/"
