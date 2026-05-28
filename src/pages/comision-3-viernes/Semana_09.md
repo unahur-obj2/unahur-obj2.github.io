@@ -4,16 +4,15 @@ title: Semana 9
 mostrar: true
 inicio: 2026-05-28
 
-descripcion: Semana de Parcial!
+descripcion: Se pasa el parcial de comisión 3 semana 10
 
-importante: Semana de parcial! Será el día 29/05 de manera virtual, en el horario de 18:00 a 21:30.
+atencion: Debido al PARO Anunciado para el día viernes 29/5, se pasa el parcial de comisión 3 al día viernes 5/6.
 
 horarios:
   - Comision: Comisión 3
     Dia: Viernes 29 de Mayo
-    Modalidad: VIRTUAL
-    Hora: 18.00hs
-    URL: https://meet.google.com/kxz-esct-xcp
+    Hora: NO HAY CLASE POR PARO
+    Modalidad: PARO DOCENTE
 
   - Comision: Todas las Comisiones
     Dia: Sábado 30 de Mayo
@@ -21,5 +20,3 @@ horarios:
     Modalidad: VIRTUAL
     URL: https://meet.google.com/uyd-tupo-azd
 ---
-
-- **Instrucciones**: Deberán conectarse quienes vayan a rendir, al meet publicado en la sección horarios, para dar el presente y recibir el código que les permitirá acceder a la asignación correspondiente. Recomendamos hacerlo unos minutos antes del horario de inicio.
