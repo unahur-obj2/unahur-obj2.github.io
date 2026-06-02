@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 10
 mostrar: true
-inicio: 2026-04-23
+inicio: 2026-06-04
 
 descripcion: No hay clase virtual ni presencial el día jueves 4/6 por PARO UNIVERSITARIO.
 
@@ -20,7 +20,7 @@ horarios:
   #   Modalidad: PARO
 
   - Comision: Todas las Comisiones
-    Dia: Sábado 25 de Abril
+    Dia: Sábado 06 de Junio
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL
     URL: https://meet.google.com/uyd-tupo-azd
