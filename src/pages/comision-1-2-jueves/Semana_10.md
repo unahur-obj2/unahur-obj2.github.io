@@ -1,55 +1,55 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 10
-mostrar: false
-inicio: 2025-10-15
-descripcion: Manejo de Excepciones e introducción al patrón command.
+mostrar: true
+inicio: 2026-04-23
+
+descripcion: No hay clase virtual ni presencial el día jueves 4/6 por PARO UNIVERSITARIO.
+
+atencion: PARO UNIVERSITARIO 3 y 4 de Junio -> Información para estudiantes de las comisiones 1 y 2 más abajo.
 
 horarios:
-  - Comision: Comision 2 del T.Noche
-    Dia: Miércoles 15 de Octurbe
-    Modalidad: VIRTUAL
-    Hora: 18.00hs
-    URL: https://meet.google.com/kxz-esct-xcp
+  - Comision: Comisión 1 y 2
+    Dia: Jueves 04 de Junio
+    Hora: NO HAY CLASE POR PARO
+    Modalidad: PARO
 
-  - Comision: Comision 4 del T.Noche
-    Dia: Miércoles 15 de Octurbe
-    Modalidad: Presencial
-    Hora: 18.00hs
-    Aula: Malvinas Argentinas - 112 (1°piso)
-    Edificion: Malvinas Argentinas
+  # - Comision: Comisión 2
+  #   Dia: Jueves 23 de Abril
+  #   Hora: NO HAY CLASE POR PARO
+  #   Modalidad: PARO
 
   - Comision: Todas las Comisiones
-    Dia: Sábado 18 de Octubre
+    Dia: Sábado 25 de Abril
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL
-    URL: https://us06web.zoom.us/j/87958925031
+    URL: https://meet.google.com/uyd-tupo-azd
+# videos:
+#   - nombre: Clase virtual viernes 24/4/26 Parte 1
+#     urlYoutube: https://www.youtube.com/watch?v=8ZYkUMvWblY
+#   - nombre: Clase virtual viernes 24/4/26 Parte 2
+#     urlYoutube: https://www.youtube.com/watch?v=W-uCR6iHHmg
 
-videos:
-  - nombre: Objetos 2 - Command (Cuatrimestre Anterior)
-    urlYoutube: https://www.youtube.com/watch?v=o3axWTW-ZDw
-  - nombre: Grabación Clase Virtual 15-Oct Parte 1
-    urlYoutube: https://www.youtube.com/watch?v=YpBNoDzVa3M
-  - nombre: Grabación Clase Virtual 15-Oct Parte 2
-    urlYoutube: https://www.youtube.com/watch?v=mf99xk8TueQ
-  - nombre: Clase de consultas 18-10
-    urlYoutube: https://www.youtube.com/watch?v=UHQ_vfXPu6Y
+# ejercicios:
+#   - name: Caja Fuerte
+#     classroom: https://classroom.github.com/a/kXx9F4x6
+#     repoUrl: 'unahur-obj2-2026c1/unahur-obj2-2026c1-tdd_cajafuerte-cajafuerte' # Acá va la URL del repo sin el "https://github.com/"
+#     defaultBranch: 'main' # Acá va la rama default del repo
+#     comentarios:
+#       - name: Ejercicio para practicar TDD
+#     obligatorio: false
 ---
 
-- **Excepciones**
-- Esta semana vamos a ver como manejar las excepciones de un programa. Todo lo que vamos a aprender esta en este <a href="https://docs.google.com/document/d/1Yy4YA3E_Gsuh7kcxbdRSpMsQat5PArnOEZWdnggzq7g/edit?tab=t.0#heading=h.c8inh48wd2fd" target="_blank"> Apunte</a>.
+- No hay clase virtual ni presencial el día jueves 4/6 por PARO UNIVERSITARIO.
 
-- También podes acceder desde la sección material <a href="/material#excepciones" target="_blank">\*\*Utilidad\*\*▼ Material> Excepeciones</a>.
+- ⚠️ **ATENCIÓN Comisiones 1 y 2 de los jueves.**
 
-- Conoceremos la Jerarquía de Clases que manejan las excepciones y entenderemos la principal diferencia entre excepciones chequeadas y no chequedas.
-- <div ><img src="/img/JerarquiaExcepciones.png"></img></div>
+- Estimadas y estimados alumnos:
 
-- **Patrón Command**
-- Por otro lado y si nos queda tiempo haremos una introducción al patrón COMMAND que sirve para encapsular una petición en un objeto, permitiendo así parametrizar a los clientes con diferentes peticiones, hacer cola o llevar un registro de las peticiones, y poder deshacer las operaciones.
+- En virtud del paro universitario anunciado por el sindicato para este 3 y 4 de junio, al cual adherimos ambos docentes de las comisiones 1 y 2, enmarcado en el plan de lucha contra el desfinanciamiento de la educación pública en general y de la universidad pública en particular, y ante el flagrante incumplimiento de la ley de financiamiento vigente —lo que representa una profunda afrenta a la democracia por parte del Gobierno nacional—, no habrá clases presenciales ni virtuales.
 
-- Les dejamos el video el cuatrimestre anterior por si se quedan manija y quieren mirarlo para la semana 11.
+- Invitamos a toda la comunidad educativa de la cual somos parte a sumarse a este reclamo, reflexionar y visibilizar la problemática que el incumplimiento de la ley nos genera como estudiantes y trabajadores de la educación.
 
-- <div ><img src="/img/command.png"></img></div>
+- Seguiremos sosteniendo todas las instancias de lucha necesarias para que la ley se cumpla, y para defender y garantizar nuestro derecho a una educación pública, gratuita y de calidad.
 
-- **Libro**
-- Les recomendamos fuertemente leer la teoría del <a href="https://drive.google.com/file/d/1-1ZfcI9UYGHgcRHTmO5wryfb7y3eEKX7/view" target="_blank"> libro</a> (Pág.269 del PDF) para la próxima clases. Es muy importante para entender en que situaciones es aplicable el patrón y la mejor forma de implementarlo <a href="/material#comportamiento" target="_blank">**Utilidad**▼ Material> Patrones de Diseño</a>
+- <div ><img src="/img/sudhur_4-6-26.jpg"></img></div>
