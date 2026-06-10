@@ -6,6 +6,8 @@ inicio: 2026-06-11
 
 descripcion: Esta semana vamos a conocer el patrón Composite.
 
+atencion: Información para estudiantes de las comisiones 1 y 2, abas clases serán virtuales esta semana.
+
 horarios:
   - Comision: Comisiones 1 y 2
     Dia: Jueves 11 de Junio
@@ -33,6 +35,8 @@ ejercicios:
     comentarios:
       - name: Ejercicio para practicar el patrón composite
 ---
+
+- <span>Información para estudiantes de las comisiones 1 y 2, abas clases serán virtuales esta semana.</span>
 
 - Esta semana vamos a conocer el patrón Composite.
 - <div ><img src="/img/composite.png"></img></div>
