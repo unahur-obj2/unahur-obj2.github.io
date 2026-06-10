@@ -7,18 +7,18 @@ inicio: 2026-06-11
 descripcion: Esta semana vamos a conocer el patrón Composite.
 
 horarios:
-  - Comision: Comisión 1
+  - Comision: Comisiones 1 y 2
     Dia: Jueves 11 de Junio
     Modalidad: VIRTUAL
     Hora: 18.00hs
     URL: https://meet.google.com/kxz-esct-xcp
 
-  - Comision: Comisión 2
-    Dia: Jueves 11 de Junio
-    Modalidad: Presencial
-    Hora: 18.00hs
-    Aula: Malvinas Argentinas - 113 (1°piso)
-    Edificion: Malvinas Argentinas
+  # - Comision: Comisión 2
+  #   Dia: Jueves 11 de Junio
+  #   Modalidad: Presencial
+  #   Hora: 18.00hs
+  #   Aula: Malvinas Argentinas - 113 (1°piso)
+  #   Edificion: Malvinas Argentinas
 
   - Comision: Todas las Comisiones
     Dia: Sábado 13 de Junio
