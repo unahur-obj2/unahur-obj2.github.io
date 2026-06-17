@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 12
-mostrar: false
+mostrar: true
 inicio: 2026-06-18
 
 descripcion: En esta semana vamos a conocer los patrones Command y Observer
@@ -25,7 +25,11 @@ horarios:
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL
     URL: https://meet.google.com/uyd-tupo-azd
-# ejercicios:
+
+ejercicios:
+  - name: Próximamente
+    comentarios:
+      - name: Subiremos en próximanete los Ejercicios para trabajar en clase y practicar.
 #   - name: banco
 #     repoUrl: 'unahur-obj2-2026c1/banco' # Acá va la URL del repo sin el "https://github.com/"
 #     defaultBranch: 'main' # Acá va la rama default del repo
