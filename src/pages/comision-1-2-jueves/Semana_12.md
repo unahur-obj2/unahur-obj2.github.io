@@ -27,20 +27,23 @@ horarios:
     URL: https://meet.google.com/uyd-tupo-azd
 
 ejercicios:
-  - name: Próximamente
+  - name: Operaciones bancarias
+    repoUrl: 'unahur-obj2-2026c1/operaciones-bancarias' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Subiremos en próximanete los Ejercicios para trabajar en clase y practicar.
-#   - name: banco
-#     repoUrl: 'unahur-obj2-2026c1/banco' # Acá va la URL del repo sin el "https://github.com/"
-#     defaultBranch: 'main' # Acá va la rama default del repo
-#     comentarios:
-#       - name: Ejercicio para trabajar en clase
+      - name: Ejercicio para trabajar en clase
 
-#   - name: ADEFINIR
-#     repoUrl: 'unahur-obj2-2026c1/ADEFINIR' # Acá va la URL del repo sin el "https://github.com/"
-#     defaultBranch: 'main' # Acá va la rama default del repo
-#     comentarios:
-#       - name: Ejercicio para trabajar los conocimientos sobre los patrones command y observer
+  - name: Maquina de café
+    repoUrl: 'unahur-obj2-2026c1/maquina-cafe' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Ejercicio para trabajar los conocimientos sobre el patrón command
+
+  - name: Subastas
+    repoUrl: 'unahur-obj2-2026c1/subastas' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Ejercicio para trabajar los conocimientos sobre el patrón observer
 ---
 
 - Esta semana vamos los patrones Command y Observer haciendo un ejemplo que los combiene.
