@@ -1,59 +1,63 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 12
-mostrar: false
-inicio: 2025-10-29
+mostrar: true
+inicio: 2026-06-18
 
-descripcion: Esta semana veremos el patrón Observer.
-
-importante: El 2do parcial para comisiones 2 y 4 (miércoles) será la próxima semana el día 5/11 en modalidad PRESENCIAL.
+descripcion: En esta semana vamos a conocer los patrones Command y Observer
 
 horarios:
-  - Comision: Comision 2 del T.Noche
-    Dia: Miércoles 29 de Octurbe
+  - Comision: Comisión 1
+    Dia: Jueves 18 de Junio
+    Modalidad: Presencial
+    Hora: 18.00hs
+    Aula: Malvinas Argentinas - 113 (1°piso)
+    Edificion: Malvinas Argentinas
+
+  - Comision: Comisiones 2
+    Dia: Jueves 11 de Junio
     Modalidad: VIRTUAL
     Hora: 18.00hs
     URL: https://meet.google.com/kxz-esct-xcp
 
-  - Comision: Comision 4 del T.Noche
-    Dia: Miércoles 29 de Octurbe
-    Modalidad: Presencial
-    Hora: 18.00hs
-    Aula: Malvinas Argentinas - 110 (1°piso)
-    Edificion: Malvinas Argentinas
-
   - Comision: Todas las Comisiones
-    Dia: Sábado 1 de Noviembre
+    Dia: Sábado 13 de Junio
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL
-    URL: https://us06web.zoom.us/j/87958925031
-
-videos:
-  - nombre: Grabación Clase Virtual 29-Oct
-    urlYoutube: https://www.youtube.com/watch?v=sFcl84Ap5nQ
-  - nombre: Clase de consultas 01-11
-    urlYoutube: https://www.youtube.com/watch?v=6M8TydgM8zA
+    URL: https://meet.google.com/uyd-tupo-azd
 
 ejercicios:
-  - name: Central de Alarmas
-    classroom: https://classroom.github.com/a/Cb-pOyP_
-    repoUrl: 'unahur-obj2-2025c2/centralAlertas' # Acá va la URL del repo sin el "https://github.com/"
+  - name: Operaciones bancarias
+    repoUrl: 'unahur-obj2-2026c1/operaciones-bancarias' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Para resolver aplicando el Patrón Observer.
-    obligatorio: false
+      - name: Ejercicio para trabajar en clase
 
-  - name: Subastas Online
-    classroom: https://classroom.github.com/a/xMKQiflp
-    repoUrl: 'unahur-obj2-2025c2/subastas' # Acá va la URL del repo sin el "https://github.com/"
+  - name: Maquina de café
+    repoUrl: 'unahur-obj2-2026c1/maquina-cafe' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Otro ejercicio para implementar el patrón Observer.
-    obligatorio: false
+      - name: Ejercicio para trabajar los conocimientos sobre el patrón command
+
+  - name: Subastas
+    repoUrl: 'unahur-obj2-2026c1/subastas' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Ejercicio para trabajar los conocimientos sobre el patrón observer
 ---
 
-- Esta semana veremos el patrón Observer.
-- Define una dependencia de uno-a-muchos entre objetos, de forma que cuando un
-  objeto cambie de estado se notifique y se actualicen automáticamente todos los
-  objetos que dependen de él.
+- Esta semana vamos los patrones Command y Observer haciendo un ejemplo que los combiene.
+
+- **Patrón Command**
+- Sirve para encapsular una petición en un objeto, permitiendo así parametrizar a los clientes con diferentes peticiones, hacer cola o llevar un registro de las peticiones, y poder deshacer las operaciones.
+
+- <div ><img src="/img/command.png"></img></div>
+
+- **Patrón Observer**
+- Define una dependencia de uno-a-muchos entre objetos, de forma que cuando un objeto cambie de estado se notifique y se actualicen automáticamente todos los objetos que dependen de él.
+
 - <div ><img src="/img/observer.png"></img></div>
+
+- Les dejamos un ejercicio para que practiquen luego de la clase. La idea es que intenten resolverlo individualmente.
+
+- Les recomendamos fuertemente leer la teoría del libro, es muy importante para entender en que situaciones es aplicable cada patrón y la mejor forma de implementarlos <a href="/material#comportamiento" target="_blank">**Utilidad**▼ Material> Patrones de Diseño</a

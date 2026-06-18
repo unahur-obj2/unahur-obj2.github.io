@@ -1,68 +1,41 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 11
-mostrar: false
-inicio: 2025-10-22
+mostrar: true
+inicio: 2026-06-11
 
-descripcion: Esta semana vamos a profundizar sobre el patrón Command.
+descripcion: Esta semana vamos a conocer el patrón Composite.
+
+atencion: Información para estudiantes de las comisiones 1 y 2, ambas clases serán virtuales esta semana.
 
 horarios:
-  - Comision: Comision 2 del T.Noche
-    Dia: Miércoles 22 de Octurbe
-    Modalidad: Presencial
-    Hora: 18.00hs
-    Aula: Malvinas Argentinas - 109 (1°piso)
-    Edificion: Malvinas Argentinas
-
-  - Comision: Comision 4 del T.Noche
-    Dia: Miércoles 22 de Octurbe
+  - Comision: Comisiones 1 y 2
+    Dia: Jueves 11 de Junio
     Modalidad: VIRTUAL
     Hora: 18.00hs
     URL: https://meet.google.com/kxz-esct-xcp
 
+  # - Comision: Comisión 2
+  #   Dia: Jueves 11 de Junio
+  #   Modalidad: Presencial
+  #   Hora: 18.00hs
+  #   Aula: Malvinas Argentinas - 113 (1°piso)
+  #   Edificion: Malvinas Argentinas
+
   - Comision: Todas las Comisiones
-    Dia: Sábado 25 de Octubre
+    Dia: Sábado 13 de Junio
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL
-    URL: https://us06web.zoom.us/j/87958925031
-
-videos:
-  - nombre: Grabación Clase Virtual 22-Oct
-    urlYoutube: https://www.youtube.com/watch?v=vAoSI4tEvS8
-  - nombre: Clase de consultas 25-10
-    urlYoutube: https://www.youtube.com/watch?v=79CggIjPZNQ
+    URL: https://meet.google.com/uyd-tupo-azd
 
 ejercicios:
-  - name: Microcontrolador
-    classroom: https://classroom.github.com/a/rL3NyY2o
-    repoUrl: 'unahur-obj2-2025c2/unahur-obj2-2025c2-microcontrolador-microcontrolador' # Acá va la URL del repo sin el "https://github.com/"
+  - name: Filtro de mails
+    repoUrl: 'unahur-obj2-2026c1/filtrosDeMails' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Trabajamos con el patrón Command.
-    obligatorio: true
-
-  - name: Robot Domestico
-    classroom: https://classroom.github.com/a/7S0i12DI
-    repoUrl: 'unahur-obj2-2025c2/unahur-obj2-2025c2-robotdomestico-robotDomestico' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: Otro ejercicio para implementar el patrón Command.
-    obligatorio: false
-
-  #ejemplos en clase:
-  - name: Cajero
-    #classroom: https://classroom.github.com/a/q_m3x596
-    repoUrl: 'mauriciopintos/cajero' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: Ejemplo visto en clase 10 para mostrar el patrón command
-  - name: Juego
-    #classroom: https://classroom.github.com/a/Jyir8SmY
-    repoUrl: 'mauriciopintos/juego' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: Ejemplo visto en clase 11 para mostrar el patrón command
+      - name: Ejercicio para practicar el patrón composite
 ---
 
-- Esta semana vamos a profundizar sobre el patrón Command.
-- <div ><img src="/img/command.png"></img></div>
+- Esta semana vamos a conocer el patrón Composite.
+- <div ><img src="/img/composite.png"></img></div>
+- <div ><img src="/img/composite2.png"></img></div>

@@ -6,7 +6,7 @@ inicio: 2026-05-07
 
 descripcion: Manejo de Excepciones.
 
-importante: Dentro de 2 semanas tendremos la primer evaluación parcial de la materia el día jueves 21/05. Los patrones a evaluar son Strategy, Template Method, y Singleton, y el manejo de excepciones. La modalidad será virtual.
+importante: Dentro de 3 semanas tendremos la primer evaluación parcial de la materia el día jueves 21/05. Los patrones a evaluar son Strategy, Template Method, y Singleton, y el manejo de excepciones. La modalidad será virtual.
 
 horarios:
   - Comision: Comisión 1

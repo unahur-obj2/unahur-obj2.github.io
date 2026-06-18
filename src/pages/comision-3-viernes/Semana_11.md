@@ -1,49 +1,32 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 11
-mostrar: false
-inicio: 2025-10-24
+mostrar: true
+inicio: 2026-06-12
 
-descripcion: Esta semana vamos a profundizar sobre el patrón Command.
+descripcion: Esta semana vamos a conocer el patrón Composite.
 
 horarios:
-  - Comision: Comision 1 y 3 del T.Noche
-    Dia: Viernes 24 de Octurbe
+  - Comision: Comisión 3
+    Dia: Viernes 12 de Junio
     Modalidad: VIRTUAL
     Hora: 18.00hs
     URL: https://meet.google.com/kxz-esct-xcp
 
   - Comision: Todas las Comisiones
-    Dia: Sábado 25 de Octubre
+    Dia: Sábado 13 de Junio
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL
-    URL: https://us06web.zoom.us/j/87958925031
-
-videos:
-  - nombre: Objetos 2 - Clase 24-10-2025 - Parte 1
-    urlYoutube: https://www.youtube.com/watch?v=mKGX3HauRK4
-  - nombre: Objetos 2 - Clase 24-10-2025 - Parte 2
-    urlYoutube: https://www.youtube.com/watch?v=Rb21OV5rZ_I
-  - nombre: Clase de consultas 25-10
-    urlYoutube: https://www.youtube.com/watch?v=79CggIjPZNQ
+    URL: https://meet.google.com/uyd-tupo-azd
 
 ejercicios:
-  - name: Microcontrolador
-    classroom: https://classroom.github.com/a/rL3NyY2o
-    repoUrl: 'unahur-obj2-2025c2/unahur-obj2-2025c2-microcontrolador-microcontrolador' # Acá va la URL del repo sin el "https://github.com/"
+  - name: Filtro de mails
+    repoUrl: 'unahur-obj2-2026c1/filtrosDeMails' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Trabajamos con el patrón Command.
-    obligatorio: true
-
-  - name: Robot Domestico
-    classroom: https://classroom.github.com/a/7S0i12DI
-    repoUrl: 'unahur-obj2-2025c2/unahur-obj2-2025c2-robotdomestico-robotDomestico' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
-    comentarios:
-      - name: Otro ejercicio para implementar el patrón Command.
-    obligatorio: false
+      - name: Ejercicio para practicar el patrón composite
 ---
 
-- Esta semana vamos a profundizar sobre el patrón Command.
-- <div ><img src="/img/command.png"></img></div>
+- Esta semana vamos a conocer el patrón Composite.
+- <div ><img src="/img/composite.png"></img></div>
+- <div ><img src="/img/composite2.png"></img></div>
