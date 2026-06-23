@@ -6,7 +6,7 @@ inicio: 2026-06-25
 
 descripcion: Esta semana vamos a comenzar el 2° Parcial
 
-importante: Información para estudiantes de las comisiones 1 y 2, ambas clases serán virtuales esta semana.
+importante: Información para estudiantes de las comisiones 1 y 2 ambas clases serán virtuales esta semana.
 
 horarios:
   - Comision: Comisiones 1 y 2
