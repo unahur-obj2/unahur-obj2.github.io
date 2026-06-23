@@ -27,12 +27,13 @@ horarios:
     Hora: 13.00hs a 15:00
     Modalidad: VIRTUAL
     URL: https://meet.google.com/uyd-tupo-azd
-# ejercicios:
-#   - name: Filtro de mails
+
+ejercicios: 2° Parcial grupal y asincrónico.
+  - name: Filtro de mails
 #     repoUrl: 'unahur-obj2-2026c1/filtrosDeMails' # Acá va la URL del repo sin el "https://github.com/"
 #     defaultBranch: 'main' # Acá va la rama default del repo
 #     comentarios:
 #       - name: Ejercicio para practicar el patrón composite
 ---
 
-- **2° Parcial**: Quienes estén en condiciones de rendir el segundo parcial deberán conectarse a las 18:15 h al Meet publicado en la sección "Horarios". Allí recibirán las indicaciones para acceder a las asignaciones y podrán realizar todas las consultas necesarias antes de comenzar la resolución del parcial grupal asincrónico.
+- **2° Parcial**: Quienes estén en condiciones de rendir el segundo parcial deberán conectarse a las 18:15 h al Meet publicado en la sección "Horarios". Allí recibirán las indicaciones para acceder a las asignaciones y podrán realizar todas las consultas necesarias antes de comenzar la resolución del parcial grupal y asincrónico.
