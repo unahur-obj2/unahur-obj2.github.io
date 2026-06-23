@@ -4,21 +4,35 @@ title: Semana 13
 mostrar: false
 inicio: 2025-11-05
 
-descripcion: Semana del 2° Parcial!
+descripcion: Esta semana vamos a comenzar el 2° Parcial
 
-importante: Semana del 2° parcial! Para comisiones 2 y 4, el parcial es el día miércoles 5/11 de manera virtual, en el horario de 18:00 a 21:30.
+importante: Información para estudiantes de las comisiones 1 y 2, ambas clases serán virtuales esta semana.
 
 horarios:
-  - Comision: Comisiones 2 y 4 del T.Noche
-    Dia: Miércoles 5 de Noviembre
-    Modalidad: PARCIAL VIRTUAL
-    Hora: 18.00hs
+  - Comision: Comisiones 1 y 2
+    Dia: Jueves 25 de Junio
+    Modalidad: VIRTUAL
+    Hora: 18.15hs
     URL: https://meet.google.com/kxz-esct-xcp
 
+  # - Comision: Comisión 2
+  #   Dia: Jueves 11 de Junio
+  #   Modalidad: Presencial
+  #   Hora: 18.00hs
+  #   Aula: Malvinas Argentinas - 113 (1°piso)
+  #   Edificion: Malvinas Argentinas
+
   - Comision: Todas las Comisiones
-    Dia: Sábado 8 de Noviembre
+    Dia: Sábado 27 de Junio
     Hora: 13.00hs a 15:00
-    Mensaje: NO HAY CLASE
+    Modalidad: VIRTUAL
+    URL: https://meet.google.com/uyd-tupo-azd
+# ejercicios:
+#   - name: Filtro de mails
+#     repoUrl: 'unahur-obj2-2026c1/filtrosDeMails' # Acá va la URL del repo sin el "https://github.com/"
+#     defaultBranch: 'main' # Acá va la rama default del repo
+#     comentarios:
+#       - name: Ejercicio para practicar el patrón composite
 ---
 
-- **Instrucciones**: Deberán conectarse quienes vayan a rendir, al meet publicado en la sección horarios, para dar el presente y recibir el código que les permitirá acceder a la asignación correspondiente. Recomendamos hacerlo unos minutos antes del horario de inicio.
+- **2° Parcial**: Quienes estén en condiciones de rendir el segundo parcial deberán conectarse a las 18:15 h al Meet publicado en la sección "Horarios". Allí recibirán las indicaciones para acceder a las asignaciones y podrán realizar todas las consultas necesarias antes de comenzar la resolución del parcial grupal asincrónico.
