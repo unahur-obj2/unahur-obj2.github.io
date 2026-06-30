@@ -36,4 +36,4 @@ horarios:
 #       - name: Ejercicio para practicar el patrón composite
 ---
 
-- **2° Parcial**: Quienes deban hacer la defensa oral del segundo parcial deberán conectarse a las 18:15 h al Meet publicado en la sección "Horarios". Allí recibirán las indicaciones.
+- **2° Parcial**: Quienes deban hacer la defensa oral del segundo parcial deberán conectarse a las 18:00 h al Meet publicado en la sección "Horarios". Allí recibirán las indicaciones.
