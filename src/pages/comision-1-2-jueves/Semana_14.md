@@ -3,34 +3,37 @@ layout: src/layouts/PostCursadaLayout.astro
 title: Semana 14
 mostrar: false
 
-inicio: 2025-11-12
+inicio: 2026-07-02
 
-descripcion: Esta semana vamos a resolver entre todos el parcial de la semana pasada.
+descripcion: Esta semana vamos a tomar la defensa oral del 2° Parcial
 
-importante: Esta semana ambas comisiones van a tener clase de manera virtual.
+importante: Información para estudiantes de las comisiones 1 y 2 ambas clases serán virtuales esta semana.
 
 horarios:
-  - Comision: Comision 2 del T.Noche
-    Dia: Miércoles 12 de Noviembre
+  - Comision: Comisiones 1 y 2
+    Dia: Jueves 2 de Julio
     Modalidad: VIRTUAL
-    Hora: 18.00hs
+    Hora: 18.00 hs
     URL: https://meet.google.com/kxz-esct-xcp
 
-  - Comision: Comision 4 del T.Noche
-    Dia: Miércoles 12 de Noviembre
-    Modalidad: VIRTUAL
-    Hora: 18.00hs
-    URL: https://meet.google.com/kxz-esct-xcp
+  # - Comision: Comisión 2
+  #   Dia: Jueves 11 de Junio
+  #   Modalidad: Presencial
+  #   Hora: 18.00hs
+  #   Aula: Malvinas Argentinas - 113 (1°piso)
+  #   Edificion: Malvinas Argentinas
 
   - Comision: Todas las Comisiones
-    Dia: Sábado 15 de Noviembre
+    Dia: Sábado 4 de Julio
     Hora: 13.00hs a 15:00
-    Modalidad: VIRTUAL (Es por zoom, no por meet.)
-    URL: https://us06web.zoom.us/j/87958925031
-
-videos:
-  - nombre: Clase de consultas 15-11
-    urlYoutube: https://www.youtube.com/watch?v=rIO06Fj-hgc
+    Modalidad: VIRTUAL
+    URL: https://meet.google.com/uyd-tupo-azd
+# ejercicios: 2° Parcial grupal y asincrónico.
+#   - name: 2do Parcial
+#     repoUrl: 'unahur-obj2-2026c1/filtrosDeMails' # Acá va la URL del repo sin el "https://github.com/"
+#     defaultBranch: 'main' # Acá va la rama default del repo
+#     comentarios:
+#       - name: Ejercicio para practicar el patrón composite
 ---
 
-- Esta semana ambas comisiones van a tener clase de manera virtual. Vamos a resolver entre todos el parcial de la semana pasada y aclarar dudas de cara a los próximos recuperatorios.
+- **2° Parcial**: Quienes deban hacer la defensa oral del segundo parcial deberán conectarse a las 18:15 h al Meet publicado en la sección "Horarios". Allí recibirán las indicaciones.
