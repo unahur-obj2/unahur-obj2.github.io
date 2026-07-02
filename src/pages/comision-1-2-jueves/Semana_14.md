@@ -23,11 +23,11 @@ horarios:
   #   Aula: Malvinas Argentinas - 113 (1°piso)
   #   Edificion: Malvinas Argentinas
 
-  - Comision: Todas las Comisiones
+  - Comision: Todas las Comisiones <NO HABRÁ CLASE>
     Dia: Sábado 4 de Julio
     Hora: 13.00hs a 15:00
-    Modalidad: VIRTUAL
-    URL: https://meet.google.com/uyd-tupo-azd
+  #  Modalidad: VIRTUAL
+  #  URL: https://meet.google.com/uyd-tupo-azd
 # ejercicios: 2° Parcial grupal y asincrónico.
 #   - name: 2do Parcial
 #     repoUrl: 'unahur-obj2-2026c1/filtrosDeMails' # Acá va la URL del repo sin el "https://github.com/"
