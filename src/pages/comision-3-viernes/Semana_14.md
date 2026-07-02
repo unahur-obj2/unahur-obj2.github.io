@@ -26,5 +26,3 @@ horarios:
 - Comision: Todas las Comisiones <NO HABRÁ CLASE>
   Dia: Sábado 4 de Julio
   Hora: 13.00hs a 15:00
-  Modalidad: ---
-  URL: ---
