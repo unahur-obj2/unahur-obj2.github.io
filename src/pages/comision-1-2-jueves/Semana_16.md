@@ -1,28 +1,26 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 16
-mostrar: false
+mostrar: true
 
-inicio: 2025-11-26
+inicio: 2026-07-16
 
-descripcion: Semana de cierre de notas y devoluciones finales en modalidad Virtual para las comisiones 2 y 4.
+descripcion: Esta semana será el recuperatorio de 1er y 2do Parcial en modalidad Virtual para las comisiones 1 y 2.
+
+atencion: Los recuperatorios para comisiones 1 y 2 serán en modalidad VIRTUAL el jueves 16/07.
 
 horarios:
-  - Comision: Comision 2 del T.Noche
-    Dia: Miércoles 26 de Noviembre
-    Modalidad: CIERRE MATERIA VIRTUAL
-    Hora: 18.00hs
+  - Comision: Comisiones 1 y 2
+    Dia: Jueves 16 de Julio
+    Modalidad: VIRTUAL
+    Hora: 18.00 hs
     URL: https://meet.google.com/kxz-esct-xcp
 
-  - Comision: Comision 4 del T.Noche
-    Dia: Miércoles 26 de Noviembre
-    Modalidad: CIERRE MATERIA VIRTUAL
-    Hora: 18.00hs
-    URL: https://meet.google.com/kxz-esct-xcp
-
-  - Comision: Todas las Comisiones
-    Dia: Sábado 15 de Noviembre
-    Mensaje: SIN ACTIVIDAD
+  - Comision: Todas las Comisiones <NO HABRÁ CLASE>
+    Dia: Sábado 18 de Julio
+    Hora: 13.00hs a 15:00
+    Modalidad: <NO HABRÁ CLASE>
+    URL: <NO HABRÁ CLASE>
 ---
 
-- Semana de cierre de notas y devoluciones finales en modalidad Virtual para las comisiones 2 y 4.
+- Esta semana será el recuperatorio de 1er y 2do Parcial en modalidad Virtual para las comisiones 1 y 2.
