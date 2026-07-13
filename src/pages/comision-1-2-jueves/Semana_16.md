@@ -19,8 +19,8 @@ horarios:
   - Comision: Todas las Comisiones <NO HABRÁ CLASE>
     Dia: Sábado 18 de Julio
     Hora: 13.00hs a 15:00
-    Modalidad: <NO HABRÁ CLASE>
-    URL: <NO HABRÁ CLASE>
+    # Modalidad: <NO HABRÁ CLASE>
+    # URL: <NO HABRÁ CLASE>
 ---
 
 - Esta semana será el recuperatorio de 1er y 2do Parcial en modalidad Virtual para las comisiones 1 y 2.
