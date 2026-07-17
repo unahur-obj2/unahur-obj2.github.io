@@ -7,7 +7,7 @@ inicio: 2026-07-16
 
 descripcion: Esta semana será el recuperatorio de 1er y 2do Parcial en modalidad Virtual para la comisión 3.
 
-atencion: Los recuperatorios para comisión 3 serán en modalidad VIRTUAL el viernes 17/07. Aquellos alumnos que deban rendir las dos instancias, comenzarán por el priemro y luego el segundo.
+atencion: Los recuperatorios para comisión 3 serán en modalidad VIRTUAL el viernes 17/07. Aquellos alumnos que deban rendir las dos instancias, comenzarán por el primero y luego el segundo.
 
 horarios:
   - Comision: Comisión 3
@@ -23,4 +23,4 @@ horarios:
     # URL: <NO HABRÁ CLASE>
 ---
 
-- Esta semana será el recuperatorio de 1er y 2do Parcial en modalidad Virtual para la comisiones 3.
+- Esta semana será el recuperatorio de 1er y 2do Parcial en modalidad Virtual para la comisión 3.
