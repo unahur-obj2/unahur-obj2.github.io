@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 1
-mostrar: true
+mostrar: false
 inicio: 2026-04-02
 
 descripcion: No hay clases por Feriado, Día del Veterano y de los Caídos en la Guerra de Malvinas

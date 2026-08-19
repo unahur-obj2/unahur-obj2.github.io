@@ -2,7 +2,7 @@
 
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 13
-mostrar: true
+mostrar: false
 inicio: 2026-06-26
 
 descripcion: Semana de práctica y preparación para 2° Parcial!

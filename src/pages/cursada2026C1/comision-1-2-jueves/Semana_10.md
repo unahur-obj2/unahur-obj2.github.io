@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 10
-mostrar: true
+mostrar: false
 inicio: 2026-06-04
 
 descripcion: No hay clase virtual ni presencial el día jueves 4/6 por PARO UNIVERSITARIO.

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 12
-mostrar: true
+mostrar: false
 inicio: 2026-06-18
 
 descripcion: En esta semana vamos a conocer los patrones Command y Observer

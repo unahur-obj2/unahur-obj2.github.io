@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 9
-mostrar: true
+mostrar: false
 inicio: 2026-05-28
 
 descripcion: Semana de Parcial!

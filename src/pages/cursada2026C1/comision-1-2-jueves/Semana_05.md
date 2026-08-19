@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 5
-mostrar: true
+mostrar: false
 inicio: 2026-04-30
 
 descripcion: En esta semana daremos un paso más en el diseño orientado a objetos profundizando en patrones de diseño, que son soluciones probadas y reutilizables para problemas comunes en el desarrollo de software. Estos patrones nos permiten escribir código más flexible, mantenible y fácil de extender.

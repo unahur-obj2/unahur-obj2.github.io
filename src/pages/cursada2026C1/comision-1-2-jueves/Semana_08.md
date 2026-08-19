@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 8
-mostrar: true
+mostrar: false
 inicio: 2026-05-18
 
 descripcion: Semana de práctica de Parcial1!

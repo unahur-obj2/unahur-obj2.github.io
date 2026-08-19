@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 11
-mostrar: true
+mostrar: false
 inicio: 2026-06-12
 
 descripcion: Esta semana vamos a conocer el patrón Composite.

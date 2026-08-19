@@ -2,7 +2,7 @@
 
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 14
-mostrar: true
+mostrar: false
 inicio: 2026-07-03
 
 descripcion: Semana de 2° Parcial!

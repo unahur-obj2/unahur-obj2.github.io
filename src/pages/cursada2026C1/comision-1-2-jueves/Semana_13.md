@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 13
-mostrar: true
+mostrar: false
 inicio: 2026-06-25
 
 descripcion: Esta semana vamos a comenzar el 2° Parcial

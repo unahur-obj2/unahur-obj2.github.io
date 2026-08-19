@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 4
-mostrar: true
+mostrar: false
 inicio: 2026-04-23
 
 descripcion: Esta semana veremos la metodología de diseño y desarrollo guiada mediante pruebas, TDD. También veremos la introducción a Maven.

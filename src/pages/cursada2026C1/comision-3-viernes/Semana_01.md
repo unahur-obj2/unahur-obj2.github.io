@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 1
-mostrar: true
+mostrar: false
 inicio: 2026-04-03
 
 descripcion: No hay clases por Feriado, Viernes Santo Festividad Cristiana

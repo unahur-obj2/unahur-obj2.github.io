@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 2
-mostrar: true
+mostrar: false
 inicio: 2026-04-10
 
 descripcion: Repaso, polimorfimso, herencia y colecciones. Como pasamos de Wollok a Java.
