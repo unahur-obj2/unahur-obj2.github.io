@@ -1,4 +1,5 @@
 export const PATH = '/'
+export const PATH_CURSADA = `/respaldo`
 export const PATH_CURSADA_JUEVES = `/comision-1-2-jueves`
 export const PATH_CURSADA_VIERNES = `/comision-3-viernes`
 export const PATH_CURSADA2025c1 = `/cursada2025c1`
